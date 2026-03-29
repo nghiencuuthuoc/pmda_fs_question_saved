@@ -1,0 +1,8819 @@
+# Xuất PMDA FS Hỏi - Đáp lâm sàng — ozempic
+
+Thời gian tạo: 2026-03-29T18:55:32
+Bộ câu hỏi: E:\PharmAppDev\database\PMDA_v1_vi\pmda_question_bank_v8_vi\PMDA_RAG_Reusable_Question_Bank_vi.md
+Thư mục index: E:\PharmAppDev\database\PMDA_v1_vi\pmda_fs_index_vi
+Số câu đã hoàn tất: 111
+
+## Tóm tắt theo pha
+
+```json
+{
+  "non_ollama": {
+    "phase": "non_ollama",
+    "count": 111,
+    "success": 111,
+    "failed": 0,
+    "elapsed_seconds_sum": 77.6236
+  },
+  "all": {
+    "count": 111,
+    "success": 111,
+    "failed": 0
+  }
+}
+```
+
+## PMDA_RAG_Reusable_Question_Bank_vi
+
+### Cách dùng
+
+### Câu hỏi 1: Các cảnh báo chính và chống chỉ định là gì cho ozempic.
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về chống chỉ định gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+- mg mỗi tuần một lần.
+- 4.1 Chỉ định điều trị
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.597322694330636
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.394014171707463
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 65 | mục=indication | điểm=6.982967637116426
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0065.md`
+  - Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+  - mg mỗi tuần một lần.
+  - 4.1 Chỉ định điều trị
+  - hiệu quả hoặc tác dụng
+- **Ozempic** | interview_form | trang 64 | mục=indication | điểm=6.942130610865441
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0064.md`
+  - 0,5 mg mỗi lần tiêm.
+  - XII.Tài liệu tham khảo
+  - Hiệu quả hoặc tác dụng
+  - Nó được bán với giá hơn
+- **Ozempic** | smpc_label | trang 1 | mục=contraindication | điểm=6.916663144893001
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | smpc_label | trang 17 | mục=indication | điểm=6.849453896412453
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0017.md`
+  - 580 bệnh nhân, nhẹ:
+  - trường trung học cơ sở
+  - 261 bệnh nhân, trung bình).
+  - Viên nén Libersus (Chỉ định:
+
+#### Metadata truy xuất
+
+- STT gốc: 1
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:07
+- Kết thúc: 2026-03-29T18:53:08
+- Số giây thực thi: 0.2104
+- Số giây truy xuất: 0.0824
+- Số giây sinh câu trả lời: 0.1254
+- Prompt token ước tính: 965
+- Answer token ước tính: 325
+
+### A. Câu hỏi lõi về nhãn thuốc / hướng dẫn bệnh nhân
+
+### Câu hỏi 2: Các chống chỉ định là gì cho ozempic.
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về chống chỉ định gồm: Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định. mg mỗi tuần một lần. 4.1 Chỉ định điều trị hiệu quả hoặc tác dụng
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+- mg mỗi tuần một lần.
+- 4.1 Chỉ định điều trị
+- hiệu quả hoặc tác dụng
+- 0,5 mg mỗi lần tiêm.
+- XII.Tài liệu tham khảo
+- Nó được bán với giá hơn
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 65 | mục=indication | điểm=6.975243370742581
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0065.md`
+  - Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+  - mg mỗi tuần một lần.
+  - 4.1 Chỉ định điều trị
+  - hiệu quả hoặc tác dụng
+- **Ozempic** | smpc_label | trang 1 | mục=contraindication | điểm=6.909395650909933
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 64 | mục=indication | điểm=6.904594477268149
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0064.md`
+  - 0,5 mg mỗi lần tiêm.
+  - XII.Tài liệu tham khảo
+  - Hiệu quả hoặc tác dụng
+  - Nó được bán với giá hơn
+- **Ozempic** | smpc_label | trang 17 | mục=indication | điểm=6.83114778125054
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0017.md`
+  - 580 bệnh nhân, nhẹ:
+  - trường trung học cơ sở
+  - 261 bệnh nhân, trung bình).
+  - Viên nén Libersus (Chỉ định:
+- **Ozempic** | interview_form | trang 67 | mục=indication | điểm=6.783618437794234
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0067.md`
+  - Ngoài ra, bệnh nhân
+  - hiệu quả hoặc tác dụng
+  - bệnh tiểu đường loại 2
+  - HbA1c lúc mang thai >10.
+
+#### Metadata truy xuất
+
+- STT gốc: 2
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:07
+- Kết thúc: 2026-03-29T18:53:08
+- Số giây thực thi: 0.3343
+- Số giây truy xuất: 0.0792
+- Số giây sinh câu trả lời: 0.0484
+- Prompt token ước tính: 1154
+- Answer token ước tính: 318
+
+### Câu hỏi 3: Các chỉ định đã được phê duyệt và hướng dẫn liều dùng là gì cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: 1 CHỈ ĐỊNH VÀ CÔNG DỤNG OZEMPIC® được chỉ định: leo thang dưới đây để giảm nguy cơ phản ứng bất lợi về đường tiêu hóa [xem Cảnh báo và 0,5 mg mỗi lần tiêm.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- 1 CHỈ ĐỊNH VÀ CÔNG DỤNG
+- OZEMPIC® được chỉ định:
+- leo thang dưới đây để giảm nguy cơ phản ứng bất lợi về đường tiêu hóa [xem Cảnh báo và
+- 0,5 mg mỗi lần tiêm.
+- 4.1 Chỉ định điều trị
+- Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+- Ozempic được chỉ định để điều trị cho người lớn mắc bệnh đái tháo đường týp 2 không được kiểm soát đầy đủ dưới dạng thuốc hỗ trợ cho chế độ ăn kiêng và tập thể dục.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 64 | mục=indication | điểm=7.218332521940026
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0064.md`
+  - 1 CHỈ ĐỊNH VÀ CÔNG DỤNG
+  - OZEMPIC® được chỉ định:
+  - leo thang dưới đây để giảm nguy cơ phản ứng bất lợi về đường tiêu hóa [xem Cảnh báo và
+  - 0,5 mg mỗi lần tiêm.
+- **Ozempic** | interview_form | trang 65 | mục=indication | điểm=7.140213520395858
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0065.md`
+  - 4.1 Chỉ định điều trị
+  - Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+  - Ozempic được chỉ định để điều trị cho người lớn mắc bệnh đái tháo đường týp 2 không được kiểm soát đầy đủ dưới dạng thuốc hỗ trợ cho chế độ ăn kiêng và tập thể dục.
+  - mg mỗi tuần một lần.
+- **Ozempic** | interview_form | trang 66 | mục=dosage | điểm=6.981130890612318
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0066.md`
+  - Tính an toàn và hiệu quả của semaglutide ở trẻ em và thanh thiếu niên dưới 18 tuổi vẫn chưa được thiết lập.
+  - Không có dữ liệu có sẵn.
+  - Semaglutide 0,25 mg không phải là liều duy trì.
+  - Nên áp dụng phương pháp giảm insulin từng bước.
+- **Ozempic** | interview_form | trang 70 | mục=dosage | điểm=6.907649124363887
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0070.md`
+  - Tính an toàn và hiệu quả của OZEMPIC® chưa được thiết lập ở bệnh nhi.
+  - Nhóm đối tượng đặc biệt Đối tượng nhi khoa Tính an toàn và hiệu quả của semaglutide ở trẻ em và thanh thiếu niên dưới 18 tuổi vẫn chưa được thiết lập.
+  - 9.5 Phụ nữ mang thai
+  - Tần suất tăng35, Thỏ:
+- **Ozempic** | smpc_label | trang 17 | mục=indication | điểm=6.83114778125054
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0017.md`
+  - Viên nén Libersus (Chỉ định:
+  - Tiêm dưới da Ugobi (chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+  - được chỉ định vào nhóm giả dược (161 bệnh nhân).
+
+#### Metadata truy xuất
+
+- STT gốc: 3
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:07
+- Kết thúc: 2026-03-29T18:53:08
+- Số giây thực thi: 0.4647
+- Số giây truy xuất: 0.0767
+- Số giây sinh câu trả lời: 0.0555
+- Prompt token ước tính: 1160
+- Answer token ước tính: 454
+
+### Câu hỏi 4: Các thận trọng quan trọng trước khi dùng thuốc này là gì cho ozempic.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 4
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:07
+- Kết thúc: 2026-03-29T18:53:08
+- Số giây thực thi: 0.6207
+- Số giây truy xuất: 0.0754
+- Số giây sinh câu trả lời: 0.0818
+- Prompt token ước tính: 717
+- Answer token ước tính: 680
+
+### Câu hỏi 5: Trước khi dùng thuốc này, bệnh nhân cần lưu ý điều gì cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 5
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:08
+- Kết thúc: 2026-03-29T18:53:08
+- Số giây thực thi: 0.5888
+- Số giây truy xuất: 0.083
+- Số giây sinh câu trả lời: 0.0835
+- Prompt token ước tính: 265
+- Answer token ước tính: 518
+
+### Câu hỏi 6: Những đối tượng nào không nên dùng thuốc này cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 6
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:08
+- Kết thúc: 2026-03-29T18:53:08
+- Số giây thực thi: 0.5618
+- Số giây truy xuất: 0.0902
+- Số giây sinh câu trả lời: 0.0146
+- Prompt token ước tính: 263
+- Answer token ước tính: 516
+
+### Câu hỏi 7: Bệnh nhân nên tránh những gì khi đang dùng thuốc này cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 7
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:08
+- Kết thúc: 2026-03-29T18:53:08
+- Số giây thực thi: 0.525
+- Số giây truy xuất: 0.079
+- Số giây sinh câu trả lời: 0.0157
+- Prompt token ước tính: 265
+- Answer token ước tính: 518
+
+### Câu hỏi 8: Các phản ứng có hại chính và biến cố bất lợi nghiêm trọng là gì cho ozempic.
+
+**Nhóm câu hỏi:** adverse
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về phản ứng có hại gồm: Tác dụng phụ (1) Tác dụng phụ nghiêm trọng và Tác dụng phụ (2) Các tác dụng phụ khác 11.2); Rối loạn tiêu hóa thường được báo cáo là tác dụng phụ của thuốc này (xem phần 8. Hãy trả lời cẩn thận.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Tác dụng phụ (1) Tác dụng phụ nghiêm trọng và
+- Tác dụng phụ (2) Các tác dụng phụ khác 11.2);
+- Rối loạn tiêu hóa thường được báo cáo là tác dụng phụ của thuốc này (xem phần 8.
+- Hãy trả lời cẩn thận.
+- 11.1 Tác dụng phụ nghiêm trọng
+- Tác dụng phụ
+- Viêm túi mật, viêm đường mật, vàng da ứ mật
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+- [Ozempic]_[01].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=7.242671635511657
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Tác dụng phụ (1) Tác dụng phụ nghiêm trọng và
+  - Tác dụng phụ (2) Các tác dụng phụ khác 11.2);
+  - Rối loạn tiêu hóa thường được báo cáo là tác dụng phụ của thuốc này (xem phần 8.
+  - Hãy trả lời cẩn thận.
+- **Ozempic** | safety_notice | trang 2 | mục=adverse_event | điểm=7.012314567297728
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0002.md`
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - Tác dụng phụ
+  - Viêm túi mật, viêm đường mật, vàng da ứ mật
+  - (Mới thành lập)
+- **Ozempic** | patient_guide | trang 1 | mục=adverse_event | điểm=6.843960504953887
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0001.md`
+  - Nếu bạn cho rằng mình có thể gặp tác dụng phụ nghiêm trọng khi sử dụng thuốc, hãy liên hệ ngay với bác sĩ hoặc dược sĩ.
+  - Hướng dẫn Dược phẩm dành cho Bệnh nhân được tạo ra để giúp bệnh nhân và gia đình họ hiểu đúng về thuốc theo toa và giúp phát hiện các tác dụng phụ nghiêm trọng càng sớm càng tốt.
+  - bệnh tiểu đường loại 2
+  - Ozempic tiêm dưới da 2mg
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | safety_notice | trang 1 | mục=adverse_event | điểm=6.633875424739974
+  - PDF: [Ozempic]_[01].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]\02_pages\page_0001.md`
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - Tác dụng phụ
+  - 396 Thuốc trị đái tháo đường
+  - Có nguy cơ tắc ruột bao gồm tắc ruột.
+
+#### Metadata truy xuất
+
+- STT gốc: 8
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:08
+- Kết thúc: 2026-03-29T18:53:09
+- Số giây thực thi: 0.5669
+- Số giây truy xuất: 0.0822
+- Số giây sinh câu trả lời: 0.1171
+- Prompt token ước tính: 580
+- Answer token ước tính: 400
+
+### Câu hỏi 9: Có thận trọng nào cho bệnh nhi, người cao tuổi, phụ nữ mang thai hoặc cho con bú không cho ozempic.
+
+**Nhóm câu hỏi:** pregnancy
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thai kỳ và cho con bú gồm: Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng. Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này. Nó đã không được công nhận. Người nộp đơn đã trả lời như sau.
+
+#### Điểm chính từ bằng chứng
+
+- Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng.
+- Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+- Nó đã không được công nhận.
+- Người nộp đơn đã trả lời như sau.
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=7.7382377620679375
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.567380422544156
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 68 | mục=pregnancy | điểm=6.996746571406565
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0068.md`
+  - 4.6 Khả năng sinh sản, mang thai và cho con bú
+  - từ ngày mang thai thứ 16 đến ngày thứ 140.
+  - hình thành cơ quan từ ngày mang thai thứ 6 đến ngày 19.
+  - Vì vậy, không nên sử dụng semaglutide trong thời kỳ mang thai.
+- **Ozempic** | interview_form | trang 69 | mục=pregnancy | điểm=6.909238055785729
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0069.md`
+  - 4.6 Khả năng sinh sản, mang thai và cho con bú
+  - Ở cynomolgus đang mang thai
+  - Sử dụng trong thời kỳ mang thai Phân loại mang thai:
+  - Không nên sử dụng DSemaglutide trong thời kỳ mang thai.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.817215420593963
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+
+#### Metadata truy xuất
+
+- STT gốc: 9
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:08
+- Kết thúc: 2026-03-29T18:53:09
+- Số giây thực thi: 0.5608
+- Số giây truy xuất: 0.0819
+- Số giây sinh câu trả lời: 0.0777
+- Prompt token ước tính: 626
+- Answer token ước tính: 640
+
+### Câu hỏi 10: Hiển thị các trang nói về cảnh báo, chống chỉ định và thận trọng. cho ozempic.
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về chống chỉ định gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+- mg mỗi tuần một lần.
+- 4.1 Chỉ định điều trị
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.597322694330636
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.394014171707463
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 65 | mục=indication | điểm=6.982967637116426
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0065.md`
+  - Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+  - mg mỗi tuần một lần.
+  - 4.1 Chỉ định điều trị
+  - hiệu quả hoặc tác dụng
+- **Ozempic** | interview_form | trang 64 | mục=indication | điểm=6.942130610865441
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0064.md`
+  - 0,5 mg mỗi lần tiêm.
+  - XII.Tài liệu tham khảo
+  - Hiệu quả hoặc tác dụng
+  - Nó được bán với giá hơn
+- **Ozempic** | smpc_label | trang 1 | mục=contraindication | điểm=6.916663144893001
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | smpc_label | trang 17 | mục=indication | điểm=6.849453896412453
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0017.md`
+  - 580 bệnh nhân, nhẹ:
+  - trường trung học cơ sở
+  - 261 bệnh nhân, trung bình).
+  - Viên nén Libersus (Chỉ định:
+
+#### Metadata truy xuất
+
+- STT gốc: 10
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:08
+- Kết thúc: 2026-03-29T18:53:09
+- Số giây thực thi: 0.6049
+- Số giây truy xuất: 0.1127
+- Số giây sinh câu trả lời: 0.0345
+- Prompt token ước tính: 970
+- Answer token ước tính: 331
+
+### B. Công thức / thành phần / tá dược / an toàn
+
+### Câu hỏi 11: Hoạt chất và tá dược là gì cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 11
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:08
+- Kết thúc: 2026-03-29T18:53:09
+- Số giây thực thi: 0.7712
+- Số giây truy xuất: 0.2147
+- Số giây sinh câu trả lời: 0.0467
+- Prompt token ước tính: 258
+- Answer token ước tính: 512
+
+### Câu hỏi 12: Liệt kê đầy đủ thành phần định tính của sản phẩm. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 12
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:09
+- Kết thúc: 2026-03-29T18:53:09
+- Số giây thực thi: 0.8347
+- Số giây truy xuất: 0.2269
+- Số giây sinh câu trả lời: 0.0358
+- Prompt token ước tính: 264
+- Answer token ước tính: 517
+
+### Câu hỏi 13: Thành phần định lượng trên mỗi đơn vị liều là gì cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 13
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:09
+- Kết thúc: 2026-03-29T18:53:10
+- Số giây thực thi: 1.0864
+- Số giây truy xuất: 0.2674
+- Số giây sinh câu trả lời: 0.1422
+- Prompt token ước tính: 264
+- Answer token ước tính: 517
+
+### Câu hỏi 14: Có những dạng bào chế và hàm lượng nào cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 14
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:09
+- Kết thúc: 2026-03-29T18:53:10
+- Số giây thực thi: 1.2413
+- Số giây truy xuất: 0.2319
+- Số giây sinh câu trả lời: 0.0699
+- Prompt token ước tính: 262
+- Answer token ước tính: 514
+
+### Câu hỏi 15: Những tá dược nào có trong viên 50 mg và 100 mg cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 15
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:09
+- Kết thúc: 2026-03-29T18:53:10
+- Số giây thực thi: 1.2205
+- Số giây truy xuất: 0.1828
+- Số giây sinh câu trả lời: 0.0468
+- Prompt token ước tính: 264
+- Answer token ước tính: 517
+
+### Câu hỏi 16: Tá dược có khác nhau giữa các hàm lượng của sản phẩm không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 16
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:09
+- Kết thúc: 2026-03-29T18:53:11
+- Số giây thực thi: 1.6784
+- Số giây truy xuất: 0.1147
+- Số giây sinh câu trả lời: 0.0293
+- Prompt token ước tính: 266
+- Answer token ước tính: 520
+
+### Câu hỏi 17: Những thành phần công thức nào được liệt kê cho sản phẩm này cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 17
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:10
+- Kết thúc: 2026-03-29T18:53:11
+- Số giây thực thi: 0.9532
+- Số giây truy xuất: 0.1672
+- Số giây sinh câu trả lời: 0.0401
+- Prompt token ước tính: 267
+- Answer token ước tính: 520
+
+### Câu hỏi 18: Tài liệu có phân biệt hoạt chất với tá dược không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 18
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:10
+- Kết thúc: 2026-03-29T18:53:11
+- Số giây thực thi: 0.8168
+- Số giây truy xuất: 0.1243
+- Số giây sinh câu trả lời: 0.042
+- Prompt token ước tính: 264
+- Answer token ước tính: 517
+
+### Câu hỏi 19: Những tá dược/phụ gia dược dụng nào được nêu trong nhãn cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 19
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:10
+- Kết thúc: 2026-03-29T18:53:11
+- Số giây thực thi: 0.1946
+- Số giây truy xuất: 0.167
+- Số giây sinh câu trả lời: 0.0264
+- Prompt token ước tính: 266
+- Answer token ước tính: 519
+
+### Câu hỏi 20: Hiển thị phần thành phần. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 20
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:11
+- Kết thúc: 2026-03-29T18:53:11
+- Số giây thực thi: 0.7801
+- Số giây truy xuất: 0.1878
+- Số giây sinh câu trả lời: 0.0673
+- Prompt token ước tính: 258
+- Answer token ước tính: 511
+
+### Câu hỏi 21: Chỉ hiển thị thông tin về tá dược. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 21
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:11
+- Kết thúc: 2026-03-29T18:53:12
+- Số giây thực thi: 0.8854
+- Số giây truy xuất: 0.2408
+- Số giây sinh câu trả lời: 0.075
+- Prompt token ước tính: 260
+- Answer token ước tính: 514
+
+### Câu hỏi 22: Trích xuất danh sách tá dược và dạng bào chế. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 22
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:11
+- Kết thúc: 2026-03-29T18:53:12
+- Số giây thực thi: 0.969
+- Số giây truy xuất: 0.2144
+- Số giây sinh câu trả lời: 0.0354
+- Prompt token ước tính: 263
+- Answer token ước tính: 516
+
+### Câu hỏi 23: Tóm tắt thành phần công thức và các đặc tính dược học/công nghệ của sản phẩm. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 23
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:11
+- Kết thúc: 2026-03-29T18:53:12
+- Số giây thực thi: 1.1481
+- Số giây truy xuất: 0.1681
+- Số giây sinh câu trả lời: 0.1574
+- Prompt token ước tính: 271
+- Answer token ước tính: 524
+
+### Câu hỏi 24: Liệt kê tất cả tá dược trong công thức. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 24
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:11
+- Kết thúc: 2026-03-29T18:53:12
+- Số giây thực thi: 1.1186
+- Số giây truy xuất: 0.1761
+- Số giây sinh câu trả lời: 0.0454
+- Prompt token ước tính: 262
+- Answer token ước tính: 515
+
+### Câu hỏi 25: Liệt kê tất cả thành phần không có hoạt tính. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 25
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:12
+- Kết thúc: 2026-03-29T18:53:13
+- Số giây thực thi: 0.9616
+- Số giây truy xuất: 0.1325
+- Số giây sinh câu trả lời: 0.0285
+- Prompt token ước tính: 263
+- Answer token ước tính: 516
+
+### Câu hỏi 26: Những thành phần không có hoạt tính nào được liệt kê trong tài liệu này cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 26
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:12
+- Kết thúc: 2026-03-29T18:53:13
+- Số giây thực thi: 0.8767
+- Số giây truy xuất: 0.1413
+- Số giây sinh câu trả lời: 0.0229
+- Prompt token ước tính: 270
+- Answer token ước tính: 523
+
+### Câu hỏi 27: Những tá dược nào nhiều khả năng đóng vai trò độn, dính, rã hoặc bôi trơn cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 27
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:12
+- Kết thúc: 2026-03-29T18:53:13
+- Số giây thực thi: 0.8243
+- Số giây truy xuất: 0.1736
+- Số giây sinh câu trả lời: 0.0983
+- Prompt token ước tính: 270
+- Answer token ước tính: 523
+
+### Câu hỏi 28: Những tá dược nào liên quan đến bao phim, tạo màu hoặc bảo quản cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - 6.Thành phần giống nhau/thuốc có tác dụng giống nhau
+  - Thận trọng - Sử dụng các hoạt chất theo đơn của bác sĩ.
+  - 4.Các lưu ý khi xử lý
+  - 11.Thời gian tái khám
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Bình thủy tinh Đặc tính Độ pH Kiểm tra độ tinh khiết (Phương pháp định lượng) Đã quan sát thấy hàm lượng giảm và tạp chất tăng.
+  - Vật chứa thủy tinh Đặc tính Kiểm tra độ pH Kiểm tra độ tinh khiết Hạt nội độc tố không hòa tan Hàm lượng vô trùng (Phương pháp định lượng) Đã quan sát thấy tạp chất tăng nhẹ nhưng nằm trong phạm vi tiêu chuẩn.
+  - Những lưu ý khi xử lý.”
+  - Sự ổn định trong sử dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 28
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:12
+- Kết thúc: 2026-03-29T18:53:13
+- Số giây thực thi: 0.9407
+- Số giây truy xuất: 0.137
+- Số giây sinh câu trả lời: 0.2041
+- Prompt token ước tính: 968
+- Answer token ước tính: 370
+
+### Câu hỏi 29: Những tá dược nào có thể ảnh hưởng đến độ ổn định hoặc khả năng sản xuất cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - 6.Thành phần giống nhau/thuốc có tác dụng giống nhau
+  - Thận trọng - Sử dụng các hoạt chất theo đơn của bác sĩ.
+  - 4.Các lưu ý khi xử lý
+  - 11.Thời gian tái khám
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Bình thủy tinh Đặc tính Độ pH Kiểm tra độ tinh khiết (Phương pháp định lượng) Đã quan sát thấy hàm lượng giảm và tạp chất tăng.
+  - Vật chứa thủy tinh Đặc tính Kiểm tra độ pH Kiểm tra độ tinh khiết Hạt nội độc tố không hòa tan Hàm lượng vô trùng (Phương pháp định lượng) Đã quan sát thấy tạp chất tăng nhẹ nhưng nằm trong phạm vi tiêu chuẩn.
+  - Những lưu ý khi xử lý.”
+  - Sự ổn định trong sử dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 29
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:13
+- Kết thúc: 2026-03-29T18:53:14
+- Số giây thực thi: 0.954
+- Số giây truy xuất: 0.1454
+- Số giây sinh câu trả lời: 0.0239
+- Prompt token ước tính: 970
+- Answer token ước tính: 372
+
+### Câu hỏi 30: Những tá dược nào có thể ảnh hưởng đến độ tan, độ nhớt hoặc đặc tính giải phóng cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 30
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:13
+- Kết thúc: 2026-03-29T18:53:14
+- Số giây thực thi: 0.9987
+- Số giây truy xuất: 0.1569
+- Số giây sinh câu trả lời: 0.0551
+- Prompt token ước tính: 272
+- Answer token ước tính: 525
+
+### Câu hỏi 31: Tóm tắt thành phần tá dược và vai trò công nghệ có khả năng của chúng trong công thức. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 31
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:13
+- Kết thúc: 2026-03-29T18:53:14
+- Số giây thực thi: 0.8949
+- Số giây truy xuất: 0.1182
+- Số giây sinh câu trả lời: 0.0466
+- Prompt token ước tính: 273
+- Answer token ước tính: 526
+
+### Câu hỏi 32: Có cảnh báo nào liên quan đến tá dược không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 32
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:13
+- Kết thúc: 2026-03-29T18:53:14
+- Số giây thực thi: 0.6602
+- Số giây truy xuất: 0.0936
+- Số giây sinh câu trả lời: 0.0177
+- Prompt token ước tính: 714
+- Answer token ước tính: 676
+
+### Câu hỏi 33: Có chống chỉ định hoặc thận trọng nào liên quan đến tá dược không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Tên thương hiệuOzempic 0,25 mg dung dịch tiêm trong bút đóng sẵnOzempic 0,5 mg dung dịch tiêm trong bút đóng sẵnOzempic 1 mg dung dịch tiêm trong bút đóng sẵnOzempic 2 mg dung dịch tiêm trong bút đóng sẵnDạng bào chếDung dịch tiêmOzempic 0,25 mg để tiêmMột ml dung dịch chứa 1,34 mg semaglutide.Một bút điền sẵn chứa 2 mg semaglutide trong Dung dịch 1,5ml.
+- mg mỗi tuần một lần.
+- 4.1 Chỉ định điều trị
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.597322694330636
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.394014171707463
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 65 | mục=indication | điểm=6.982967637116426
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0065.md`
+  - Tên thương hiệuOzempic 0,25 mg dung dịch tiêm trong bút đóng sẵnOzempic 0,5 mg dung dịch tiêm trong bút đóng sẵnOzempic 1 mg dung dịch tiêm trong bút đóng sẵnOzempic 2 mg dung dịch tiêm trong bút đóng sẵnDạng bào chếDung dịch tiêmOzempic 0,25 mg để tiêmMột ml dung dịch chứa 1,34 mg semaglutide.Một bút điền sẵn chứa 2 mg semaglutide trong Dung dịch 1,5ml.
+  - mg mỗi tuần một lần.
+  - 4.1 Chỉ định điều trị
+  - hiệu quả hoặc tác dụng
+- **Ozempic** | interview_form | trang 64 | mục=indication | điểm=6.942130610865441
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0064.md`
+  - OZEMPIC® Thông số dạng bào chế
+  - 0,5 mg mỗi lần tiêm.
+  - XII.Tài liệu tham khảo
+  - Hiệu quả hoặc tác dụng
+- **Ozempic** | smpc_label | trang 1 | mục=contraindication | điểm=6.916663144893001
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | smpc_label | trang 17 | mục=indication | điểm=6.849453896412453
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0017.md`
+  - 580 bệnh nhân, nhẹ:
+  - trường trung học cơ sở
+  - 261 bệnh nhân, trung bình).
+  - Viên nén Libersus (Chỉ định:
+
+#### Metadata truy xuất
+
+- STT gốc: 33
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:14
+- Kết thúc: 2026-03-29T18:53:14
+- Số giây thực thi: 0.6311
+- Số giây truy xuất: 0.1121
+- Số giây sinh câu trả lời: 0.0253
+- Prompt token ước tính: 970
+- Answer token ước tính: 331
+
+### Câu hỏi 34: Những tá dược nào có thể gây quá mẫn hoặc không dung nạp cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 34
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:14
+- Kết thúc: 2026-03-29T18:53:14
+- Số giây thực thi: 0.6456
+- Số giây truy xuất: 0.1503
+- Số giây sinh câu trả lời: 0.0795
+- Prompt token ước tính: 266
+- Answer token ước tính: 519
+
+### Câu hỏi 35: Có cảnh báo nào về chất bảo quản, chất màu, tá dược bao phim hoặc tá dược chứa cồn không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.567380422544156
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.817215420593963
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.781567780481502
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.769157663810806
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.59642691584008
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 35
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:14
+- Kết thúc: 2026-03-29T18:53:15
+- Số giây thực thi: 0.6128
+- Số giây truy xuất: 0.0947
+- Số giây sinh câu trả lời: 0.0346
+- Prompt token ước tính: 725
+- Answer token ước tính: 690
+
+### Câu hỏi 36: Có cảnh báo nào về đường, polyol hoặc hàm lượng natri trong công thức không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 36
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:14
+- Kết thúc: 2026-03-29T18:53:15
+- Số giây thực thi: 0.6165
+- Số giây truy xuất: 0.0932
+- Số giây sinh câu trả lời: 0.0196
+- Prompt token ước tính: 722
+- Answer token ước tính: 684
+
+### Câu hỏi 37: Sản phẩm có chứa tá dược cần thận trọng ở bệnh nhân nhạy cảm không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 37
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:14
+- Kết thúc: 2026-03-29T18:53:15
+- Số giây thực thi: 0.5846
+- Số giây truy xuất: 0.0915
+- Số giây sinh câu trả lời: 0.016
+- Prompt token ước tính: 720
+- Answer token ước tính: 682
+
+### Câu hỏi 38: Có cảnh báo liên quan đến công thức cho bệnh nhi không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 38
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:14
+- Kết thúc: 2026-03-29T18:53:15
+- Số giây thực thi: 0.5604
+- Số giây truy xuất: 0.1138
+- Số giây sinh câu trả lời: 0.0951
+- Prompt token ước tính: 717
+- Answer token ước tính: 679
+
+### Câu hỏi 39: Có cảnh báo liên quan đến công thức cho người cao tuổi không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 39
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:15
+- Kết thúc: 2026-03-29T18:53:15
+- Số giây thực thi: 0.5641
+- Số giây truy xuất: 0.0845
+- Số giây sinh câu trả lời: 0.0472
+- Prompt token ước tính: 718
+- Answer token ước tính: 681
+
+### Câu hỏi 40: Có cảnh báo nào về mang thai hoặc cho con bú liên quan đến công thức hay tá dược không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Nó đã không được công nhận. Người nộp đơn đã trả lời như sau. (Khuyết tật bẩm sinh Res Part B 2005; Một số bất thường được quan sát (cột sống
+
+#### Điểm chính từ bằng chứng
+
+- Nó đã không được công nhận.
+- Người nộp đơn đã trả lời như sau.
+- (Khuyết tật bẩm sinh Res Part B 2005;
+- Một số bất thường được quan sát (cột sống
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=7.7382377620679375
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.567380422544156
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 68 | mục=pregnancy | điểm=6.996746571406565
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0068.md`
+  - tiếp xúc với con người).
+  - (phơi nhiễm ≥3X ở người).
+  - từ ngày mang thai thứ 16 đến ngày thứ 140.
+  - 8.3 Phụ nữ và nam giới có tiềm năng sinh sản
+- **Ozempic** | interview_form | trang 69 | mục=pregnancy | điểm=6.909238055785729
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0069.md`
+  - Tờ hướng dẫn sử dụng của Úc
+  - 5.1 Đặc tính dược lực học).
+  - Ở cynomolgus đang mang thai
+  - Semaglutide không ảnh hưởng đến nam giới
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.817215420593963
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+
+#### Metadata truy xuất
+
+- STT gốc: 40
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:15
+- Kết thúc: 2026-03-29T18:53:15
+- Số giây thực thi: 0.6514
+- Số giây truy xuất: 0.1474
+- Số giây sinh câu trả lời: 0.0523
+- Prompt token ước tính: 626
+- Answer token ước tính: 640
+
+### Câu hỏi 41: Có lo ngại an toàn nào liên quan đến bệnh tuyến giáp, suy thận hoặc hấp thu toàn thân không cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 41
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:15
+- Kết thúc: 2026-03-29T18:53:16
+- Số giây thực thi: 0.724
+- Số giây truy xuất: 0.1608
+- Số giây sinh câu trả lời: 0.0213
+- Prompt token ước tính: 275
+- Answer token ước tính: 528
+
+### Câu hỏi 42: Việc dùng kéo dài, bôi trên diện rộng hoặc dùng trên niêm mạc có làm tăng nguy cơ an toàn liên quan đến công thức không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 42
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:15
+- Kết thúc: 2026-03-29T18:53:16
+- Số giây thực thi: 0.7957
+- Số giây truy xuất: 0.1862
+- Số giây sinh câu trả lời: 0.0898
+- Prompt token ước tính: 282
+- Answer token ước tính: 535
+
+### Câu hỏi 43: Tóm tắt các thận trọng ở quần thể đặc biệt liên quan đến công thức và tá dược. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 43
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:15
+- Kết thúc: 2026-03-29T18:53:16
+- Số giây thực thi: 0.8064
+- Số giây truy xuất: 0.1025
+- Số giây sinh câu trả lời: 0.0417
+- Prompt token ước tính: 722
+- Answer token ước tính: 685
+
+### Câu hỏi 44: Các điều kiện bảo quản và thận trọng về độ ổn định được mô tả là gì cho ozempic.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm. **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm.
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.567380422544156
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm.
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.817215420593963
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.781567780481502
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.769157663810806
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.59642691584008
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 44
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:15
+- Kết thúc: 2026-03-29T18:53:16
+- Số giây thực thi: 0.7212
+- Số giây truy xuất: 0.0911
+- Số giây sinh câu trả lời: 0.0231
+- Prompt token ước tính: 720
+- Answer token ước tính: 685
+
+### Câu hỏi 45: Những thành phần công thức nào có thể nhạy cảm với ánh sáng, nhiệt, ẩm hoặc oxy hóa cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 45
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:16
+- Kết thúc: 2026-03-29T18:53:16
+- Số giây thực thi: 0.6547
+- Số giây truy xuất: 0.0884
+- Số giây sinh câu trả lời: 0.0258
+- Prompt token ước tính: 273
+- Answer token ước tính: 526
+
+### Câu hỏi 46: Có lưu ý nào về bao bì hoặc dụng cụ chứa liên quan đến độ ổn định không cho ozempic.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Đối với các sản phẩm được bảo quản ở nhiệt độ 5 ± 3°C, chúng tôi đã mô phỏng cách sử dụng (thay đổi hộp mực lên xuống đều đặn và chọc thủng nút cao su).
+  - Sự ổn định trong sử dụng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+
+#### Metadata truy xuất
+
+- STT gốc: 46
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:16
+- Kết thúc: 2026-03-29T18:53:16
+- Số giây thực thi: 0.6622
+- Số giây truy xuất: 0.1754
+- Số giây sinh câu trả lời: 0.1102
+- Prompt token ước tính: 970
+- Answer token ước tính: 372
+
+### Câu hỏi 47: Tóm tắt dữ liệu độ ổn định liên quan đến công thức và hướng dẫn bảo quản. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - 6.Thành phần giống nhau/thuốc có tác dụng giống nhau
+  - Thận trọng - Sử dụng các hoạt chất theo đơn của bác sĩ.
+  - 4.Các lưu ý khi xử lý
+  - 11.Thời gian tái khám
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Bình thủy tinh Đặc tính Độ pH Kiểm tra độ tinh khiết (Phương pháp định lượng) Đã quan sát thấy hàm lượng giảm và tạp chất tăng.
+  - Vật chứa thủy tinh Đặc tính Kiểm tra độ pH Kiểm tra độ tinh khiết Hạt nội độc tố không hòa tan Hàm lượng vô trùng (Phương pháp định lượng) Đã quan sát thấy tạp chất tăng nhẹ nhưng nằm trong phạm vi tiêu chuẩn.
+  - Những lưu ý khi xử lý.”
+  - Sự ổn định trong sử dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 47
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:16
+- Kết thúc: 2026-03-29T18:53:17
+- Số giây thực thi: 0.6435
+- Số giây truy xuất: 0.0879
+- Số giây sinh câu trả lời: 0.0394
+- Prompt token ước tính: 970
+- Answer token ước tính: 372
+
+### Câu hỏi 48: Những chi tiết công thức nào quan trọng nhất cho phát triển thuốc generic cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 48
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:16
+- Kết thúc: 2026-03-29T18:53:17
+- Số giây thực thi: 0.6711
+- Số giây truy xuất: 0.102
+- Số giây sinh câu trả lời: 0.0387
+- Prompt token ước tính: 270
+- Answer token ước tính: 523
+
+### Câu hỏi 49: Những tá dược hoặc đặc tính công thức nào có thể là thuộc tính chất lượng trọng yếu (CQA) cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 49
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:16
+- Kết thúc: 2026-03-29T18:53:17
+- Số giây thực thi: 0.6602
+- Số giây truy xuất: 0.0873
+- Số giây sinh câu trả lời: 0.0132
+- Prompt token ước tính: 274
+- Answer token ước tính: 527
+
+### Câu hỏi 50: Thành phần hoạt chất, tá dược và đặc điểm công thức của ozempic là gì?
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 50
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:16
+- Kết thúc: 2026-03-29T18:53:17
+- Số giây thực thi: 0.5714
+- Số giây truy xuất: 0.1199
+- Số giây sinh câu trả lời: 0.0651
+- Prompt token ước tính: 727
+- Answer token ước tính: 680
+
+### Câu hỏi 51: Những tài liệu mẫu nào có chứa thông tin về tá dược cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 51
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:17
+- Kết thúc: 2026-03-29T18:53:17
+- Số giây thực thi: 0.5749
+- Số giây truy xuất: 0.0872
+- Số giây sinh câu trả lời: 0.0431
+- Prompt token ước tính: 265
+- Answer token ước tính: 518
+
+### Câu hỏi 52: Tài liệu nào phù hợp hơn để lấy chi tiết tá dược: nhãn thuốc hay hướng dẫn bệnh nhân cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 52
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:17
+- Kết thúc: 2026-03-29T18:53:17
+- Số giây thực thi: 0.5963
+- Số giây truy xuất: 0.1075
+- Số giây sinh câu trả lời: 0.0516
+- Prompt token ước tính: 273
+- Answer token ước tính: 526
+
+### Câu hỏi 53: Tóm tắt thành phần, tá dược, độ ổn định và các nguy cơ an toàn liên quan đến công thức. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - 6.Thành phần giống nhau/thuốc có tác dụng giống nhau
+  - Thận trọng - Sử dụng các hoạt chất theo đơn của bác sĩ.
+  - 4.Các lưu ý khi xử lý
+  - 11.Thời gian tái khám
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Bình thủy tinh Đặc tính Độ pH Kiểm tra độ tinh khiết (Phương pháp định lượng) Đã quan sát thấy hàm lượng giảm và tạp chất tăng.
+  - Vật chứa thủy tinh Đặc tính Kiểm tra độ pH Kiểm tra độ tinh khiết Hạt nội độc tố không hòa tan Hàm lượng vô trùng (Phương pháp định lượng) Đã quan sát thấy tạp chất tăng nhẹ nhưng nằm trong phạm vi tiêu chuẩn.
+  - Những lưu ý khi xử lý.”
+  - Sự ổn định trong sử dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 53
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:17
+- Kết thúc: 2026-03-29T18:53:17
+- Số giây thực thi: 0.6201
+- Số giây truy xuất: 0.1061
+- Số giây sinh câu trả lời: 0.0188
+- Prompt token ước tính: 974
+- Answer token ước tính: 376
+
+### C. PK / độ ổn định / RMP
+
+### Câu hỏi 54: Tóm tắt dược động học của thuốc này. cho ozempic.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về dược động học gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số. Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+- Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+- Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+- Nó đã được đánh giá.
+- Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=6.518353917284048
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+  - Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+  - Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+  - Nó đã được đánh giá.
+- **Ozempic** | smpc_label | trang 43 | mục=pk | điểm=6.455659187290793
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0043.md`
+  - Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+  - Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+  - Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+  - Các chất chuyển hóa của atorvastatin
+- **Ozempic** | interview_form | trang 4 | mục=pk | điểm=6.420296748120735
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Mục liên quan đến dược động học.............
+  - Các thông số dược động học .................
+  - 3.Phân tích dân số...32
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+- **Ozempic** | interview_form | trang 13 | mục=pk | điểm=6.393082306488227
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0013.md`
+  - Các mục liên quan đến dược động học 1.
+  - (Giải thích) Vì loại thuốc này được sử dụng mỗi tuần một lần nên loại thuốc này được thiết lập dựa trên hồ sơ dược động học của loại thuốc này.
+  - Sự thay đổi nồng độ trong máu (2) Nồng độ trong máu được xác nhận trong các thử nghiệm lâm sàng 1) Dược động học sau khi tiêm dưới da nhiều lần ở đối tượng nam giới khỏe mạnh.''
+  - dự kiến sẽ thấp hơn.
+
+#### Metadata truy xuất
+
+- STT gốc: 54
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:17
+- Kết thúc: 2026-03-29T18:53:18
+- Số giây thực thi: 0.7282
+- Số giây truy xuất: 0.1342
+- Số giây sinh câu trả lời: 0.1773
+- Prompt token ước tính: 962
+- Answer token ước tính: 432
+
+### Câu hỏi 55: Các dữ liệu dược động học chính của ozempic là gì?
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về dược động học gồm: Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ. Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ. Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày. Các chất chuyển hóa của atorvastatin
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+- Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+- Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+- Các chất chuyển hóa của atorvastatin
+- Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+- Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+- Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | smpc_label | trang 43 | mục=pk | điểm=6.840822033809168
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0043.md`
+  - Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+  - Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+  - Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+  - Các chất chuyển hóa của atorvastatin
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=6.768353917284048
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+  - Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+  - Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+  - Nó đã được đánh giá.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 31 | mục=pk | điểm=6.672395462977373
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0031.md`
+  - (nmol・h/L)Cmax(nmol/L)tmaxLưu ý)(h)t1/2
+  - Các thông số dược động học
+  - Các mục liên quan đến dược động học
+  - Để biết phân tích dược động học dân số, xem phần 3.
+- **Ozempic** | smpc_label | trang 3 | mục=pk | điểm=6.615187609580537
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0003.md`
+  - Tỷ lệ AUC0-infCmax ước tính của chức năng gan
+  - Tỷ lệ AUC0-infCmax ước tính của chức năng thận
+  - (nmol・h/L)Cmax(nmol/L)tmax Lưu ý)(h)t1/2(h)CL/F(L/h)Vz/F(L)
+  - S- và R-warfarin, AUC0-120h:
+
+#### Metadata truy xuất
+
+- STT gốc: 55
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:17
+- Kết thúc: 2026-03-29T18:53:18
+- Số giây thực thi: 0.8171
+- Số giây truy xuất: 0.0885
+- Số giây sinh câu trả lời: 0.1285
+- Prompt token ước tính: 974
+- Answer token ước tính: 411
+
+### Câu hỏi 56: Mô tả diễn biến nồng độ thuốc trong huyết tương theo thời gian. cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 56
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:17
+- Kết thúc: 2026-03-29T18:53:19
+- Số giây thực thi: 1.2966
+- Số giây truy xuất: 0.0839
+- Số giây sinh câu trả lời: 0.037
+- Prompt token ước tính: 268
+- Answer token ước tính: 521
+
+### Câu hỏi 57: Có những phân tích dược động học quần thể nào được báo cáo cho ozempic.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về dược động học gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số. Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+- Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+- Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+- Nó đã được đánh giá.
+- Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=6.518353917284048
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+  - Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+  - Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+  - Nó đã được đánh giá.
+- **Ozempic** | smpc_label | trang 43 | mục=pk | điểm=6.455659187290793
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0043.md`
+  - Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+  - Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+  - Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+  - Các chất chuyển hóa của atorvastatin
+- **Ozempic** | interview_form | trang 4 | mục=pk | điểm=6.420296748120735
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Mục liên quan đến dược động học.............
+  - Các thông số dược động học .................
+  - 3.Phân tích dân số...32
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+- **Ozempic** | interview_form | trang 13 | mục=pk | điểm=6.393082306488227
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0013.md`
+  - Các mục liên quan đến dược động học 1.
+  - (Giải thích) Vì loại thuốc này được sử dụng mỗi tuần một lần nên loại thuốc này được thiết lập dựa trên hồ sơ dược động học của loại thuốc này.
+  - Sự thay đổi nồng độ trong máu (2) Nồng độ trong máu được xác nhận trong các thử nghiệm lâm sàng 1) Dược động học sau khi tiêm dưới da nhiều lần ở đối tượng nam giới khỏe mạnh.''
+  - dự kiến sẽ thấp hơn.
+
+#### Metadata truy xuất
+
+- STT gốc: 57
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:17
+- Kết thúc: 2026-03-29T18:53:18
+- Số giây thực thi: 0.9378
+- Số giây truy xuất: 0.1617
+- Số giây sinh câu trả lời: 0.1209
+- Prompt token ước tính: 968
+- Answer token ước tính: 437
+
+### Câu hỏi 58: Tóm tắt hấp thu, phân bố, chuyển hóa và thải trừ. cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 58
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:18
+- Kết thúc: 2026-03-29T18:53:18
+- Số giây thực thi: 0.7375
+- Số giây truy xuất: 0.0777
+- Số giây sinh câu trả lời: 0.0315
+- Prompt token ước tính: 264
+- Answer token ước tính: 517
+
+### Câu hỏi 59: Đã biết gì về hấp thu đường uống và sinh khả dụng cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 59
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:18
+- Kết thúc: 2026-03-29T18:53:18
+- Số giây thực thi: 0.1218
+- Số giây truy xuất: 0.0938
+- Số giây sinh câu trả lời: 0.0264
+- Prompt token ước tính: 264
+- Answer token ước tính: 517
+
+### Câu hỏi 60: Các con đường chuyển hóa và enzyme chính liên quan là gì cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 60
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:18
+- Kết thúc: 2026-03-29T18:53:19
+- Số giây thực thi: 0.6117
+- Số giây truy xuất: 0.082
+- Số giây sinh câu trả lời: 0.0118
+- Prompt token ước tính: 266
+- Answer token ước tính: 519
+
+### Câu hỏi 61: Những chất vận chuyển nào được nhắc đến trong phần dược động học cho ozempic.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về dược động học gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số. Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+- Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+- Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+- Nó đã được đánh giá.
+- Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=6.518353917284048
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+  - Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+  - Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+  - Nó đã được đánh giá.
+- **Ozempic** | smpc_label | trang 43 | mục=pk | điểm=6.455659187290793
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0043.md`
+  - Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+  - Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+  - Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+  - Các chất chuyển hóa của atorvastatin
+- **Ozempic** | interview_form | trang 4 | mục=pk | điểm=6.420296748120735
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Mục liên quan đến dược động học.............
+  - Các thông số dược động học .................
+  - 3.Phân tích dân số...32
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+- **Ozempic** | interview_form | trang 13 | mục=pk | điểm=6.393082306488227
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0013.md`
+  - Các mục liên quan đến dược động học 1.
+  - (Giải thích) Vì loại thuốc này được sử dụng mỗi tuần một lần nên loại thuốc này được thiết lập dựa trên hồ sơ dược động học của loại thuốc này.
+  - Sự thay đổi nồng độ trong máu (2) Nồng độ trong máu được xác nhận trong các thử nghiệm lâm sàng 1) Dược động học sau khi tiêm dưới da nhiều lần ở đối tượng nam giới khỏe mạnh.''
+  - dự kiến sẽ thấp hơn.
+
+#### Metadata truy xuất
+
+- STT gốc: 61
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:18
+- Kết thúc: 2026-03-29T18:53:19
+- Số giây thực thi: 0.574
+- Số giây truy xuất: 0.114
+- Số giây sinh câu trả lời: 0.1353
+- Prompt token ước tính: 970
+- Answer token ước tính: 438
+
+### Câu hỏi 62: Có dữ liệu dược động học ở bệnh nhân suy thận hoặc suy gan không cho ozempic.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về dược động học gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số. Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+- Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+- Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+- Nó đã được đánh giá.
+- Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=6.518353917284048
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+  - Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+  - Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+  - Nó đã được đánh giá.
+- **Ozempic** | smpc_label | trang 43 | mục=pk | điểm=6.455659187290793
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0043.md`
+  - Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+  - Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+  - Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+  - Các chất chuyển hóa của atorvastatin
+- **Ozempic** | interview_form | trang 4 | mục=pk | điểm=6.420296748120735
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Mục liên quan đến dược động học.............
+  - Các thông số dược động học .................
+  - 3.Phân tích dân số...32
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+- **Ozempic** | interview_form | trang 13 | mục=pk | điểm=6.393082306488227
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0013.md`
+  - Các mục liên quan đến dược động học 1.
+  - (Giải thích) Vì loại thuốc này được sử dụng mỗi tuần một lần nên loại thuốc này được thiết lập dựa trên hồ sơ dược động học của loại thuốc này.
+  - Sự thay đổi nồng độ trong máu (2) Nồng độ trong máu được xác nhận trong các thử nghiệm lâm sàng 1) Dược động học sau khi tiêm dưới da nhiều lần ở đối tượng nam giới khỏe mạnh.''
+  - dự kiến sẽ thấp hơn.
+
+#### Metadata truy xuất
+
+- STT gốc: 62
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:18
+- Kết thúc: 2026-03-29T18:53:19
+- Số giây thực thi: 0.5761
+- Số giây truy xuất: 0.09
+- Số giây sinh câu trả lời: 0.0199
+- Prompt token ước tính: 970
+- Answer token ước tính: 438
+
+### Câu hỏi 63: Tóm tắt dược động học ở các quần thể đặc biệt. cho ozempic.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về dược động học gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số. Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+- Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+- Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+- Nó đã được đánh giá.
+- Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=6.518353917284048
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+  - Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+  - Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+  - Nó đã được đánh giá.
+- **Ozempic** | smpc_label | trang 43 | mục=pk | điểm=6.455659187290793
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0043.md`
+  - Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+  - Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+  - Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+  - Các chất chuyển hóa của atorvastatin
+- **Ozempic** | interview_form | trang 4 | mục=pk | điểm=6.420296748120735
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Mục liên quan đến dược động học.............
+  - Các thông số dược động học .................
+  - 3.Phân tích dân số...32
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+- **Ozempic** | interview_form | trang 13 | mục=pk | điểm=6.393082306488227
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0013.md`
+  - Các mục liên quan đến dược động học 1.
+  - (Giải thích) Vì loại thuốc này được sử dụng mỗi tuần một lần nên loại thuốc này được thiết lập dựa trên hồ sơ dược động học của loại thuốc này.
+  - Sự thay đổi nồng độ trong máu (2) Nồng độ trong máu được xác nhận trong các thử nghiệm lâm sàng 1) Dược động học sau khi tiêm dưới da nhiều lần ở đối tượng nam giới khỏe mạnh.''
+  - dự kiến sẽ thấp hơn.
+
+#### Metadata truy xuất
+
+- STT gốc: 63
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:19
+- Kết thúc: 2026-03-29T18:53:19
+- Số giây thực thi: 0.5861
+- Số giây truy xuất: 0.0801
+- Số giây sinh câu trả lời: 0.0504
+- Prompt token ước tính: 965
+- Answer token ước tính: 434
+
+### Câu hỏi 64: Các dữ liệu dược động học chính của ozempic là gì?
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Nó đã được đánh giá. 7) Làm rỗng dạ dày19
+
+#### Điểm chính từ bằng chứng
+
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Nó đã được đánh giá.
+- 7) Làm rỗng dạ dày19
+- 6) Bài tiết Glucagon17,19,20
+- (3) Thời gian bắt đầu hành động/thời gian không áp dụng
+- VIII.Các nội dung liên quan đến an toàn (đề phòng, v.v.) 36
+- Chi tiết và lý do cảnh báo .................................
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=7.16306137022103
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Nó đã được đánh giá.
+  - 7) Làm rỗng dạ dày19
+  - 6) Bài tiết Glucagon17,19,20
+  - (3) Thời gian bắt đầu hành động/thời gian không áp dụng
+- **Ozempic** | interview_form | trang 4 | mục=pk | điểm=7.052130533910226
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - VIII.Các nội dung liên quan đến an toàn (đề phòng, v.v.) 36
+  - Chi tiết và lý do cảnh báo .................................
+  - Chống chỉ định và nguyên nhân.................................
+  - Bổ sung chỉ định hoặc tác dụng, bổ sung liều lượng và thay đổi liều lượng
+- **Ozempic** | interview_form | trang 13 | mục=pk | điểm=7.028732527818116
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0013.md`
+  - dự kiến sẽ thấp hơn.
+  - Quản lý vào cùng một ngày trong tuần.
+  - Các mục liên quan đến dược động học 1.
+  - Để lại một khoảng cách ít nhất 30 phút.
+- **Ozempic** | interview_form | trang 31 | mục=pk | điểm=7.001665419644429
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0031.md`
+  - An toàn (phòng ngừa, v.v.) 7.
+  - Không có phát hiện nào nêu lên vấn đề an toàn trong nghiên cứu này và nó được dung nạp tốt.
+  - (1) Phương pháp phân tích
+  - Thay đổi nồng độ trong máu
+- **Ozempic** | interview_form | trang 33 | mục=pk | điểm=6.931674756460774
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0033.md`
+  - (2) Tốc độ bài tiết
+  - Thành phần chính là semaglutide không thay đổi.
+  - (1) Vị trí trao đổi chất và con đường trao đổi chất
+  - Kiểu phân bố này phù hợp với kiểu phân bố của albumin.
+
+#### Metadata truy xuất
+
+- STT gốc: 64
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:19
+- Kết thúc: 2026-03-29T18:53:19
+- Số giây thực thi: 0.6268
+- Số giây truy xuất: 0.0942
+- Số giây sinh câu trả lời: 0.0401
+- Prompt token ước tính: 1250
+- Answer token ước tính: 385
+
+### Câu hỏi 65: Interview form nói gì về bảo quản và độ ổn định cho ozempic.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+
+#### Điểm chính từ bằng chứng
+
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=7.178732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=7.144715051058788
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=7.062878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=7.009043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Đối với các sản phẩm được bảo quản ở nhiệt độ 5 ± 3°C, chúng tôi đã mô phỏng cách sử dụng (thay đổi hộp mực lên xuống đều đặn và chọc thủng nút cao su).
+  - Sự ổn định trong sử dụng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+- **Ozempic** | interview_form | trang 27 | mục=stability | điểm=6.993981377842773
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0027.md`
+  - ● Để cải thiện tính ổn định chống lại DPP-4, axit amin ở vị trí 8 trong xương sống peptide được biến đổi (alanine được thay thế bằng axit 2-aminoisobutyric).● Axit octadecanedioic có đầu carboxyl được gắn vào lysine ở vị trí 26 thông qua một liên kết polyme ưa nước và axit gamma glutamic.● Lysine ở vị trí 34 được thay thế bằng arginine để hạn chế số lượng lysine trong xương sống peptide xuống còn một.
+  - Semaglutide (tên sản phẩm:
+  - adenosine monophosphate tuần hoàn
+  - Chất chủ vận thụ thể GLP-1 Tên chung:
+
+#### Metadata truy xuất
+
+- STT gốc: 65
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:19
+- Kết thúc: 2026-03-29T18:53:20
+- Số giây thực thi: 0.6779
+- Số giây truy xuất: 0.0865
+- Số giây sinh câu trả lời: 0.2147
+- Prompt token ước tính: 1191
+- Answer token ước tính: 447
+
+### Câu hỏi 66: Phần nào của interview form mô tả thành phần và công thức cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Hãy trả lời cẩn thận.
+
+#### Điểm chính từ bằng chứng
+
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Hãy trả lời cẩn thận.
+- (Xem phần giải thích ở phần “12.
+- Hướng dẫn họ chấp nhận lời từ chối.
+- nếu cần thiết và phản ứng cẩn thận.
+- Không có dữ liệu có sẵn.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.420184394262858
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.904186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.37237525413023
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+  - Hướng dẫn họ chấp nhận lời từ chối.
+  - nếu cần thiết và phản ứng cẩn thận.
+- **Ozempic** | interview_form | trang 66 | mục=dosage | điểm=6.352160244582982
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0066.md`
+  - Không có dữ liệu có sẵn.
+  - Semaglutide 0,25 mg không phải là liều duy trì.
+  - Nên áp dụng phương pháp giảm insulin từng bước.
+  - Để biết thêm thông tin về cách dùng, xem phần 6.6.
+- **Ozempic** | interview_form | trang 65 | mục=indication | điểm=6.306310002669351
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0065.md`
+  - Tên thương hiệuOzempic 0,25 mg dung dịch tiêm trong bút đóng sẵnOzempic 0,5 mg dung dịch tiêm trong bút đóng sẵnOzempic 1 mg dung dịch tiêm trong bút đóng sẵnOzempic 2 mg dung dịch tiêm trong bút đóng sẵnDạng bào chếDung dịch tiêmOzempic 0,25 mg để tiêmMột ml dung dịch chứa 1,34 mg semaglutide.Một bút điền sẵn chứa 2 mg semaglutide trong Dung dịch 1,5ml.
+  - mg mỗi tuần một lần.
+  - 4.1 Chỉ định điều trị
+  - hiệu quả hoặc tác dụng
+- **Ozempic** | interview_form | trang 70 | mục=dosage | điểm=6.275838924678685
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0070.md`
+  - 9.5 Phụ nữ mang thai
+  - Tần suất tăng35, Thỏ:
+  - 9.6 Phụ nữ cho con bú
+  - 8.4 Sử dụng cho trẻ em
+
+#### Metadata truy xuất
+
+- STT gốc: 66
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:19
+- Kết thúc: 2026-03-29T18:53:20
+- Số giây thực thi: 0.7131
+- Số giây truy xuất: 0.0981
+- Số giây sinh câu trả lời: 0.0458
+- Prompt token ước tính: 909
+- Answer token ước tính: 504
+
+### Câu hỏi 67: Hiển thị bằng chứng từ phần dược động học. cho ozempic.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về dược động học gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số. Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+- Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+- Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+- Nó đã được đánh giá.
+- Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=6.518353917284048
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+  - Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+  - Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+  - Nó đã được đánh giá.
+- **Ozempic** | smpc_label | trang 43 | mục=pk | điểm=6.455659187290793
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0043.md`
+  - Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+  - Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+  - Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+  - Các chất chuyển hóa của atorvastatin
+- **Ozempic** | interview_form | trang 4 | mục=pk | điểm=6.420296748120735
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Mục liên quan đến dược động học.............
+  - Các thông số dược động học .................
+  - 3.Phân tích dân số...32
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+- **Ozempic** | interview_form | trang 13 | mục=pk | điểm=6.393082306488227
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0013.md`
+  - Các mục liên quan đến dược động học 1.
+  - (Giải thích) Vì loại thuốc này được sử dụng mỗi tuần một lần nên loại thuốc này được thiết lập dựa trên hồ sơ dược động học của loại thuốc này.
+  - Sự thay đổi nồng độ trong máu (2) Nồng độ trong máu được xác nhận trong các thử nghiệm lâm sàng 1) Dược động học sau khi tiêm dưới da nhiều lần ở đối tượng nam giới khỏe mạnh.''
+  - dự kiến sẽ thấp hơn.
+
+#### Metadata truy xuất
+
+- STT gốc: 67
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:19
+- Kết thúc: 2026-03-29T18:53:20
+- Số giây thực thi: 0.7354
+- Số giây truy xuất: 0.0905
+- Số giây sinh câu trả lời: 0.0615
+- Prompt token ước tính: 964
+- Answer token ước tính: 433
+
+### Câu hỏi 68: Tóm tắt dữ liệu độ ổn định của hoạt chất. cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - 6.Thành phần giống nhau/thuốc có tác dụng giống nhau
+  - Thận trọng - Sử dụng các hoạt chất theo đơn của bác sĩ.
+  - 4.Các lưu ý khi xử lý
+  - 11.Thời gian tái khám
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Bình thủy tinh Đặc tính Độ pH Kiểm tra độ tinh khiết (Phương pháp định lượng) Đã quan sát thấy hàm lượng giảm và tạp chất tăng.
+  - Vật chứa thủy tinh Đặc tính Kiểm tra độ pH Kiểm tra độ tinh khiết Hạt nội độc tố không hòa tan Hàm lượng vô trùng (Phương pháp định lượng) Đã quan sát thấy tạp chất tăng nhẹ nhưng nằm trong phạm vi tiêu chuẩn.
+  - Những lưu ý khi xử lý.”
+  - Sự ổn định trong sử dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 68
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:19
+- Kết thúc: 2026-03-29T18:53:20
+- Số giây thực thi: 0.7146
+- Số giây truy xuất: 0.1008
+- Số giây sinh câu trả lời: 0.0174
+- Prompt token ước tính: 962
+- Answer token ước tính: 364
+
+### Câu hỏi 69: Tóm tắt dữ liệu độ ổn định của thành phẩm. cho ozempic.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Đối với các sản phẩm được bảo quản ở nhiệt độ 5 ± 3°C, chúng tôi đã mô phỏng cách sử dụng (thay đổi hộp mực lên xuống đều đặn và chọc thủng nút cao su).
+  - Sự ổn định trong sử dụng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+
+#### Metadata truy xuất
+
+- STT gốc: 69
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:20
+- Kết thúc: 2026-03-29T18:53:20
+- Số giây thực thi: 0.7051
+- Số giây truy xuất: 0.1274
+- Số giây sinh câu trả lời: 0.1603
+- Prompt token ước tính: 963
+- Answer token ước tính: 365
+
+### Câu hỏi 70: Có những kết quả độ ổn định nào được báo cáo trong điều kiện bảo quản dài hạn cho ozempic.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Đối với các sản phẩm được bảo quản ở nhiệt độ 5 ± 3°C, chúng tôi đã mô phỏng cách sử dụng (thay đổi hộp mực lên xuống đều đặn và chọc thủng nút cao su).
+  - Sự ổn định trong sử dụng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+
+#### Metadata truy xuất
+
+- STT gốc: 70
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:20
+- Kết thúc: 2026-03-29T18:53:20
+- Số giây thực thi: 0.6718
+- Số giây truy xuất: 0.0917
+- Số giây sinh câu trả lời: 0.0178
+- Prompt token ước tính: 972
+- Answer token ước tính: 374
+
+### Câu hỏi 71: Có những nghiên cứu độ ổn định tăng tốc nào được báo cáo cho ozempic.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Đối với các sản phẩm được bảo quản ở nhiệt độ 5 ± 3°C, chúng tôi đã mô phỏng cách sử dụng (thay đổi hộp mực lên xuống đều đặn và chọc thủng nút cao su).
+  - Sự ổn định trong sử dụng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+
+#### Metadata truy xuất
+
+- STT gốc: 71
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:20
+- Kết thúc: 2026-03-29T18:53:21
+- Số giây thực thi: 0.6581
+- Số giây truy xuất: 0.0923
+- Số giây sinh câu trả lời: 0.0463
+- Prompt token ước tính: 966
+- Answer token ước tính: 368
+
+### Câu hỏi 72: Những điều kiện stress nào đã được thử nghiệm, như nhiệt, độ ẩm và ánh sáng cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 72
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:20
+- Kết thúc: 2026-03-29T18:53:21
+- Số giây thực thi: 0.6425
+- Số giây truy xuất: 0.0868
+- Số giây sinh câu trả lời: 0.0137
+- Prompt token ước tính: 271
+- Answer token ước tính: 524
+
+### Câu hỏi 73: Có những thay đổi nào xảy ra khi phơi sáng hoặc trong thử nghiệm độ bền ánh sáng cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 73
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:20
+- Kết thúc: 2026-03-29T18:53:21
+- Số giây thực thi: 0.6765
+- Số giây truy xuất: 0.0992
+- Số giây sinh câu trả lời: 0.2229
+- Prompt token ước tính: 272
+- Answer token ước tính: 525
+
+### Câu hỏi 74: Có nguy cơ phân hủy đáng chú ý hoặc thay đổi cảm quan nào không cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 74
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:20
+- Kết thúc: 2026-03-29T18:53:21
+- Số giây thực thi: 0.6769
+- Số giây truy xuất: 0.0929
+- Số giây sinh câu trả lời: 0.0176
+- Prompt token ước tính: 268
+- Answer token ước tính: 521
+
+### Câu hỏi 75: Điều kiện bảo quản và hạn dùng được khuyến cáo là gì cho ozempic.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Đối với các sản phẩm được bảo quản ở nhiệt độ 5 ± 3°C, chúng tôi đã mô phỏng cách sử dụng (thay đổi hộp mực lên xuống đều đặn và chọc thủng nút cao su).
+  - Sự ổn định trong sử dụng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+
+#### Metadata truy xuất
+
+- STT gốc: 75
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:21
+- Kết thúc: 2026-03-29T18:53:21
+- Số giây thực thi: 0.6677
+- Số giây truy xuất: 0.0907
+- Số giây sinh câu trả lời: 0.0387
+- Prompt token ước tính: 966
+- Answer token ước tính: 367
+
+### Câu hỏi 76: Có dữ liệu về độ ổn định sau hoàn nguyên hoặc sau pha chế không cho ozempic.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=6.578732222765306
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=6.5447150510587875
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=6.462878348603707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=6.409043013284062
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Đối với các sản phẩm được bảo quản ở nhiệt độ 5 ± 3°C, chúng tôi đã mô phỏng cách sử dụng (thay đổi hộp mực lên xuống đều đặn và chọc thủng nút cao su).
+  - Sự ổn định trong sử dụng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+
+#### Metadata truy xuất
+
+- STT gốc: 76
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:21
+- Kết thúc: 2026-03-29T18:53:21
+- Số giây thực thi: 0.6651
+- Số giây truy xuất: 0.0817
+- Số giây sinh câu trả lời: 0.0184
+- Prompt token ước tính: 968
+- Answer token ước tính: 370
+
+### Câu hỏi 77: Tóm tắt độ ổn định, bảo quản và các thận trọng liên quan đến bao bì. cho ozempic.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm. **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm.
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+- 396 Thuốc trị đái tháo đường
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.567380422544156
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm.
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.817215420593963
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.781567780481502
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.769157663810806
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.59642691584008
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 77
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:21
+- Kết thúc: 2026-03-29T18:53:21
+- Số giây thực thi: 0.4413
+- Số giây truy xuất: 0.0792
+- Số giây sinh câu trả lời: 0.0152
+- Prompt token ước tính: 720
+- Answer token ước tính: 686
+
+### Câu hỏi 78: Tóm tắt Kế hoạch Quản lý Nguy cơ (RMP) của thuốc này. cho ozempic.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm Lưu ý về quyền lợi bảo hiểm” (Tính đến tháng 10 năm 2025) (tính đến tháng 10 năm 2025).
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=7.6713941631594675
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=7.482964218052035
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.847929930509326
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.301617189465692
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Với nhiều tài liệu được xuất bản cho thấy nguy cơ mắc bệnh đường mật cấp tính tăng lên khi sử dụng chất chủ vận thụ thể GLP-1,39,40
+  - (Bình luận) Mặc dù các nghiên cứu lâm sàng không cho thấy nguy cơ tổn thương thận cấp tính (suy thận cấp) tăng lên do sử dụng semaglutide, thuốc này được thành lập vì đã có báo cáo về tổn thương thận cấp tính do nôn mửa, tiêu chảy hoặc mất nước sau khi tiếp thị.
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+- **Ozempic** | interview_form | trang 5 | mục=general | điểm=6.190020266613854
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0005.md`
+  - Bảng viết tắt Nội dung viết tắt ATP Adenosine triphosphate AUC Diện tích dưới đường cong nồng độ trong huyết tương theo thời gian BG Biguanides BHK Thận của chuột hamster con cAMP Cyclic adenosine monophosphate Ccr Độ thanh thải creatinine Cmax Nồng độ tối đa trong huyết tương CYP Cytochrome P450 DPP-4 Dipeptidyl peptidase-4 EFD Sự phát triển của phôi thai eGFR tốc độ lọc cầu thận ước tính FAS Dân số phân tích lớn nhất FDA FDA Hoa Kỳ Bác sĩ Thực phẩm Dược phẩm GLP-1 Glucagon-like peptide-1 HbA1c Hemoglobin A1c MedDRAICH Thuật ngữ y tế quốc tế PT Thuật ngữ cơ bản QTc QTS GLT Chất mang đồng vận chuyển natri-glucose được hiệu chỉnh bằng phương pháp điều chỉnh nhịp tim sử dụng dữ liệu của từng đối tượng SOC Phân loại dành riêng cho cơ quan SU Sulfonylureas TG Triglycerides T1/2 Thời gian bán hủy thải trừ TZD Thiazolidines Thuốc ức chế α-GI α-glucosidase
+
+#### Metadata truy xuất
+
+- STT gốc: 78
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:21
+- Kết thúc: 2026-03-29T18:53:22
+- Số giây thực thi: 0.6293
+- Số giây truy xuất: 0.1447
+- Số giây sinh câu trả lời: 0.1593
+- Prompt token ước tính: 566
+- Answer token ước tính: 708
+
+### Câu hỏi 79: Những nguy cơ quan trọng đã được xác định trong RMP là gì cho ozempic.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm Lưu ý về quyền lợi bảo hiểm” (Tính đến tháng 10 năm 2025) (tính đến tháng 10 năm 2025).
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=7.6713941631594675
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=7.482964218052035
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.847929930509326
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.301617189465692
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Với nhiều tài liệu được xuất bản cho thấy nguy cơ mắc bệnh đường mật cấp tính tăng lên khi sử dụng chất chủ vận thụ thể GLP-1,39,40
+  - (Bình luận) Mặc dù các nghiên cứu lâm sàng không cho thấy nguy cơ tổn thương thận cấp tính (suy thận cấp) tăng lên do sử dụng semaglutide, thuốc này được thành lập vì đã có báo cáo về tổn thương thận cấp tính do nôn mửa, tiêu chảy hoặc mất nước sau khi tiếp thị.
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+- **Ozempic** | interview_form | trang 5 | mục=general | điểm=6.190020266613854
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0005.md`
+  - Bảng viết tắt Nội dung viết tắt ATP Adenosine triphosphate AUC Diện tích dưới đường cong nồng độ trong huyết tương theo thời gian BG Biguanides BHK Thận của chuột hamster con cAMP Cyclic adenosine monophosphate Ccr Độ thanh thải creatinine Cmax Nồng độ tối đa trong huyết tương CYP Cytochrome P450 DPP-4 Dipeptidyl peptidase-4 EFD Sự phát triển của phôi thai eGFR tốc độ lọc cầu thận ước tính FAS Dân số phân tích lớn nhất FDA FDA Hoa Kỳ Bác sĩ Thực phẩm Dược phẩm GLP-1 Glucagon-like peptide-1 HbA1c Hemoglobin A1c MedDRAICH Thuật ngữ y tế quốc tế PT Thuật ngữ cơ bản QTc QTS GLT Chất mang đồng vận chuyển natri-glucose được hiệu chỉnh bằng phương pháp điều chỉnh nhịp tim sử dụng dữ liệu của từng đối tượng SOC Phân loại dành riêng cho cơ quan SU Sulfonylureas TG Triglycerides T1/2 Thời gian bán hủy thải trừ TZD Thiazolidines Thuốc ức chế α-GI α-glucosidase
+
+#### Metadata truy xuất
+
+- STT gốc: 79
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:21
+- Kết thúc: 2026-03-29T18:53:22
+- Số giây thực thi: 0.6062
+- Số giây truy xuất: 0.0862
+- Số giây sinh câu trả lời: 0.0192
+- Prompt token ước tính: 567
+- Answer token ước tính: 709
+
+### Câu hỏi 80: Những nguy cơ tiềm ẩn quan trọng trong RMP là gì cho ozempic.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm Lưu ý về quyền lợi bảo hiểm” (Tính đến tháng 10 năm 2025) (tính đến tháng 10 năm 2025).
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=7.6713941631594675
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=7.482964218052035
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.847929930509326
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.301617189465692
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Với nhiều tài liệu được xuất bản cho thấy nguy cơ mắc bệnh đường mật cấp tính tăng lên khi sử dụng chất chủ vận thụ thể GLP-1,39,40
+  - (Bình luận) Mặc dù các nghiên cứu lâm sàng không cho thấy nguy cơ tổn thương thận cấp tính (suy thận cấp) tăng lên do sử dụng semaglutide, thuốc này được thành lập vì đã có báo cáo về tổn thương thận cấp tính do nôn mửa, tiêu chảy hoặc mất nước sau khi tiếp thị.
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+- **Ozempic** | interview_form | trang 5 | mục=general | điểm=6.190020266613854
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0005.md`
+  - Bảng viết tắt Nội dung viết tắt ATP Adenosine triphosphate AUC Diện tích dưới đường cong nồng độ trong huyết tương theo thời gian BG Biguanides BHK Thận của chuột hamster con cAMP Cyclic adenosine monophosphate Ccr Độ thanh thải creatinine Cmax Nồng độ tối đa trong huyết tương CYP Cytochrome P450 DPP-4 Dipeptidyl peptidase-4 EFD Sự phát triển của phôi thai eGFR tốc độ lọc cầu thận ước tính FAS Dân số phân tích lớn nhất FDA FDA Hoa Kỳ Bác sĩ Thực phẩm Dược phẩm GLP-1 Glucagon-like peptide-1 HbA1c Hemoglobin A1c MedDRAICH Thuật ngữ y tế quốc tế PT Thuật ngữ cơ bản QTc QTS GLT Chất mang đồng vận chuyển natri-glucose được hiệu chỉnh bằng phương pháp điều chỉnh nhịp tim sử dụng dữ liệu của từng đối tượng SOC Phân loại dành riêng cho cơ quan SU Sulfonylureas TG Triglycerides T1/2 Thời gian bán hủy thải trừ TZD Thiazolidines Thuốc ức chế α-GI α-glucosidase
+
+#### Metadata truy xuất
+
+- STT gốc: 80
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:21
+- Kết thúc: 2026-03-29T18:53:22
+- Số giây thực thi: 0.6362
+- Số giây truy xuất: 0.0815
+- Số giây sinh câu trả lời: 0.0462
+- Prompt token ước tính: 564
+- Answer token ước tính: 707
+
+### Câu hỏi 81: Những thông tin còn thiếu quan trọng nào được liệt kê trong RMP cho ozempic.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm Lưu ý về quyền lợi bảo hiểm” (Tính đến tháng 10 năm 2025) (tính đến tháng 10 năm 2025).
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=7.6713941631594675
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=7.482964218052035
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.847929930509326
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.301617189465692
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Với nhiều tài liệu được xuất bản cho thấy nguy cơ mắc bệnh đường mật cấp tính tăng lên khi sử dụng chất chủ vận thụ thể GLP-1,39,40
+  - (Bình luận) Mặc dù các nghiên cứu lâm sàng không cho thấy nguy cơ tổn thương thận cấp tính (suy thận cấp) tăng lên do sử dụng semaglutide, thuốc này được thành lập vì đã có báo cáo về tổn thương thận cấp tính do nôn mửa, tiêu chảy hoặc mất nước sau khi tiếp thị.
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+- **Ozempic** | interview_form | trang 5 | mục=general | điểm=6.190020266613854
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0005.md`
+  - Bảng viết tắt Nội dung viết tắt ATP Adenosine triphosphate AUC Diện tích dưới đường cong nồng độ trong huyết tương theo thời gian BG Biguanides BHK Thận của chuột hamster con cAMP Cyclic adenosine monophosphate Ccr Độ thanh thải creatinine Cmax Nồng độ tối đa trong huyết tương CYP Cytochrome P450 DPP-4 Dipeptidyl peptidase-4 EFD Sự phát triển của phôi thai eGFR tốc độ lọc cầu thận ước tính FAS Dân số phân tích lớn nhất FDA FDA Hoa Kỳ Bác sĩ Thực phẩm Dược phẩm GLP-1 Glucagon-like peptide-1 HbA1c Hemoglobin A1c MedDRAICH Thuật ngữ y tế quốc tế PT Thuật ngữ cơ bản QTc QTS GLT Chất mang đồng vận chuyển natri-glucose được hiệu chỉnh bằng phương pháp điều chỉnh nhịp tim sử dụng dữ liệu của từng đối tượng SOC Phân loại dành riêng cho cơ quan SU Sulfonylureas TG Triglycerides T1/2 Thời gian bán hủy thải trừ TZD Thiazolidines Thuốc ức chế α-GI α-glucosidase
+
+#### Metadata truy xuất
+
+- STT gốc: 81
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:21
+- Kết thúc: 2026-03-29T18:53:22
+- Số giây thực thi: 0.6434
+- Số giây truy xuất: 0.0827
+- Số giây sinh câu trả lời: 0.0193
+- Prompt token ước tính: 568
+- Answer token ước tính: 711
+
+### Câu hỏi 82: Những hoạt động cảnh giác dược thường quy nào được mô tả trong RMP cho ozempic.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm Lưu ý về quyền lợi bảo hiểm” (Tính đến tháng 10 năm 2025) (tính đến tháng 10 năm 2025).
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=7.6713941631594675
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=7.482964218052035
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.847929930509326
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.301617189465692
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Với nhiều tài liệu được xuất bản cho thấy nguy cơ mắc bệnh đường mật cấp tính tăng lên khi sử dụng chất chủ vận thụ thể GLP-1,39,40
+  - (Bình luận) Mặc dù các nghiên cứu lâm sàng không cho thấy nguy cơ tổn thương thận cấp tính (suy thận cấp) tăng lên do sử dụng semaglutide, thuốc này được thành lập vì đã có báo cáo về tổn thương thận cấp tính do nôn mửa, tiêu chảy hoặc mất nước sau khi tiếp thị.
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+- **Ozempic** | interview_form | trang 5 | mục=general | điểm=6.190020266613854
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0005.md`
+  - Bảng viết tắt Nội dung viết tắt ATP Adenosine triphosphate AUC Diện tích dưới đường cong nồng độ trong huyết tương theo thời gian BG Biguanides BHK Thận của chuột hamster con cAMP Cyclic adenosine monophosphate Ccr Độ thanh thải creatinine Cmax Nồng độ tối đa trong huyết tương CYP Cytochrome P450 DPP-4 Dipeptidyl peptidase-4 EFD Sự phát triển của phôi thai eGFR tốc độ lọc cầu thận ước tính FAS Dân số phân tích lớn nhất FDA FDA Hoa Kỳ Bác sĩ Thực phẩm Dược phẩm GLP-1 Glucagon-like peptide-1 HbA1c Hemoglobin A1c MedDRAICH Thuật ngữ y tế quốc tế PT Thuật ngữ cơ bản QTc QTS GLT Chất mang đồng vận chuyển natri-glucose được hiệu chỉnh bằng phương pháp điều chỉnh nhịp tim sử dụng dữ liệu của từng đối tượng SOC Phân loại dành riêng cho cơ quan SU Sulfonylureas TG Triglycerides T1/2 Thời gian bán hủy thải trừ TZD Thiazolidines Thuốc ức chế α-GI α-glucosidase
+
+#### Metadata truy xuất
+
+- STT gốc: 82
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:22
+- Kết thúc: 2026-03-29T18:53:22
+- Số giây thực thi: 0.4657
+- Số giây truy xuất: 0.1055
+- Số giây sinh câu trả lời: 0.0194
+- Prompt token ước tính: 569
+- Answer token ước tính: 712
+
+### Câu hỏi 83: Những hoạt động cảnh giác dược bổ sung nào được mô tả cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 83
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:22
+- Kết thúc: 2026-03-29T18:53:23
+- Số giây thực thi: 0.6208
+- Số giây truy xuất: 0.1486
+- Số giây sinh câu trả lời: 0.113
+- Prompt token ước tính: 265
+- Answer token ước tính: 518
+
+### Câu hỏi 84: Những hoạt động giảm thiểu nguy cơ thường quy nào được mô tả cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 84
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:22
+- Kết thúc: 2026-03-29T18:53:23
+- Số giây thực thi: 0.5984
+- Số giây truy xuất: 0.089
+- Số giây sinh câu trả lời: 0.0167
+- Prompt token ước tính: 267
+- Answer token ước tính: 520
+
+### Câu hỏi 85: Những tài liệu giảm thiểu nguy cơ bổ sung nào được lên kế hoạch cho bệnh nhân hoặc nhân viên y tế cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 85
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:22
+- Kết thúc: 2026-03-29T18:53:23
+- Số giây thực thi: 0.6076
+- Số giây truy xuất: 0.0788
+- Số giây sinh câu trả lời: 0.0317
+- Prompt token ước tính: 276
+- Answer token ước tính: 529
+
+### Câu hỏi 86: Những vấn đề liên quan đến hiệu quả điều trị nào được đưa vào RMP cho ozempic.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm Lưu ý về quyền lợi bảo hiểm” (Tính đến tháng 10 năm 2025) (tính đến tháng 10 năm 2025).
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=7.6713941631594675
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=7.482964218052035
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.847929930509326
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.301617189465692
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Với nhiều tài liệu được xuất bản cho thấy nguy cơ mắc bệnh đường mật cấp tính tăng lên khi sử dụng chất chủ vận thụ thể GLP-1,39,40
+  - (Bình luận) Mặc dù các nghiên cứu lâm sàng không cho thấy nguy cơ tổn thương thận cấp tính (suy thận cấp) tăng lên do sử dụng semaglutide, thuốc này được thành lập vì đã có báo cáo về tổn thương thận cấp tính do nôn mửa, tiêu chảy hoặc mất nước sau khi tiếp thị.
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+- **Ozempic** | interview_form | trang 5 | mục=general | điểm=6.190020266613854
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0005.md`
+  - Bảng viết tắt Nội dung viết tắt ATP Adenosine triphosphate AUC Diện tích dưới đường cong nồng độ trong huyết tương theo thời gian BG Biguanides BHK Thận của chuột hamster con cAMP Cyclic adenosine monophosphate Ccr Độ thanh thải creatinine Cmax Nồng độ tối đa trong huyết tương CYP Cytochrome P450 DPP-4 Dipeptidyl peptidase-4 EFD Sự phát triển của phôi thai eGFR tốc độ lọc cầu thận ước tính FAS Dân số phân tích lớn nhất FDA FDA Hoa Kỳ Bác sĩ Thực phẩm Dược phẩm GLP-1 Glucagon-like peptide-1 HbA1c Hemoglobin A1c MedDRAICH Thuật ngữ y tế quốc tế PT Thuật ngữ cơ bản QTc QTS GLT Chất mang đồng vận chuyển natri-glucose được hiệu chỉnh bằng phương pháp điều chỉnh nhịp tim sử dụng dữ liệu của từng đối tượng SOC Phân loại dành riêng cho cơ quan SU Sulfonylureas TG Triglycerides T1/2 Thời gian bán hủy thải trừ TZD Thiazolidines Thuốc ức chế α-GI α-glucosidase
+
+#### Metadata truy xuất
+
+- STT gốc: 86
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:22
+- Kết thúc: 2026-03-29T18:53:23
+- Số giây thực thi: 0.5979
+- Số giây truy xuất: 0.0819
+- Số giây sinh câu trả lời: 0.0324
+- Prompt token ước tính: 569
+- Answer token ước tính: 711
+
+### Câu hỏi 87: Interview form hoặc RMP nói gì về các nguy cơ liên quan đến RMP cho ozempic.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm Lưu ý về quyền lợi bảo hiểm” (Tính đến tháng 10 năm 2025) (tính đến tháng 10 năm 2025).
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=7.762959152617593
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=7.6062273716938344
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.847929930509326
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.301617189465692
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Với nhiều tài liệu được xuất bản cho thấy nguy cơ mắc bệnh đường mật cấp tính tăng lên khi sử dụng chất chủ vận thụ thể GLP-1,39,40
+  - (Bình luận) Mặc dù các nghiên cứu lâm sàng không cho thấy nguy cơ tổn thương thận cấp tính (suy thận cấp) tăng lên do sử dụng semaglutide, thuốc này được thành lập vì đã có báo cáo về tổn thương thận cấp tính do nôn mửa, tiêu chảy hoặc mất nước sau khi tiếp thị.
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+- **Ozempic** | interview_form | trang 66 | mục=dosage | điểm=6.270709805339621
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0066.md`
+  - sulfonylurea hoặc insulin nên được xem xét để giảm nguy cơ hạ đường huyết (xem phần 4.4 và 4.8).
+  - Không có dữ liệu có sẵn.
+  - Semaglutide 0,25 mg không phải là liều duy trì.
+  - Nên áp dụng phương pháp giảm insulin từng bước.
+
+#### Metadata truy xuất
+
+- STT gốc: 87
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:23
+- Kết thúc: 2026-03-29T18:53:23
+- Số giây thực thi: 0.4454
+- Số giây truy xuất: 0.0856
+- Số giây sinh câu trả lời: 0.0228
+- Prompt token ước tính: 707
+- Answer token ước tính: 542
+
+### Câu hỏi 88: Những nguy cơ quan trọng đã xác định và nguy cơ tiềm ẩn trong các tài liệu RMP là gì cho ozempic.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm Lưu ý về quyền lợi bảo hiểm” (Tính đến tháng 10 năm 2025) (tính đến tháng 10 năm 2025).
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=7.6713941631594675
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=7.482964218052035
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.847929930509326
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.301617189465692
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Với nhiều tài liệu được xuất bản cho thấy nguy cơ mắc bệnh đường mật cấp tính tăng lên khi sử dụng chất chủ vận thụ thể GLP-1,39,40
+  - (Bình luận) Mặc dù các nghiên cứu lâm sàng không cho thấy nguy cơ tổn thương thận cấp tính (suy thận cấp) tăng lên do sử dụng semaglutide, thuốc này được thành lập vì đã có báo cáo về tổn thương thận cấp tính do nôn mửa, tiêu chảy hoặc mất nước sau khi tiếp thị.
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+- **Ozempic** | interview_form | trang 5 | mục=general | điểm=6.190020266613854
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0005.md`
+  - Bảng viết tắt Nội dung viết tắt ATP Adenosine triphosphate AUC Diện tích dưới đường cong nồng độ trong huyết tương theo thời gian BG Biguanides BHK Thận của chuột hamster con cAMP Cyclic adenosine monophosphate Ccr Độ thanh thải creatinine Cmax Nồng độ tối đa trong huyết tương CYP Cytochrome P450 DPP-4 Dipeptidyl peptidase-4 EFD Sự phát triển của phôi thai eGFR tốc độ lọc cầu thận ước tính FAS Dân số phân tích lớn nhất FDA FDA Hoa Kỳ Bác sĩ Thực phẩm Dược phẩm GLP-1 Glucagon-like peptide-1 HbA1c Hemoglobin A1c MedDRAICH Thuật ngữ y tế quốc tế PT Thuật ngữ cơ bản QTc QTS GLT Chất mang đồng vận chuyển natri-glucose được hiệu chỉnh bằng phương pháp điều chỉnh nhịp tim sử dụng dữ liệu của từng đối tượng SOC Phân loại dành riêng cho cơ quan SU Sulfonylureas TG Triglycerides T1/2 Thời gian bán hủy thải trừ TZD Thiazolidines Thuốc ức chế α-GI α-glucosidase
+
+#### Metadata truy xuất
+
+- STT gốc: 88
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:23
+- Kết thúc: 2026-03-29T18:53:23
+- Số giây thực thi: 0.6088
+- Số giây truy xuất: 0.1495
+- Số giây sinh câu trả lời: 0.123
+- Prompt token ước tính: 574
+- Answer token ước tính: 716
+
+### Câu hỏi 89: Tóm tắt toàn bộ RMP bao gồm nguy cơ, theo dõi và các biện pháp giảm thiểu nguy cơ. cho ozempic.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm Lưu ý về quyền lợi bảo hiểm” (Tính đến tháng 10 năm 2025) (tính đến tháng 10 năm 2025).
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=7.6713941631594675
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=7.482964218052035
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.847929930509326
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=6.301617189465692
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Với nhiều tài liệu được xuất bản cho thấy nguy cơ mắc bệnh đường mật cấp tính tăng lên khi sử dụng chất chủ vận thụ thể GLP-1,39,40
+  - (Bình luận) Mặc dù các nghiên cứu lâm sàng không cho thấy nguy cơ tổn thương thận cấp tính (suy thận cấp) tăng lên do sử dụng semaglutide, thuốc này được thành lập vì đã có báo cáo về tổn thương thận cấp tính do nôn mửa, tiêu chảy hoặc mất nước sau khi tiếp thị.
+  - Hãy trả lời cẩn thận.
+  - (Xem phần giải thích ở phần “12.
+- **Ozempic** | interview_form | trang 5 | mục=general | điểm=6.190020266613854
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0005.md`
+  - Bảng viết tắt Nội dung viết tắt ATP Adenosine triphosphate AUC Diện tích dưới đường cong nồng độ trong huyết tương theo thời gian BG Biguanides BHK Thận của chuột hamster con cAMP Cyclic adenosine monophosphate Ccr Độ thanh thải creatinine Cmax Nồng độ tối đa trong huyết tương CYP Cytochrome P450 DPP-4 Dipeptidyl peptidase-4 EFD Sự phát triển của phôi thai eGFR tốc độ lọc cầu thận ước tính FAS Dân số phân tích lớn nhất FDA FDA Hoa Kỳ Bác sĩ Thực phẩm Dược phẩm GLP-1 Glucagon-like peptide-1 HbA1c Hemoglobin A1c MedDRAICH Thuật ngữ y tế quốc tế PT Thuật ngữ cơ bản QTc QTS GLT Chất mang đồng vận chuyển natri-glucose được hiệu chỉnh bằng phương pháp điều chỉnh nhịp tim sử dụng dữ liệu của từng đối tượng SOC Phân loại dành riêng cho cơ quan SU Sulfonylureas TG Triglycerides T1/2 Thời gian bán hủy thải trừ TZD Thiazolidines Thuốc ức chế α-GI α-glucosidase
+
+#### Metadata truy xuất
+
+- STT gốc: 89
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:23
+- Kết thúc: 2026-03-29T18:53:23
+- Số giây thực thi: 0.6162
+- Số giây truy xuất: 0.0963
+- Số giây sinh câu trả lời: 0.0191
+- Prompt token ước tính: 573
+- Answer token ước tính: 716
+
+### D. Câu hỏi về thông báo an toàn / theo dõi tín hiệu
+
+### Câu hỏi 90: Những thay đổi nhãn an toàn gần đây nào có nhắc đến thuốc này cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 90
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:23
+- Kết thúc: 2026-03-29T18:53:23
+- Số giây thực thi: 0.6283
+- Số giây truy xuất: 0.0809
+- Số giây sinh câu trả lời: 0.0446
+- Prompt token ước tính: 267
+- Answer token ước tính: 520
+
+### Câu hỏi 91: Những cập nhật an toàn mới nào đã được ban hành cho thuốc này cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 91
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:23
+- Kết thúc: 2026-03-29T18:53:24
+- Số giây thực thi: 0.6382
+- Số giây truy xuất: 0.0898
+- Số giây sinh câu trả lời: 0.0296
+- Prompt token ước tính: 267
+- Answer token ước tính: 520
+
+### Câu hỏi 92: Có cảnh báo an toàn nào về viêm gan tối cấp, phản ứng da nặng hoặc viêm phổi kẽ không cho ozempic.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 92
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:23
+- Kết thúc: 2026-03-29T18:53:24
+- Số giây thực thi: 0.4677
+- Số giây truy xuất: 0.0889
+- Số giây sinh câu trả lời: 0.0131
+- Prompt token ước tính: 724
+- Answer token ước tính: 687
+
+### Câu hỏi 93: Có cảnh báo về phản ứng da nặng trong các thông báo an toàn gần đây không cho ozempic.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 93
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:23
+- Kết thúc: 2026-03-29T18:53:24
+- Số giây thực thi: 0.7482
+- Số giây truy xuất: 0.1731
+- Số giây sinh câu trả lời: 0.2275
+- Prompt token ước tính: 722
+- Answer token ước tính: 684
+
+### Câu hỏi 94: Những thông báo an toàn nào nhắc đến rối loạn chức năng gan hoặc viêm gan cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 94
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:23
+- Kết thúc: 2026-03-29T18:53:24
+- Số giây thực thi: 0.7533
+- Số giây truy xuất: 0.1011
+- Số giây sinh câu trả lời: 0.0269
+- Prompt token ước tính: 270
+- Answer token ước tính: 523
+
+### Câu hỏi 95: Có cảnh báo nào liên quan đến mang thai, nguy cơ với thai nhi hoặc thiểu ối không cho ozempic.
+
+**Nhóm câu hỏi:** pregnancy
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thai kỳ và cho con bú gồm: Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng. Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này. Nó đã không được công nhận. Người nộp đơn đã trả lời như sau.
+
+#### Điểm chính từ bằng chứng
+
+- Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng.
+- Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+- Nó đã không được công nhận.
+- Người nộp đơn đã trả lời như sau.
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=7.7382377620679375
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.567380422544156
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 68 | mục=pregnancy | điểm=6.996746571406565
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0068.md`
+  - 4.6 Khả năng sinh sản, mang thai và cho con bú
+  - từ ngày mang thai thứ 16 đến ngày thứ 140.
+  - hình thành cơ quan từ ngày mang thai thứ 6 đến ngày 19.
+  - Vì vậy, không nên sử dụng semaglutide trong thời kỳ mang thai.
+- **Ozempic** | interview_form | trang 69 | mục=pregnancy | điểm=6.909238055785729
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0069.md`
+  - 4.6 Khả năng sinh sản, mang thai và cho con bú
+  - Ở cynomolgus đang mang thai
+  - Sử dụng trong thời kỳ mang thai Phân loại mang thai:
+  - Không nên sử dụng DSemaglutide trong thời kỳ mang thai.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.817215420593963
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+
+#### Metadata truy xuất
+
+- STT gốc: 95
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:24
+- Kết thúc: 2026-03-29T18:53:24
+- Số giây thực thi: 0.7802
+- Số giây truy xuất: 0.097
+- Số giây sinh câu trả lời: 0.0497
+- Prompt token ước tính: 625
+- Answer token ước tính: 639
+
+### Câu hỏi 96: Có cảnh báo nào về tái hoạt HBV hoặc nguy cơ miễn dịch không cho ozempic.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 96
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:24
+- Kết thúc: 2026-03-29T18:53:24
+- Số giây thực thi: 0.8035
+- Số giây truy xuất: 0.0886
+- Số giây sinh câu trả lời: 0.0359
+- Prompt token ước tính: 718
+- Answer token ước tính: 681
+
+### Câu hỏi 97: Có cảnh báo nào liên quan đến chuyển hóa như nguy cơ ở người chuyển hóa cực nhanh CYP2D6 không cho ozempic.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 97
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:24
+- Kết thúc: 2026-03-29T18:53:25
+- Số giây thực thi: 0.4968
+- Số giây truy xuất: 0.0797
+- Số giây sinh câu trả lời: 0.0137
+- Prompt token ước tính: 727
+- Answer token ước tính: 689
+
+### E. Bộ ví dụ Povidone-iodine
+
+### Câu hỏi 98: Có cảnh báo nào về rối loạn chức năng tuyến giáp hoặc hấp thu iod toàn thân không cho ozempic.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 98
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:24
+- Kết thúc: 2026-03-29T18:53:25
+- Số giây thực thi: 0.6818
+- Số giây truy xuất: 0.1301
+- Số giây sinh câu trả lời: 0.1818
+- Prompt token ước tính: 724
+- Answer token ước tính: 686
+
+### F. Các bộ smoke test giá trị cao
+
+### Câu hỏi 99: Có thận trọng nào liên quan đến công thức cho phụ nữ mang thai hoặc cho con bú không cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Nó đã không được công nhận. Người nộp đơn đã trả lời như sau. (Khuyết tật bẩm sinh Res Part B 2005; Một số bất thường được quan sát (cột sống
+
+#### Điểm chính từ bằng chứng
+
+- Nó đã không được công nhận.
+- Người nộp đơn đã trả lời như sau.
+- (Khuyết tật bẩm sinh Res Part B 2005;
+- Một số bất thường được quan sát (cột sống
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=7.7382377620679375
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.567380422544156
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 68 | mục=pregnancy | điểm=6.996746571406565
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0068.md`
+  - tiếp xúc với con người).
+  - (phơi nhiễm ≥3X ở người).
+  - từ ngày mang thai thứ 16 đến ngày thứ 140.
+  - 8.3 Phụ nữ và nam giới có tiềm năng sinh sản
+- **Ozempic** | interview_form | trang 69 | mục=pregnancy | điểm=6.909238055785729
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0069.md`
+  - Tờ hướng dẫn sử dụng của Úc
+  - 5.1 Đặc tính dược lực học).
+  - Ở cynomolgus đang mang thai
+  - Semaglutide không ảnh hưởng đến nam giới
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.817215420593963
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+
+#### Metadata truy xuất
+
+- STT gốc: 99
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:24
+- Kết thúc: 2026-03-29T18:53:25
+- Số giây thực thi: 0.6758
+- Số giây truy xuất: 0.1145
+- Số giây sinh câu trả lời: 0.0261
+- Prompt token ước tính: 626
+- Answer token ước tính: 640
+
+### Câu hỏi 100: Có cảnh báo nào liên quan đến rối loạn tuyến giáp hoặc hấp thu toàn thân không cho ozempic.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 100
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:24
+- Kết thúc: 2026-03-29T18:53:25
+- Số giây thực thi: 0.696
+- Số giây truy xuất: 0.0885
+- Số giây sinh câu trả lời: 0.0528
+- Prompt token ước tính: 723
+- Answer token ước tính: 685
+
+### G. Kiểm thử truy hồi / điều hướng / tiêu đề mục / xác thực provenance
+
+### Câu hỏi 101: Các chống chỉ định hoặc đối tượng không nên dùng ozempic là gì?
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về chống chỉ định gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Chống chỉ định (Không dùng cho những bệnh nhân sau) 2.Chống chỉ định và lý do
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Chống chỉ định (Không dùng cho những bệnh nhân sau)
+- 2.Chống chỉ định và lý do
+- (Bình luận) Nếu thuốc này được dùng cho bệnh nhân có tiền sử quá mẫn cảm với các thành phần của thuốc này, có khả năng các triệu chứng quá mẫn nghiêm trọng có thể phát triển, vì vậy nên tránh dùng thuốc.
+- Chi tiết và lý do cảnh báo
+- Không có tài liệu áp dụng
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | smpc_label | trang 1 | mục=contraindication | điểm=6.909395650909933
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.769157663810806
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 36 | mục=contraindication | điểm=6.365433391880987
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0036.md`
+  - Chống chỉ định (Không dùng cho những bệnh nhân sau)
+  - 2.Chống chỉ định và lý do
+  - (Bình luận) Nếu thuốc này được dùng cho bệnh nhân có tiền sử quá mẫn cảm với các thành phần của thuốc này, có khả năng các triệu chứng quá mẫn nghiêm trọng có thể phát triển, vì vậy nên tránh dùng thuốc.
+  - Chi tiết và lý do cảnh báo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.291673493088173
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.031879996945194
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+
+#### Metadata truy xuất
+
+- STT gốc: 101
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:25
+- Kết thúc: 2026-03-29T18:53:25
+- Số giây thực thi: 0.7709
+- Số giây truy xuất: 0.1104
+- Số giây sinh câu trả lời: 0.0593
+- Prompt token ước tính: 691
+- Answer token ước tính: 356
+
+### Câu hỏi 102: Các cảnh báo và thận trọng khi dùng ozempic là gì?
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.567380422544156
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.325099601794138
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.817215420593963
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.781567780481502
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.769157663810806
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.59642691584008
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 102
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:25
+- Kết thúc: 2026-03-29T18:53:25
+- Số giây thực thi: 0.5682
+- Số giây truy xuất: 0.0954
+- Số giây sinh câu trả lời: 0.0172
+- Prompt token ước tính: 714
+- Answer token ước tính: 675
+
+### Câu hỏi 103: Trả lời kèm trích dẫn và hiển thị chính xác số trang tham chiếu. cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 103
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:25
+- Kết thúc: 2026-03-29T18:53:26
+- Số giây thực thi: 0.7869
+- Số giây truy xuất: 0.1527
+- Số giây sinh câu trả lời: 0.2087
+- Prompt token ước tính: 268
+- Answer token ước tính: 521
+
+### Câu hỏi 104: Các dữ liệu dược động học chính của ozempic là gì?
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Nó đã được đánh giá. 7) Làm rỗng dạ dày19
+
+#### Điểm chính từ bằng chứng
+
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Nó đã được đánh giá.
+- 7) Làm rỗng dạ dày19
+- 6) Bài tiết Glucagon17,19,20
+- (3) Thời gian bắt đầu hành động/thời gian không áp dụng
+- VIII.Các nội dung liên quan đến an toàn (đề phòng, v.v.) 36
+- Chi tiết và lý do cảnh báo .................................
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=7.16306137022103
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Nó đã được đánh giá.
+  - 7) Làm rỗng dạ dày19
+  - 6) Bài tiết Glucagon17,19,20
+  - (3) Thời gian bắt đầu hành động/thời gian không áp dụng
+- **Ozempic** | interview_form | trang 4 | mục=pk | điểm=7.052130533910226
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - VIII.Các nội dung liên quan đến an toàn (đề phòng, v.v.) 36
+  - Chi tiết và lý do cảnh báo .................................
+  - Chống chỉ định và nguyên nhân.................................
+  - Bổ sung chỉ định hoặc tác dụng, bổ sung liều lượng và thay đổi liều lượng
+- **Ozempic** | interview_form | trang 13 | mục=pk | điểm=7.028732527818116
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0013.md`
+  - dự kiến sẽ thấp hơn.
+  - Quản lý vào cùng một ngày trong tuần.
+  - Các mục liên quan đến dược động học 1.
+  - Để lại một khoảng cách ít nhất 30 phút.
+- **Ozempic** | interview_form | trang 31 | mục=pk | điểm=7.001665419644429
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0031.md`
+  - An toàn (phòng ngừa, v.v.) 7.
+  - Không có phát hiện nào nêu lên vấn đề an toàn trong nghiên cứu này và nó được dung nạp tốt.
+  - (1) Phương pháp phân tích
+  - Thay đổi nồng độ trong máu
+- **Ozempic** | interview_form | trang 33 | mục=pk | điểm=6.931674756460774
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0033.md`
+  - (2) Tốc độ bài tiết
+  - Thành phần chính là semaglutide không thay đổi.
+  - (1) Vị trí trao đổi chất và con đường trao đổi chất
+  - Kiểu phân bố này phù hợp với kiểu phân bố của albumin.
+
+#### Metadata truy xuất
+
+- STT gốc: 104
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:25
+- Kết thúc: 2026-03-29T18:53:26
+- Số giây thực thi: 0.7572
+- Số giây truy xuất: 0.0791
+- Số giây sinh câu trả lời: 0.0303
+- Prompt token ước tính: 1260
+- Answer token ước tính: 385
+
+### Câu hỏi 105: Thông tin độ ổn định và điều kiện bảo quản của ozempic là gì?
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về độ ổn định và bảo quản gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+
+#### Điểm chính từ bằng chứng
+
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.344671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=7.242867341578128
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=7.210562221691425
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=7.123172864903716
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+- **Ozempic** | interview_form | trang 11 | mục=stability | điểm=7.062499603279933
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0011.md`
+  - Đối với các sản phẩm được bảo quản ở nhiệt độ 5 ± 3°C, chúng tôi đã mô phỏng cách sử dụng (thay đổi hộp mực lên xuống đều đặn và chọc thủng nút cao su).
+  - Sự ổn định trong sử dụng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+- **Ozempic** | interview_form | trang 27 | mục=stability | điểm=7.046895774554116
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0027.md`
+  - ● Để cải thiện tính ổn định chống lại DPP-4, axit amin ở vị trí 8 trong xương sống peptide được biến đổi (alanine được thay thế bằng axit 2-aminoisobutyric).● Axit octadecanedioic có đầu carboxyl được gắn vào lysine ở vị trí 26 thông qua một liên kết polyme ưa nước và axit gamma glutamic.● Lysine ở vị trí 34 được thay thế bằng arginine để hạn chế số lượng lysine trong xương sống peptide xuống còn một.
+  - Semaglutide (tên sản phẩm:
+  - adenosine monophosphate tuần hoàn
+  - Chất chủ vận thụ thể GLP-1 Tên chung:
+
+#### Metadata truy xuất
+
+- STT gốc: 105
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:25
+- Kết thúc: 2026-03-29T18:53:26
+- Số giây thực thi: 0.7091
+- Số giây truy xuất: 0.0867
+- Số giây sinh câu trả lời: 0.0361
+- Prompt token ước tính: 1194
+- Answer token ước tính: 447
+
+### H. Kiểm thử độ bền / hồi quy / stress test
+
+### Câu hỏi 106: Các cảnh báo chính và chống chỉ định của ozempic là gì cho ozempic.
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về chống chỉ định gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- 0,5 mg mỗi lần tiêm.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=8.045679986836781
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.880461005650008
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=7.429559372611095
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 64 | mục=indication | điểm=7.344247934657612
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0064.md`
+  - 0,5 mg mỗi lần tiêm.
+  - XII.Tài liệu tham khảo
+  - Hiệu quả hoặc tác dụng
+  - Nó được bán với giá hơn
+- **Ozempic** | interview_form | trang 65 | mục=indication | điểm=7.3303566285226145
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0065.md`
+  - Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+  - mg mỗi tuần một lần.
+  - 4.1 Chỉ định điều trị
+  - hiệu quả hoặc tác dụng
+- **Ozempic** | smpc_label | trang 1 | mục=contraindication | điểm=7.258293064785225
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+
+#### Metadata truy xuất
+
+- STT gốc: 106
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:25
+- Kết thúc: 2026-03-29T18:53:26
+- Số giây thực thi: 0.7467
+- Số giây truy xuất: 0.1036
+- Số giây sinh câu trả lời: 0.043
+- Prompt token ước tính: 905
+- Answer token ước tính: 340
+
+### Câu hỏi 107: Hãy tóm tắt hồ sơ dược động học chi tiết bao gồm hấp thu, chuyển hóa và thải trừ. cho ozempic.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về dược động học gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số. Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+- Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+- Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+- Nó đã được đánh giá.
+- Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 30 | mục=pk | điểm=6.518353917284048
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0030.md`
+  - Ở những đối tượng người nước ngoài béo phì, chúng tôi đã kiểm tra Cmax và AUC0-1h dựa trên hồ sơ nồng độ trong máu của Paracetamol (acetaminophen) làm chỉ số.
+  - Mặt khác, không thấy sự khác biệt về AUC0-5h sau khi dùng semaglutide và sau khi dùng giả dược.
+  - Chúng tôi đã tiến hành nhiều xét nghiệm chuyển hóa glucose khác nhau trên những bệnh nhân tiểu đường loại 2 không phải người Nhật và nghiên cứu tác dụng của semaglutide đối với việc ức chế bài tiết glucagon.
+  - Nó đã được đánh giá.
+- **Ozempic** | smpc_label | trang 43 | mục=pk | điểm=6.455659187290793
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0043.md`
+  - Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+  - Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+  - Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+  - Các chất chuyển hóa của atorvastatin
+- **Ozempic** | interview_form | trang 4 | mục=pk | điểm=6.420296748120735
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Mục liên quan đến dược động học.............
+  - Các thông số dược động học .................
+  - 3.Phân tích dân số...32
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+- **Ozempic** | interview_form | trang 13 | mục=pk | điểm=6.393082306488227
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0013.md`
+  - Các mục liên quan đến dược động học 1.
+  - (Giải thích) Vì loại thuốc này được sử dụng mỗi tuần một lần nên loại thuốc này được thiết lập dựa trên hồ sơ dược động học của loại thuốc này.
+  - Sự thay đổi nồng độ trong máu (2) Nồng độ trong máu được xác nhận trong các thử nghiệm lâm sàng 1) Dược động học sau khi tiêm dưới da nhiều lần ở đối tượng nam giới khỏe mạnh.''
+  - dự kiến sẽ thấp hơn.
+
+#### Metadata truy xuất
+
+- STT gốc: 107
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:26
+- Kết thúc: 2026-03-29T18:53:26
+- Số giây thực thi: 0.4959
+- Số giây truy xuất: 0.0867
+- Số giây sinh câu trả lời: 0.0208
+- Prompt token ước tính: 974
+- Answer token ước tính: 443
+
+### Câu hỏi 108: Hoạt chất và tá dược là gì cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 108
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:26
+- Kết thúc: 2026-03-29T18:53:27
+- Số giây thực thi: 0.6773
+- Số giây truy xuất: 0.1357
+- Số giây sinh câu trả lời: 0.16
+- Prompt token ước tính: 164
+- Answer token ước tính: 158
+
+### Câu hỏi 109: Hoạt chất và tá dược là gì cho ozempic.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thành phần và công thức gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Nó đã được thực hiện.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Nó đã được thực hiện.
+- Thuốc này nhóm 1,0 mg
+- -Thuốc này nhóm 1,0 mg
+- Liều lượng và cách dùng:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Nó đã được thực hiện.
+  - Thuốc này nhóm 1,0 mg
+  - -Thuốc này nhóm 1,0 mg
+  - Liều lượng và cách dùng:
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+
+#### Metadata truy xuất
+
+- STT gốc: 109
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:26
+- Kết thúc: 2026-03-29T18:53:27
+- Số giây thực thi: 0.65
+- Số giây truy xuất: 0.0792
+- Số giây sinh câu trả lời: 0.0169
+- Prompt token ước tính: 360
+- Answer token ước tính: 512
+
+### Câu hỏi 110: Tóm tắt tất cả các nguy cơ chính. cho ozempic.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về thông tin lâm sàng chính gồm: Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S Hợp tác quảng cáo Không có tài liệu áp dụng Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+- Hợp tác quảng cáo
+- Không có tài liệu áp dụng
+- Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+- Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+- Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+- Nó đã được thực hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.287270461967485
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.820184394262857
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | interview_form | trang 35 | mục=general | điểm=6.304186367930477
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0035.md`
+  - Không có tài liệu áp dụng
+- **Ozempic** | smpc_label | trang 53 | mục=general | điểm=6.057828434976896
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0053.md`
+  - Các trường hợp này được coi là quần thể phân tích độ an toàn và FAS, và FAS là quần thể phân tích hiệu quả.
+  - Trong số các đối tượng được chỉ định ngẫu nhiên, 387 đối tượng (bao gồm 129 đối tượng trong nhóm giả dược), ngoại trừ 1 đối tượng đã ngừng điều trị
+  - Ozempic Tiêm dưới da 2 mg_Novo Nordisk Pharma Co., Ltd._Báo cáo đánh giá Một nghiên cứu so sánh nhóm song song, ngẫu nhiên, mù đôi, đối chứng giả dược đã được tiến hành để kiểm tra hiệu quả và độ an toàn của đơn trị liệu.
+  - Nó đã được thực hiện.
+- **Ozempic** | smpc_label | trang 18 | mục=general | điểm=6.051884288507489
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0018.md`
+  - 1.2 Cân nhắc về hiệu quả
+  - Không có cài đặt
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=5.899878453817583
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - PMDA yêu cầu người nộp đơn giải thích ảnh hưởng của độc tính đối với phôi thai đến sự an toàn của con người được quan sát thấy trong các nghiên cứu phát triển phôi thai.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+
+#### Metadata truy xuất
+
+- STT gốc: 110
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:26
+- Kết thúc: 2026-03-29T18:53:27
+- Số giây thực thi: 0.6487
+- Số giây truy xuất: 0.0981
+- Số giây sinh câu trả lời: 0.0492
+- Prompt token ước tính: 260
+- Answer token ước tính: 513
+
+### Câu hỏi 111: So sánh các cảnh báo của alprazolam và abaloparatide. cho ozempic.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho ozempic, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+- [Tên thuốc] Exenatide
+- (Hướng dẫn nhập cảnh mới)]
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Ozempic]_[620023_2499418G4027_1_00G].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=7.537438150757676
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Ozempic** | smpc_label | trang 6 | mục=general | điểm=7.256185031880811
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0006.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=6.802719710324808
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=6.765736874873827
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+- **Ozempic** | interview_form | trang 72 | mục=general | điểm=6.744671029036832
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0072.md`
+  - Ozempic®, Ozempic®, OZEMPIC®, Libersus® và Ugobi® là các nhãn hiệu đã đăng ký của Novo Nordisk A/S
+  - Hợp tác quảng cáo
+- **Ozempic** | patient_guide | trang 4 | mục=warning | điểm=6.585357323081865
+  - PDF: [Ozempic]_[620023_2499418G4027_1_00G].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_00G]\02_pages\page_0004.md`
+  - [Tôi nên cẩn thận điều gì khi sử dụng thuốc này?]
+  - Nếu bạn cảm thấy bất thường, hãy tham khảo ý kiến ​​bác sĩ hoặc dược sĩ ngay lập tức.
+  - Nếu bạn gặp các triệu chứng hạ đường huyết, hãy ăn thực phẩm thường chứa carbohydrate.
+  - Nếu bạn đang dùng thuốc ức chế α-glucosidase (acarbose, voglibose, miglitol), hãy dùng glucose.
+
+#### Metadata truy xuất
+
+- STT gốc: 111
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:53:26
+- Kết thúc: 2026-03-29T18:53:27
+- Số giây thực thi: 0.6914
+- Số giây truy xuất: 0.1014
+- Số giây sinh câu trả lời: 0.0496
+- Prompt token ước tính: 716
+- Answer token ước tính: 679
+
+---

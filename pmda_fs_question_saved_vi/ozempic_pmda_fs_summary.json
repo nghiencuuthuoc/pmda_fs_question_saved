@@ -1,0 +1,34 @@
+{
+  "non_ollama": {
+    "phase": "non_ollama",
+    "count": 111,
+    "success": 111,
+    "failed": 0,
+    "elapsed_seconds_sum": 77.6236,
+    "elapsed_seconds_avg": 0.6993,
+    "retrieval_seconds_sum": 12.8245,
+    "generation_seconds_sum": 6.6467,
+    "estimated_context_tokens_sum": 55643,
+    "estimated_prompt_tokens_sum": 65590,
+    "estimated_answer_tokens_sum": 58402
+  },
+  "ollama": {
+    "phase": "ollama",
+    "count": 0,
+    "success": 0,
+    "failed": 0,
+    "elapsed_seconds_sum": 0,
+    "elapsed_seconds_avg": 0.0,
+    "retrieval_seconds_sum": 0,
+    "generation_seconds_sum": 0,
+    "estimated_context_tokens_sum": 0,
+    "estimated_prompt_tokens_sum": 0,
+    "estimated_answer_tokens_sum": 0
+  },
+  "all": {
+    "count": 111,
+    "success": 111,
+    "failed": 0,
+    "elapsed_seconds_sum": 77.6236
+  }
+}

@@ -1,0 +1,7241 @@
+# Xuất PMDA FS Hỏi - Đáp lâm sàng — Onglyza
+
+Thời gian tạo: 2026-03-29T18:58:10
+Bộ câu hỏi: E:\PharmAppDev\database\PMDA_v1_vi\pmda_question_bank_v8_vi\PMDA_RAG_Reusable_Question_Bank_vi.md
+Thư mục index: E:\PharmAppDev\database\PMDA_v1_vi\pmda_fs_index_vi
+Số câu đã hoàn tất: 111
+
+## Tóm tắt theo pha
+
+```json
+{
+  "non_ollama": {
+    "phase": "non_ollama",
+    "count": 111,
+    "success": 111,
+    "failed": 0,
+    "elapsed_seconds_sum": 179.25789999999995
+  },
+  "all": {
+    "count": 111,
+    "success": 111,
+    "failed": 0
+  }
+}
+```
+
+## PMDA_RAG_Reusable_Question_Bank_vi
+
+### Cách dùng
+
+### Câu hỏi 1: Các cảnh báo chính và chống chỉ định là gì cho Onglyza.
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về chống chỉ định gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[170050_4291435A2025_1_27].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2591488861596072
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.091734235070797
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Keytruda** | safety_notice | trang 7 | mục=indication | điểm=1.0447223848527807
+  - PDF: [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1\02_pages\page_0007.md`
+  - 1.2 Lịch sử phát triển
+  - Ngày phê duyệt/chỉ định
+  - Tuy nhiên, sau phẫu thuật
+  - Khối u ác tính không thể cắt bỏ
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0291084279156328
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0233864873318366
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | smpc_label | trang 1 | mục=contraindication | điểm=1.0042612775967257
+  - PDF: [Keytruda]_[170050_4291435A2025_1_27].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_27]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+
+#### Metadata truy xuất
+
+- STT gốc: 1
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:09
+- Kết thúc: 2026-03-29T18:56:09
+- Số giây thực thi: 0.3094
+- Số giây truy xuất: 0.2527
+- Số giây sinh câu trả lời: 0.0532
+- Prompt token ước tính: 756
+- Answer token ước tính: 320
+
+### A. Câu hỏi lõi về nhãn thuốc / hướng dẫn bệnh nhân
+
+### Câu hỏi 2: Các chống chỉ định là gì cho Onglyza.
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** safety_notice
+**Phong cách trả lời:** trình bày theo thông báo an toàn
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về chống chỉ định gồm: 1.2 Lịch sử phát triển Ngày phê duyệt/chỉ định Tuy nhiên, sau phẫu thuật Khối u ác tính không thể cắt bỏ
+
+#### Điểm chính từ bằng chứng
+
+- 1.2 Lịch sử phát triển
+- Ngày phê duyệt/chỉ định
+- Tuy nhiên, sau phẫu thuật
+- Khối u ác tính không thể cắt bỏ
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- Ngày 14 tháng 1 năm 2020
+- [Hiệu quả hoặc tác dụng]
+- [Ghi chú đặc biệt] Không có
+
+#### PDF nguồn
+
+- [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+- [Keytruda]_[170050_4291435A2025_1_27].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_1.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_4.pdf
+- [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_6.pdf
+- [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_3.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | safety_notice | trang 7 | mục=indication | điểm=1.0217639080906054
+  - PDF: [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1\02_pages\page_0007.md`
+  - 1.2 Lịch sử phát triển
+  - Ngày phê duyệt/chỉ định
+  - Tuy nhiên, sau phẫu thuật
+  - Khối u ác tính không thể cắt bỏ
+- **Keytruda** | smpc_label | trang 1 | mục=contraindication | điểm=0.9931937040918427
+  - PDF: [Keytruda]_[170050_4291435A2025_1_27].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_27]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Keytruda** | safety_notice | trang 1 | mục=indication | điểm=0.9756702672616462
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_1.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_1\02_pages\page_0001.md`
+  - Ngày 14 tháng 1 năm 2020
+  - [Hiệu quả hoặc tác dụng]
+  - [Ghi chú đặc biệt] Không có
+  - [Người nộp đơn] Tập đoàn MSD
+- **Keytruda** | safety_notice | trang 6 | mục=indication | điểm=0.9733368839613457
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_4.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_4\02_pages\page_0006.md`
+  - Nó đã được bắt đầu vào năm.
+  - Nó đã được thực hiện từ năm 2011.
+  - 1.2.2 Về ung thư vú (1.1 (ii) ở trên)
+  - Đơn xin phê duyệt đã được nộp vào tháng Hai.
+- **Keytruda** | safety_notice | trang 1 | mục=indication | điểm=0.9704563425312994
+  - PDF: [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_6.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_6\02_pages\page_0001.md`
+  - Ngày 11 tháng 4 năm 2020
+  - [Hiệu quả hoặc tác dụng]
+  - [Ghi chú đặc biệt] Không có
+  - [Người nộp đơn] Tập đoàn MSD
+- **Keytruda** | safety_notice | trang 1 | mục=indication | điểm=0.9579323011599173
+  - PDF: [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_3.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_3\02_pages\page_0001.md`
+  - Ngày 16 tháng 8 năm 2020
+  - [Hiệu quả hoặc tác dụng]
+  - [Người nộp đơn] Tập đoàn MSD
+  - Cơ quan Dược phẩm và Thiết bị Y tế
+
+#### Metadata truy xuất
+
+- STT gốc: 2
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:09
+- Kết thúc: 2026-03-29T18:56:10
+- Số giây thực thi: 0.6
+- Số giây truy xuất: 0.2342
+- Số giây sinh câu trả lời: 0.0634
+- Prompt token ước tính: 1278
+- Answer token ước tính: 322
+
+### Câu hỏi 3: Các chỉ định đã được phê duyệt và hướng dẫn liều dùng là gì cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thông tin lâm sàng chính gồm: Xét nghiệm huyết học: ung thư vú bộ ba âm tính Điện tâm đồ 12 chuyển đạo u trung biểu mô màng phổi ác tính
+
+#### Điểm chính từ bằng chứng
+
+- Xét nghiệm huyết học:
+- ung thư vú bộ ba âm tính
+- Điện tâm đồ 12 chuyển đạo
+- u trung biểu mô màng phổi ác tính
+- 4.1 Chỉ định điều trị
+- Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+- Ozempic được chỉ định để điều trị cho người lớn mắc bệnh đái tháo đường týp 2 không được kiểm soát đầy đủ dưới dạng thuốc hỗ trợ cho chế độ ăn kiêng và tập thể dục.
+- mg mỗi tuần một lần.
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_27].pdf
+- [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_1.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | smpc_label | trang 105 | mục=dosage | điểm=1.2320276577203069
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0105.md`
+  - Xét nghiệm huyết học:
+  - ung thư vú bộ ba âm tính
+  - Điện tâm đồ 12 chuyển đạo
+  - u trung biểu mô màng phổi ác tính
+- **Ozempic** | interview_form | trang 65 | mục=indication | điểm=1.0993520504741972
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0065.md`
+  - 4.1 Chỉ định điều trị
+  - Là đơn trị liệu khi metformin được coi là không phù hợp do không dung nạp hoặc chống chỉ định.
+  - Ozempic được chỉ định để điều trị cho người lớn mắc bệnh đái tháo đường týp 2 không được kiểm soát đầy đủ dưới dạng thuốc hỗ trợ cho chế độ ăn kiêng và tập thể dục.
+  - mg mỗi tuần một lần.
+- **Keytruda** | smpc_label | trang 3 | mục=dosage | điểm=1.0471931016441622
+  - PDF: [Keytruda]_[170050_4291435A2025_1_27].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_27]\02_pages\page_0003.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 64 | mục=indication | điểm=1.0343228553285713
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0064.md`
+  - 1 CHỈ ĐỊNH VÀ CÔNG DỤNG
+  - OZEMPIC® được chỉ định:
+  - leo thang dưới đây để giảm nguy cơ phản ứng bất lợi về đường tiêu hóa [xem Cảnh báo và
+  - 0,5 mg mỗi lần tiêm.
+- **Keytruda** | safety_notice | trang 7 | mục=indication | điểm=1.0217639080906054
+  - PDF: [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1\02_pages\page_0007.md`
+  - Ngày phê duyệt/chỉ định
+  - Tại Nhật Bản, loại thuốc này đã được phê duyệt cho các chỉ định trong bảng dưới đây.
+  - bởi KEYTRUDA dưới dạng một tác nhân duy nhất, được chỉ định để điều trị cho bệnh nhân trưởng thành mắc ung thư biểu mô nội mạc tử cung tiên phát hoặc tái phát.'' Thuốc hiện đang được xem xét ở EU.
+  - 1.2 Lịch sử phát triển
+- **Keytruda** | safety_notice | trang 1 | mục=indication | điểm=0.9756702672616462
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_1.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_1\02_pages\page_0001.md`
+  - Theo kết quả đánh giá do Cơ quan Dược phẩm và Thiết bị Y tế tiến hành, người ta đã xác định rằng sản phẩm này có thể được phê duyệt theo các chỉ định, liều lượng và liều lượng sau đây, tuân theo các điều kiện phê duyệt sau.
+  - Như được trình bày trong tài liệu đính kèm, dữ liệu được gửi chứng minh hiệu quả của sản phẩm này khi kết hợp với lenvatinib mesylate để điều trị ung thư biểu mô tế bào thận di căn hoặc không thể cắt bỏ và độ an toàn của sản phẩm này được đánh giá là có thể chấp nhận được dựa trên những lợi ích được quan sát thấy.
+  - Ngày 14 tháng 1 năm 2020
+  - [Hiệu quả hoặc tác dụng]
+
+#### Metadata truy xuất
+
+- STT gốc: 3
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:09
+- Kết thúc: 2026-03-29T18:56:10
+- Số giây thực thi: 0.9137
+- Số giây truy xuất: 0.2789
+- Số giây sinh câu trả lời: 0.0369
+- Prompt token ước tính: 986
+- Answer token ước tính: 563
+
+### Câu hỏi 4: Các thận trọng quan trọng trước khi dùng thuốc này là gì cho Onglyza.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+- Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+- Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+- Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+  - Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+  - Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+  - Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+  - Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - Rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - Viêm gan tối cấp, suy gan, rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - *17 Điều trị bằng thuốc trước và sau phẫu thuật đối với bệnh ung thư vú âm tính với thụ thể hormone và HER2 âm tính và có nguy cơ tái phát cao *18 Ung thư cổ tử cung tiến triển hoặc tái phát *19 Ung thư dạ dày tiến triển hoặc tái phát không thể cắt bỏ *20 Ung thư đường mật không thể cắt bỏ *21 Ung thư trung biểu mô màng phổi ác tính tiến triển hoặc tái phát không thể cắt bỏ Các sản phẩm nằm trong Hướng dẫn Khuyến mãi Sử dụng Tối ưu Các sản phẩm không đủ điều kiện cho RMP Mục tiêu cho RMP
+  - Cảnh báo
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+
+#### Metadata truy xuất
+
+- STT gốc: 4
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:09
+- Kết thúc: 2026-03-29T18:56:10
+- Số giây thực thi: 1.339
+- Số giây truy xuất: 0.3878
+- Số giây sinh câu trả lời: 0.0385
+- Prompt token ước tính: 849
+- Answer token ước tính: 939
+
+### Câu hỏi 5: Trước khi dùng thuốc này, bệnh nhân cần lưu ý điều gì cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 5
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:09
+- Kết thúc: 2026-03-29T18:56:11
+- Số giây thực thi: 1.6527
+- Số giây truy xuất: 0.6099
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 6: Những đối tượng nào không nên dùng thuốc này cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 6
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:10
+- Kết thúc: 2026-03-29T18:56:12
+- Số giây thực thi: 2.0499
+- Số giây truy xuất: 0.695
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 7: Bệnh nhân nên tránh những gì khi đang dùng thuốc này cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 7
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:10
+- Kết thúc: 2026-03-29T18:56:12
+- Số giây thực thi: 2.4718
+- Số giây truy xuất: 0.7349
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 8: Các phản ứng có hại chính và biến cố bất lợi nghiêm trọng là gì cho Onglyza.
+
+**Nhóm câu hỏi:** adverse
+**Loại tài liệu trội:** safety_notice
+**Phong cách trả lời:** trình bày theo thông báo an toàn
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về phản ứng có hại gồm: Không có tiền sử tác dụng phụ hoặc dị ứng. Thời gian dùng thuốc Tác dụng phụ/tuổi Lý do sử dụng (biến chứng) Liệu trình và điều trị liều lượng hàng ngày 40Gy (cột sống ngực)
+
+#### Điểm chính từ bằng chứng
+
+- Không có tiền sử tác dụng phụ hoặc dị ứng.
+- Thời gian dùng thuốc Tác dụng phụ/tuổi Lý do sử dụng (biến chứng) Liệu trình và điều trị
+- liều lượng hàng ngày
+- 40Gy (cột sống ngực)
+- 11.1 Tác dụng phụ nghiêm trọng
+- Tác dụng phụ
+- Viêm túi mật, viêm đường mật, vàng da ứ mật
+- (Mới thành lập)
+
+#### PDF nguồn
+
+- [Keytruda]_[01]_20260326.pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[02]_20260326_1.pdf
+- [Keytruda]_[04].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[05]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | smpc_label | trang 3 | mục=adverse_event | điểm=0.9704745018352149
+  - PDF: [Keytruda]_[01]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[01]_20260326\02_pages\page_0003.md`
+  - Không có tiền sử tác dụng phụ hoặc dị ứng.
+  - Thời gian dùng thuốc Tác dụng phụ/tuổi Lý do sử dụng (biến chứng) Liệu trình và điều trị
+  - liều lượng hàng ngày
+  - 40Gy (cột sống ngực)
+- **Ozempic** | safety_notice | trang 2 | mục=adverse_event | điểm=0.94788565557623
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0002.md`
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - Tác dụng phụ
+  - Viêm túi mật, viêm đường mật, vàng da ứ mật
+  - (Mới thành lập)
+- **Keytruda** | safety_notice | trang 1 | mục=adverse_event | điểm=0.9352936379746014
+  - PDF: [Keytruda]_[02]_20260326_1.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326_1\02_pages\page_0001.md`
+  - Trong phần "Tác dụng phụ đáng kể" của [Phản ứng bất lợi]
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - [Biện pháp] Các biện pháp phòng ngừa khi sử dụng sẽ được sửa đổi như sau.
+- **Keytruda** | safety_notice | trang 1 | mục=adverse_event | điểm=0.9345978672407353
+  - PDF: [Keytruda]_[04].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[04]\02_pages\page_0001.md`
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - Tác dụng phụ
+  - Viêm tụy, suy tụy ngoại tiết
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Ozempic** | interview_form | trang 37 | mục=adverse_event | điểm=0.9287802520523534
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0037.md`
+  - Tác dụng phụ (1) Tác dụng phụ nghiêm trọng và
+  - Tác dụng phụ (2) Các tác dụng phụ khác 11.2);
+  - Rối loạn tiêu hóa thường được báo cáo là tác dụng phụ của thuốc này (xem phần 8.
+  - Hãy trả lời cẩn thận.
+- **Keytruda** | smpc_label | trang 1 | mục=adverse_event | điểm=0.9052797827454059
+  - PDF: [Keytruda]_[05]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[05]_20260326\02_pages\page_0001.md`
+  - Thời gian dùng thuốc Tác dụng phụ/tuổi Lý do sử dụng (biến chứng) Liệu trình và điều trị
+  - Thuốc này được tiếp tục sử dụng và không có trường hợp viêm tủy tái phát hoặc các tác dụng phụ đáng chú ý nào khác.
+  - IgM (dịch não tủy):
+  - liều lượng hàng ngày
+
+#### Metadata truy xuất
+
+- STT gốc: 8
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:10
+- Kết thúc: 2026-03-29T18:56:13
+- Số giây thực thi: 2.5891
+- Số giây truy xuất: 0.4601
+- Số giây sinh câu trả lời: 0.0829
+- Prompt token ước tính: 410
+- Answer token ước tính: 409
+
+### Câu hỏi 9: Có thận trọng nào cho bệnh nhi, người cao tuổi, phụ nữ mang thai hoặc cho con bú không cho Onglyza.
+
+**Nhóm câu hỏi:** pregnancy
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thai kỳ và cho con bú gồm: Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng. Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này. Nó đã không được công nhận. Người nộp đơn đã trả lời như sau.
+
+#### Điểm chính từ bằng chứng
+
+- Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng.
+- Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+- Nó đã không được công nhận.
+- Người nộp đơn đã trả lời như sau.
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=1.303796790179955
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2292066143731275
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | interview_form | trang 69 | mục=pregnancy | điểm=1.1448110318041722
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0069.md`
+  - 4.6 Khả năng sinh sản, mang thai và cho con bú
+  - Ở cynomolgus đang mang thai
+  - Sử dụng trong thời kỳ mang thai Phân loại mang thai:
+  - Không nên sử dụng DSemaglutide trong thời kỳ mang thai.
+- **Keytruda** | interview_form | trang 435 | mục=pregnancy | điểm=1.1428334113027914
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0435.md`
+  - Hệ thống phân loại kê đơn thuốc trong thai kỳ của Úc
+  - Tư vấn cho phụ nữ mang thai về nguy cơ tiềm ẩn đối với thai nhi.
+  - mang thai được ghi nhận trên lâm sàng lần lượt là 2-4% và 15-20%.
+  - Tóm tắt Rủi roDựa trên cơ chế hoạt động, KEYTRUDA có thể gây hại cho thai nhi khi dùng cho phụ nữ mang thai.
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0707596536827244
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0146127176464776
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+
+#### Metadata truy xuất
+
+- STT gốc: 9
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:11
+- Kết thúc: 2026-03-29T18:56:14
+- Số giây thực thi: 2.5761
+- Số giây truy xuất: 0.5359
+- Số giây sinh câu trả lời: 0.0608
+- Prompt token ước tính: 870
+- Answer token ước tính: 798
+
+### Câu hỏi 10: Hiển thị các trang nói về cảnh báo, chống chỉ định và thận trọng. cho Onglyza.
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về chống chỉ định gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[170050_4291435A2025_1_27].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2591488861596072
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.091734235070797
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Keytruda** | safety_notice | trang 7 | mục=indication | điểm=1.0447223848527807
+  - PDF: [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1\02_pages\page_0007.md`
+  - 1.2 Lịch sử phát triển
+  - Ngày phê duyệt/chỉ định
+  - Tuy nhiên, sau phẫu thuật
+  - Khối u ác tính không thể cắt bỏ
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0291084279156328
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0233864873318366
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | smpc_label | trang 1 | mục=contraindication | điểm=1.0042612775967257
+  - PDF: [Keytruda]_[170050_4291435A2025_1_27].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_27]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+
+#### Metadata truy xuất
+
+- STT gốc: 10
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:12
+- Kết thúc: 2026-03-29T18:56:14
+- Số giây thực thi: 2.3204
+- Số giây truy xuất: 0.416
+- Số giây sinh câu trả lời: 0.0291
+- Prompt token ước tính: 761
+- Answer token ước tính: 326
+
+### B. Công thức / thành phần / tá dược / an toàn
+
+### Câu hỏi 11: Hoạt chất và tá dược là gì cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 11
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:12
+- Kết thúc: 2026-03-29T18:56:14
+- Số giây thực thi: 1.9571
+- Số giây truy xuất: 0.3668
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 12: Liệt kê đầy đủ thành phần định tính của sản phẩm. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 12
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:13
+- Kết thúc: 2026-03-29T18:56:15
+- Số giây thực thi: 1.7953
+- Số giây truy xuất: 0.3823
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 13: Thành phần định lượng trên mỗi đơn vị liều là gì cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 13
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:14
+- Kết thúc: 2026-03-29T18:56:15
+- Số giây thực thi: 1.6382
+- Số giây truy xuất: 0.4409
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 14: Có những dạng bào chế và hàm lượng nào cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 14
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:14
+- Kết thúc: 2026-03-29T18:56:16
+- Số giây thực thi: 1.5033
+- Số giây truy xuất: 0.3079
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 15: Những tá dược nào có trong viên 50 mg và 100 mg cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: Hình thức, độ trong, màu sắc, hiệu lực (hoạt tính sinh học), polysorbate 80, hàm lượng (nồng độ protein), biến thể, biến thể, chất oxy hóa, thể tích thu gom, áp suất thẩm thấu, hạt không hòa tan, pH, độ vô trùng và nội độc tố. Kiểm tra nghiêm ngặt Kiểm tra khả năng quang hóa Năng lượng 200 W・h/m2 trở lên
+
+#### Điểm chính từ bằng chứng
+
+- Hình thức, độ trong, màu sắc, hiệu lực (hoạt tính sinh học), polysorbate 80, hàm lượng (nồng độ protein), biến thể, biến thể, chất oxy hóa, thể tích thu gom, áp suất thẩm thấu, hạt không hòa tan, pH, độ vô trùng và nội độc tố.
+- Kiểm tra nghiêm ngặt
+- Kiểm tra khả năng quang hóa
+- Năng lượng 200 W・h/m2 trở lên
+- 6.1.1 Phân tích PPK
+- Thuốc này 200 mg Q3W
+- Bệnh nhân NSCLC II/III
+- Bệnh nhân u ác tính III
+
+#### PDF nguồn
+
+- [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | smpc_label | trang 14 | mục=stability | điểm=0.2084678627932538
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_2]\02_pages\page_0014.md`
+  - Hình thức, độ trong, màu sắc, hiệu lực (hoạt tính sinh học), polysorbate 80, hàm lượng (nồng độ protein), biến thể, biến thể, chất oxy hóa, thể tích thu gom, áp suất thẩm thấu, hạt không hòa tan, pH, độ vô trùng và nội độc tố.
+  - Kiểm tra nghiêm ngặt
+  - Kiểm tra khả năng quang hóa
+  - Năng lượng 200 W・h/m2 trở lên
+- **Keytruda** | safety_notice | trang 7 | mục=interaction | điểm=0.15513608990761146
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0007.md`
+  - 6.1.1 Phân tích PPK
+  - Thuốc này 200 mg Q3W
+  - Bệnh nhân NSCLC II/III
+  - Bệnh nhân u ác tính III
+- **Keytruda** | safety_notice | trang 33 | mục=interaction | điểm=0.12525215740215156
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0033.md`
+  - Nó giải thích rằng 
+  - Tất cả các biến cố bất lợi
+  - Biến cố bất lợi nghiêm trọng
+  - Tác dụng phụ dẫn đến ngừng thuốc
+- **Keytruda** | safety_notice | trang 3 | mục=general | điểm=0.12455030300795625
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0003.md`
+  - Ngày 4 tháng 6 năm 2020
+  - [Dạng/nội dung bào chế]
+  - Ngày 8 tháng 11 năm 2019
+  - (Đã thêm phần gạch chân)
+- **Ozempic** | smpc_label | trang 45 | mục=interaction | điểm=0.10385252013871993
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0045.md`
+  - Nó đã được thực hiện.
+  - kiểm tra an toàn tocam
+  - PK an toàn ở nước ngoài
+  - mỗi nhóm 102 bệnh nhân).
+- **Ozempic** | smpc_label | trang 59 | mục=interaction | điểm=0.09175654270146028
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0059.md`
+  - Liều lượng và cách dùng:
+  - Nếu giá trị trung bình của
+  - 59) Mỹ, Đức, Serbia, Slovakia
+  - Nó đã được thực hiện để làm như vậy.
+
+#### Metadata truy xuất
+
+- STT gốc: 15
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:14
+- Kết thúc: 2026-03-29T18:56:16
+- Số giây thực thi: 1.7637
+- Số giây truy xuất: 0.4146
+- Số giây sinh câu trả lời: 0.2139
+- Prompt token ước tính: 1549
+- Answer token ước tính: 526
+
+### Câu hỏi 16: Tá dược có khác nhau giữa các hàm lượng của sản phẩm không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 16
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:15
+- Kết thúc: 2026-03-29T18:56:17
+- Số giây thực thi: 1.8212
+- Số giây truy xuất: 0.4351
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 17: Những thành phần công thức nào được liệt kê cho sản phẩm này cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 17
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:15
+- Kết thúc: 2026-03-29T18:56:17
+- Số giây thực thi: 2.0308
+- Số giây truy xuất: 0.6477
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 18: Tài liệu có phân biệt hoạt chất với tá dược không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 18
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:16
+- Kết thúc: 2026-03-29T18:56:18
+- Số giây thực thi: 2.3445
+- Số giây truy xuất: 0.614
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 19: Những tá dược/phụ gia dược dụng nào được nêu trong nhãn cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 19
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:16
+- Kết thúc: 2026-03-29T18:56:18
+- Số giây thực thi: 2.303
+- Số giây truy xuất: 0.5842
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 20: Hiển thị phần thành phần. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 20
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:17
+- Kết thúc: 2026-03-29T18:56:19
+- Số giây thực thi: 2.3067
+- Số giây truy xuất: 0.4265
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 21: Chỉ hiển thị thông tin về tá dược. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 21
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:17
+- Kết thúc: 2026-03-29T18:56:19
+- Số giây thực thi: 2.2412
+- Số giây truy xuất: 0.5891
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 22: Trích xuất danh sách tá dược và dạng bào chế. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 22
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:18
+- Kết thúc: 2026-03-29T18:56:20
+- Số giây thực thi: 2.0804
+- Số giây truy xuất: 0.4481
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 23: Tóm tắt thành phần công thức và các đặc tính dược học/công nghệ của sản phẩm. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 23
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:18
+- Kết thúc: 2026-03-29T18:56:20
+- Số giây thực thi: 1.9484
+- Số giây truy xuất: 0.4704
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 24: Liệt kê tất cả tá dược trong công thức. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 24
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:19
+- Kết thúc: 2026-03-29T18:56:21
+- Số giây thực thi: 1.9572
+- Số giây truy xuất: 0.4456
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 25: Liệt kê tất cả thành phần không có hoạt tính. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 25
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:20
+- Kết thúc: 2026-03-29T18:56:21
+- Số giây thực thi: 1.8198
+- Số giây truy xuất: 0.4428
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 26: Những thành phần không có hoạt tính nào được liệt kê trong tài liệu này cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 26
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:20
+- Kết thúc: 2026-03-29T18:56:22
+- Số giây thực thi: 1.7301
+- Số giây truy xuất: 0.3553
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 27: Những tá dược nào nhiều khả năng đóng vai trò độn, dính, rã hoặc bôi trơn cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 27
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:20
+- Kết thúc: 2026-03-29T18:56:22
+- Số giây thực thi: 1.6388
+- Số giây truy xuất: 0.3802
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 28: Những tá dược nào liên quan đến bao phim, tạo màu hoặc bảo quản cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa). Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Thành phần của công thức.................................
+
+#### Điểm chính từ bằng chứng
+
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+- (7) Các chỉ số chính khác
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - (7) Các chỉ số chính khác
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - (3) Công suất dự trữ
+  - Lugie 200W・h/m2 trở lên
+  - Không có tài liệu áp dụng
+  - (4) Vật liệu đóng gói Lọ:
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Quy cách và phương pháp thử dược chất bao gồm hàm lượng (-HPLC, ), tính chất, xét nghiệm định danh (, -HPLC), xét nghiệm độ tinh khiết (-HPLC, -HPLC), HCP(), giới hạn vi sinh vật, nội độc tố, hao hụt khi sấy khô, hoạt tính riêng (), và phương pháp định lượng (-HPLC).
+  - 2.1.6 Kiểm soát API
+  - Nó là một chất đẩy.
+  - 2.2.2 Phương pháp sản xuất
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+  - Quản lý cách nhau 1 tuần
+
+#### Metadata truy xuất
+
+- STT gốc: 28
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:21
+- Kết thúc: 2026-03-29T18:56:23
+- Số giây thực thi: 1.7872
+- Số giây truy xuất: 0.3745
+- Số giây sinh câu trả lời: 0.2254
+- Prompt token ước tính: 1261
+- Answer token ước tính: 349
+
+### Câu hỏi 29: Những tá dược nào có thể ảnh hưởng đến độ ổn định hoặc khả năng sản xuất cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa). Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Thành phần của công thức.................................
+
+#### Điểm chính từ bằng chứng
+
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+- (7) Các chỉ số chính khác
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - (7) Các chỉ số chính khác
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - (3) Công suất dự trữ
+  - Lugie 200W・h/m2 trở lên
+  - Không có tài liệu áp dụng
+  - (4) Vật liệu đóng gói Lọ:
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Quy cách và phương pháp thử dược chất bao gồm hàm lượng (-HPLC, ), tính chất, xét nghiệm định danh (, -HPLC), xét nghiệm độ tinh khiết (-HPLC, -HPLC), HCP(), giới hạn vi sinh vật, nội độc tố, hao hụt khi sấy khô, hoạt tính riêng (), và phương pháp định lượng (-HPLC).
+  - 2.1.6 Kiểm soát API
+  - Nó là một chất đẩy.
+  - 2.2.2 Phương pháp sản xuất
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+  - Quản lý cách nhau 1 tuần
+
+#### Metadata truy xuất
+
+- STT gốc: 29
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:21
+- Kết thúc: 2026-03-29T18:56:23
+- Số giây thực thi: 1.6936
+- Số giây truy xuất: 0.3239
+- Số giây sinh câu trả lời: 0.0286
+- Prompt token ước tính: 1263
+- Answer token ước tính: 351
+
+### Câu hỏi 30: Những tá dược nào có thể ảnh hưởng đến độ tan, độ nhớt hoặc đặc tính giải phóng cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 30
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:22
+- Kết thúc: 2026-03-29T18:56:23
+- Số giây thực thi: 1.7703
+- Số giây truy xuất: 0.4301
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 31: Tóm tắt thành phần tá dược và vai trò công nghệ có khả năng của chúng trong công thức. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 31
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:22
+- Kết thúc: 2026-03-29T18:56:24
+- Số giây thực thi: 1.8211
+- Số giây truy xuất: 0.4319
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 32: Có cảnh báo nào liên quan đến tá dược không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+  - v.v.) và tiến hành kiểm tra X-quang ngực, v.v.
+  - 1.2 Đã có báo cáo về bệnh phổi kẽ dẫn đến tử vong.
+
+#### Metadata truy xuất
+
+- STT gốc: 32
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:23
+- Kết thúc: 2026-03-29T18:56:24
+- Số giây thực thi: 1.8279
+- Số giây truy xuất: 0.5136
+- Số giây sinh câu trả lời: 0.0899
+- Prompt token ước tính: 846
+- Answer token ước tính: 936
+
+### Câu hỏi 33: Có chống chỉ định hoặc thận trọng nào liên quan đến tá dược không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[170050_4291435A2025_1_27].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2591488861596072
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.091734235070797
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Keytruda** | safety_notice | trang 7 | mục=indication | điểm=1.0447223848527807
+  - PDF: [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1\02_pages\page_0007.md`
+  - 1.2 Lịch sử phát triển
+  - Ngày phê duyệt/chỉ định
+  - Tuy nhiên, sau phẫu thuật
+  - Khối u ác tính không thể cắt bỏ
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0291084279156328
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0233864873318366
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | smpc_label | trang 1 | mục=contraindication | điểm=1.0042612775967257
+  - PDF: [Keytruda]_[170050_4291435A2025_1_27].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_27]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+
+#### Metadata truy xuất
+
+- STT gốc: 33
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:23
+- Kết thúc: 2026-03-29T18:56:25
+- Số giây thực thi: 1.9077
+- Số giây truy xuất: 0.4082
+- Số giây sinh câu trả lời: 0.031
+- Prompt token ước tính: 761
+- Answer token ước tính: 326
+
+### Câu hỏi 34: Những tá dược nào có thể gây quá mẫn hoặc không dung nạp cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 34
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:23
+- Kết thúc: 2026-03-29T18:56:25
+- Số giây thực thi: 2.0367
+- Số giây truy xuất: 0.5596
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 35: Có cảnh báo nào về chất bảo quản, chất màu, tá dược bao phim hoặc tá dược chứa cồn không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2292066143731275
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0707596536827244
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0146127176464776
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0091506999779793
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9340849216809531
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=0.9326704997836259
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+
+#### Metadata truy xuất
+
+- STT gốc: 35
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:24
+- Kết thúc: 2026-03-29T18:56:26
+- Số giây thực thi: 2.0656
+- Số giây truy xuất: 0.4099
+- Số giây sinh câu trả lời: 0.0493
+- Prompt token ước tính: 792
+- Answer token ước tính: 970
+
+### Câu hỏi 36: Có cảnh báo nào về đường, polyol hoặc hàm lượng natri trong công thức không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+  - v.v.) và tiến hành kiểm tra X-quang ngực, v.v.
+  - 1.2 Đã có báo cáo về bệnh phổi kẽ dẫn đến tử vong.
+
+#### Metadata truy xuất
+
+- STT gốc: 36
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:24
+- Kết thúc: 2026-03-29T18:56:27
+- Số giây thực thi: 2.1346
+- Số giây truy xuất: 0.4193
+- Số giây sinh câu trả lời: 0.2528
+- Prompt token ước tính: 854
+- Answer token ước tính: 944
+
+### Câu hỏi 37: Sản phẩm có chứa tá dược cần thận trọng ở bệnh nhân nhạy cảm không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+  - v.v.) và tiến hành kiểm tra X-quang ngực, v.v.
+  - 1.2 Đã có báo cáo về bệnh phổi kẽ dẫn đến tử vong.
+
+#### Metadata truy xuất
+
+- STT gốc: 37
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:25
+- Kết thúc: 2026-03-29T18:56:27
+- Số giây thực thi: 2.2395
+- Số giây truy xuất: 0.4712
+- Số giây sinh câu trả lời: 0.0707
+- Prompt token ước tính: 852
+- Answer token ước tính: 941
+
+### Câu hỏi 38: Có cảnh báo liên quan đến công thức cho bệnh nhi không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+  - v.v.) và tiến hành kiểm tra X-quang ngực, v.v.
+  - 1.2 Đã có báo cáo về bệnh phổi kẽ dẫn đến tử vong.
+
+#### Metadata truy xuất
+
+- STT gốc: 38
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:25
+- Kết thúc: 2026-03-29T18:56:29
+- Số giây thực thi: 3.5205
+- Số giây truy xuất: 0.3774
+- Số giây sinh câu trả lời: 0.0485
+- Prompt token ước tính: 849
+- Answer token ước tính: 938
+
+### Câu hỏi 39: Có cảnh báo liên quan đến công thức cho người cao tuổi không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+  - v.v.) và tiến hành kiểm tra X-quang ngực, v.v.
+  - 1.2 Đã có báo cáo về bệnh phổi kẽ dẫn đến tử vong.
+
+#### Metadata truy xuất
+
+- STT gốc: 39
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:26
+- Kết thúc: 2026-03-29T18:56:28
+- Số giây thực thi: 2.2118
+- Số giây truy xuất: 0.3963
+- Số giây sinh câu trả lời: 0.0564
+- Prompt token ước tính: 850
+- Answer token ước tính: 940
+
+### Câu hỏi 40: Có cảnh báo nào về mang thai hoặc cho con bú liên quan đến công thức hay tá dược không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: Nó đã không được công nhận. Người nộp đơn đã trả lời như sau. (Khuyết tật bẩm sinh Res Part B 2005; Một số bất thường được quan sát (cột sống
+
+#### Điểm chính từ bằng chứng
+
+- Nó đã không được công nhận.
+- Người nộp đơn đã trả lời như sau.
+- (Khuyết tật bẩm sinh Res Part B 2005;
+- Một số bất thường được quan sát (cột sống
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=1.303796790179955
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2292066143731275
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | interview_form | trang 69 | mục=pregnancy | điểm=1.1448110318041722
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0069.md`
+  - Tờ hướng dẫn sử dụng của Úc
+  - 5.1 Đặc tính dược lực học).
+  - Ở cynomolgus đang mang thai
+  - Semaglutide không ảnh hưởng đến nam giới
+- **Keytruda** | interview_form | trang 435 | mục=pregnancy | điểm=1.1428334113027914
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0435.md`
+  - XII.Tài liệu tham khảo
+  - D (sửa đổi tháng 11 năm 2025)
+  - IgG của mẹ được biết là có trong sữa mẹ.
+  - 8.3 Phụ nữ và nam giới có tiềm năng sinh sản
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0707596536827244
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0146127176464776
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+
+#### Metadata truy xuất
+
+- STT gốc: 40
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:27
+- Kết thúc: 2026-03-29T18:56:29
+- Số giây thực thi: 1.9568
+- Số giây truy xuất: 0.3774
+- Số giây sinh câu trả lời: 0.0406
+- Prompt token ước tính: 870
+- Answer token ước tính: 798
+
+### Câu hỏi 41: Có lo ngại an toàn nào liên quan đến bệnh tuyến giáp, suy thận hoặc hấp thu toàn thân không cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 41
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:27
+- Kết thúc: 2026-03-29T18:56:28
+- Số giây thực thi: 0.5403
+- Số giây truy xuất: 0.5392
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 42: Việc dùng kéo dài, bôi trên diện rộng hoặc dùng trên niêm mạc có làm tăng nguy cơ an toàn liên quan đến công thức không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 42
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:28
+- Kết thúc: 2026-03-29T18:56:29
+- Số giây thực thi: 1.7261
+- Số giây truy xuất: 0.4253
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 43: Tóm tắt các thận trọng ở quần thể đặc biệt liên quan đến công thức và tá dược. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+  - v.v.) và tiến hành kiểm tra X-quang ngực, v.v.
+  - 1.2 Đã có báo cáo về bệnh phổi kẽ dẫn đến tử vong.
+
+#### Metadata truy xuất
+
+- STT gốc: 43
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:28
+- Kết thúc: 2026-03-29T18:56:30
+- Số giây thực thi: 1.5753
+- Số giây truy xuất: 0.2789
+- Số giây sinh câu trả lời: 0.0212
+- Prompt token ước tính: 854
+- Answer token ước tính: 944
+
+### Câu hỏi 44: Các điều kiện bảo quản và thận trọng về độ ổn định được mô tả là gì cho Onglyza.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm. **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm.
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2292066143731275
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm.
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0707596536827244
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0146127176464776
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0091506999779793
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9340849216809531
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=0.9326704997836259
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+
+#### Metadata truy xuất
+
+- STT gốc: 44
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:29
+- Kết thúc: 2026-03-29T18:56:30
+- Số giây thực thi: 1.4968
+- Số giây truy xuất: 0.3168
+- Số giây sinh câu trả lời: 0.0224
+- Prompt token ước tính: 786
+- Answer token ước tính: 964
+
+### Câu hỏi 45: Những thành phần công thức nào có thể nhạy cảm với ánh sáng, nhiệt, ẩm hoặc oxy hóa cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 45
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:29
+- Kết thúc: 2026-03-29T18:56:30
+- Số giây thực thi: 1.3332
+- Số giây truy xuất: 0.2661
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 46: Có lưu ý nào về bao bì hoặc dụng cụ chứa liên quan đến độ ổn định không cho Onglyza.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Độ ổn định của công thức dưới các điều kiện khác nhau...... Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+
+#### Điểm chính từ bằng chứng
+
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+- (7) Các chỉ số chính khác
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+  - (7) Các chỉ số chính khác
+  - Các mục liên quan đến hoạt chất
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - Nhiệt độ kiểm tra mức độ nghiêm trọng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản dài hạn
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Hộp thủy tinh có nắp a) Tiếp tục thử nghiệm độ ổn định trong tối đa 60 tháng, b) Bảo quản thẳng đứng để dược chất và nắp vặn không tiếp xúc
+  - 2.1.7 Độ ổn định của dược chất
+  - Bảng 2 Tóm tắt các thử nghiệm độ ổn định chính của dược chất
+  - Phương pháp sản xuất ứng dụng nhiệt độ thử nghiệm nghiêm ngặt
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+
+#### Metadata truy xuất
+
+- STT gốc: 46
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:29
+- Kết thúc: 2026-03-29T18:56:31
+- Số giây thực thi: 1.279
+- Số giây truy xuất: 0.3451
+- Số giây sinh câu trả lời: 0.0262
+- Prompt token ước tính: 1263
+- Answer token ước tính: 351
+
+### Câu hỏi 47: Tóm tắt dữ liệu độ ổn định liên quan đến công thức và hướng dẫn bảo quản. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa). Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Thành phần của công thức.................................
+
+#### Điểm chính từ bằng chứng
+
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+- (7) Các chỉ số chính khác
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - (7) Các chỉ số chính khác
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - (3) Công suất dự trữ
+  - Lugie 200W・h/m2 trở lên
+  - Không có tài liệu áp dụng
+  - (4) Vật liệu đóng gói Lọ:
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Quy cách và phương pháp thử dược chất bao gồm hàm lượng (-HPLC, ), tính chất, xét nghiệm định danh (, -HPLC), xét nghiệm độ tinh khiết (-HPLC, -HPLC), HCP(), giới hạn vi sinh vật, nội độc tố, hao hụt khi sấy khô, hoạt tính riêng (), và phương pháp định lượng (-HPLC).
+  - 2.1.6 Kiểm soát API
+  - Nó là một chất đẩy.
+  - 2.2.2 Phương pháp sản xuất
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+  - Quản lý cách nhau 1 tuần
+
+#### Metadata truy xuất
+
+- STT gốc: 47
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:30
+- Kết thúc: 2026-03-29T18:56:31
+- Số giây thực thi: 1.2968
+- Số giây truy xuất: 0.2809
+- Số giây sinh câu trả lời: 0.035
+- Prompt token ước tính: 1263
+- Answer token ước tính: 352
+
+### Câu hỏi 48: Những chi tiết công thức nào quan trọng nhất cho phát triển thuốc generic cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 48
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:30
+- Kết thúc: 2026-03-29T18:56:31
+- Số giây thực thi: 1.3073
+- Số giây truy xuất: 0.3498
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 49: Những tá dược hoặc đặc tính công thức nào có thể là thuộc tính chất lượng trọng yếu (CQA) cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 49
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:30
+- Kết thúc: 2026-03-29T18:56:32
+- Số giây thực thi: 1.3372
+- Số giây truy xuất: 0.2993
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 50: Thành phần hoạt chất, tá dược và đặc điểm công thức của Onglyza là gì?
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+  - v.v.) và tiến hành kiểm tra X-quang ngực, v.v.
+  - 1.2 Đã có báo cáo về bệnh phổi kẽ dẫn đến tử vong.
+
+#### Metadata truy xuất
+
+- STT gốc: 50
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:31
+- Kết thúc: 2026-03-29T18:56:32
+- Số giây thực thi: 1.5021
+- Số giây truy xuất: 0.4568
+- Số giây sinh câu trả lời: 0.0786
+- Prompt token ước tính: 859
+- Answer token ước tính: 939
+
+### Câu hỏi 51: Những tài liệu mẫu nào có chứa thông tin về tá dược cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 51
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:31
+- Kết thúc: 2026-03-29T18:56:33
+- Số giây thực thi: 1.4929
+- Số giây truy xuất: 0.306
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 52: Tài liệu nào phù hợp hơn để lấy chi tiết tá dược: nhãn thuốc hay hướng dẫn bệnh nhân cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 52
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:31
+- Kết thúc: 2026-03-29T18:56:33
+- Số giây thực thi: 1.4948
+- Số giây truy xuất: 0.3497
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 53: Tóm tắt thành phần, tá dược, độ ổn định và các nguy cơ an toàn liên quan đến công thức. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa). Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Thành phần của công thức.................................
+
+#### Điểm chính từ bằng chứng
+
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+- (7) Các chỉ số chính khác
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - (7) Các chỉ số chính khác
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - (3) Công suất dự trữ
+  - Lugie 200W・h/m2 trở lên
+  - Không có tài liệu áp dụng
+  - (4) Vật liệu đóng gói Lọ:
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Quy cách và phương pháp thử dược chất bao gồm hàm lượng (-HPLC, ), tính chất, xét nghiệm định danh (, -HPLC), xét nghiệm độ tinh khiết (-HPLC, -HPLC), HCP(), giới hạn vi sinh vật, nội độc tố, hao hụt khi sấy khô, hoạt tính riêng (), và phương pháp định lượng (-HPLC).
+  - 2.1.6 Kiểm soát API
+  - Nó là một chất đẩy.
+  - 2.2.2 Phương pháp sản xuất
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+  - Quản lý cách nhau 1 tuần
+
+#### Metadata truy xuất
+
+- STT gốc: 53
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:32
+- Kết thúc: 2026-03-29T18:56:33
+- Số giây thực thi: 1.526
+- Số giây truy xuất: 0.2665
+- Số giây sinh câu trả lời: 0.0451
+- Prompt token ước tính: 1267
+- Answer token ước tính: 355
+
+### C. PK / độ ổn định / RMP
+
+### Câu hỏi 54: Tóm tắt dược động học của thuốc này. cho Onglyza.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về dược động học gồm: Rối loạn chuyển hóa và dinh dưỡng tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Rối loạn chuyển hóa và dinh dưỡng
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+- viêm thận miễn dịch
+- suy thận trước thận
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=1.6960217648679365
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Rối loạn chuyển hóa và dinh dưỡng
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.182189760881128
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - rối loạn chuyển hóa
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Keytruda** | smpc_label | trang 39 | mục=pk | điểm=0.8979227369196949
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326\02_pages\page_0039.md`
+  - PPKDược động học quần thểDược động học quần thểPRPhản ứng một phầnPhản ứng một phầnPTThuật ngữ ưu tiênThuật ngữ cơ bảnQ2Wquaque 2 tuần
+  - NSCLC không có TMB-High Ung thư phổi không phải tế bào nhỏOSSống sót tổng thểSống sót chungPDbệnh tiến triểnSự tiến triểnPD-Lsự chết tế bào được lập trình-phối tửPD-1sự chết tế bào được lập trình-1PFSSống sót không tiến triểnSống sót không tiến triểnPKdược động họcPharmacokineticsPOLEDNA polymerase ε, tiểu đơn vị xúc tác
+  - khoảng thời gian 6 tuần
+  - Không TMB-Cao mà không có MSI-Cao
+- **Keytruda** | smpc_label | trang 9 | mục=pk | điểm=0.8797363489163186
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10\02_pages\page_0009.md`
+  - Cmax của thuốc này trong chu kỳ 1 và Cmin trong chu kỳ 2, 4 và 8 (cả hai đều là giá trị trung bình hình học)
+  - Cmax của thuốc này trong chu kỳ 1 và 6 và Cmin trong chu kỳ 8 (cả hai đều là giá trị trung bình hình học (có thể thay đổi).
+  - Năm, tháng, ngày]>)
+  - Một chu kỳ là 3 tuần.
+- **Keytruda** | smpc_label | trang 33 | mục=pk | điểm=0.8186101303814981
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_2]\02_pages\page_0033.md`
+  - 7.1 Tài liệu đánh giá
+  - Phản ứng một phần (PR)
+  - Liều lượng và cách dùng:
+  - Phản hồi hoàn chỉnh (CR)
+- **Keytruda** | safety_notice | trang 11 | mục=pk | điểm=0.804524152928074
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0011.md`
+  - Phân phối AUCwk6 theo cách sử dụng/liều (2 mg/kg Q3W, 200 mg Q3W và 400 mg Q6W)
+  - Hình 5 Mối quan hệ phơi nhiễm-đáp ứng giữa AUCwk6,ss của ECOG PS và tỷ lệ mắc các tác dụng phụ cấp 3 trở lên (bệnh nhân u ác tính (nghiên cứu 001))
+  - Hình 4 Mối quan hệ phơi nhiễm-đáp ứng giữa tỷ lệ mắc AUCwk6 và AEOSI theo thời gian sử dụng (khối u ác tính (nghiên cứu 001 và 002) và bệnh nhân NSCLC)
+  - 43, 129 và 401 ngày
+
+#### Metadata truy xuất
+
+- STT gốc: 54
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:32
+- Kết thúc: 2026-03-29T18:56:34
+- Số giây thực thi: 1.4742
+- Số giây truy xuất: 0.3977
+- Số giây sinh câu trả lời: 0.0867
+- Prompt token ước tính: 777
+- Answer token ước tính: 447
+
+### Câu hỏi 55: Các dữ liệu dược động học chính của Onglyza là gì?
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về dược động học gồm: Rối loạn chuyển hóa và dinh dưỡng tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Rối loạn chuyển hóa và dinh dưỡng
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+- viêm thận miễn dịch
+- suy thận trước thận
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Keytruda]_[170050_4291435A2025_1_27].pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=1.6960217648679365
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Rối loạn chuyển hóa và dinh dưỡng
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.182189760881128
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - rối loạn chuyển hóa
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Ozempic** | smpc_label | trang 43 | mục=pk | điểm=1.1403380049889966
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0043.md`
+  - Tương tự, Cmax của o-hydroxyatorvastatin, chất chuyển hóa có hoạt tính chính, giảm 28% và tmax giảm 2,25 giờ.
+  - Cmax của atorvastatin giảm 38% và tmax chậm 1,75 giờ.
+  - Cmax và AUC0-1 giờ của phen giảm lần lượt là 23% và 27%, cho thấy thuốc này có tác dụng chậm làm rỗng dạ dày.
+  - Các chất chuyển hóa của atorvastatin
+- **Keytruda** | smpc_label | trang 9 | mục=pk | điểm=1.1297363489163186
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10\02_pages\page_0009.md`
+  - Cmax của thuốc này trong chu kỳ 1 và Cmin trong chu kỳ 2, 4 và 8 (cả hai đều là giá trị trung bình hình học)
+  - Cmax của thuốc này trong chu kỳ 1 và 6 và Cmin trong chu kỳ 8 (cả hai đều là giá trị trung bình hình học (có thể thay đổi).
+  - Năm, tháng, ngày]>)
+  - Một chu kỳ là 3 tuần.
+- **Ozempic** | smpc_label | trang 3 | mục=pk | điểm=1.0833052648609465
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0003.md`
+  - Tỷ lệ AUC0-infCmax ước tính của chức năng gan
+  - Tỷ lệ AUC0-infCmax ước tính của chức năng thận
+  - (nmol・h/L)Cmax(nmol/L)tmax Lưu ý)(h)t1/2(h)CL/F(L/h)Vz/F(L)
+  - S- và R-warfarin, AUC0-120h:
+- **Keytruda** | smpc_label | trang 6 | mục=pk | điểm=1.0816471291737124
+  - PDF: [Keytruda]_[170050_4291435A2025_1_27].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_27]\02_pages\page_0006.md`
+  - (Nghiên cứu KEYNOTE-011) Cmax (μg/mL) Tmax† (ngày) AUC0-28ngày (μg・ngày/mL) t1/2 (ngày) CL (mL/ngày/kg) Vz (mL/kg) Thuốc này
+  - (nghiên cứu KEYNOTE-041) Cmax (μg/mL) Ctrough (μg/mL) AUC0-21day (μg・day/mL) CL (mL/ngày/kg) Chu kỳ 1 (42 trường hợp)
+  - Nồng độ đáy và AUC0-21ngày của thuốc này trong chu kỳ 8
+  - Nghiên cứu chung giai đoạn II/III quốc tế về phân tích dược động học dân số
+
+#### Metadata truy xuất
+
+- STT gốc: 55
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:33
+- Kết thúc: 2026-03-29T18:56:34
+- Số giây thực thi: 1.4887
+- Số giây truy xuất: 0.2821
+- Số giây sinh câu trả lời: 0.0373
+- Prompt token ước tính: 1044
+- Answer token ước tính: 442
+
+### Câu hỏi 56: Mô tả diễn biến nồng độ thuốc trong huyết tương theo thời gian. cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 56
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:33
+- Kết thúc: 2026-03-29T18:56:34
+- Số giây thực thi: 1.4514
+- Số giây truy xuất: 0.3102
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 57: Có những phân tích dược động học quần thể nào được báo cáo cho Onglyza.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về dược động học gồm: Rối loạn chuyển hóa và dinh dưỡng tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Rối loạn chuyển hóa và dinh dưỡng
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+- viêm thận miễn dịch
+- suy thận trước thận
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=1.6960217648679365
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Rối loạn chuyển hóa và dinh dưỡng
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.182189760881128
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - rối loạn chuyển hóa
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Keytruda** | smpc_label | trang 39 | mục=pk | điểm=0.8979227369196949
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326\02_pages\page_0039.md`
+  - PPKDược động học quần thểDược động học quần thểPRPhản ứng một phầnPhản ứng một phầnPTThuật ngữ ưu tiênThuật ngữ cơ bảnQ2Wquaque 2 tuần
+  - NSCLC không có TMB-High Ung thư phổi không phải tế bào nhỏOSSống sót tổng thểSống sót chungPDbệnh tiến triểnSự tiến triểnPD-Lsự chết tế bào được lập trình-phối tửPD-1sự chết tế bào được lập trình-1PFSSống sót không tiến triểnSống sót không tiến triểnPKdược động họcPharmacokineticsPOLEDNA polymerase ε, tiểu đơn vị xúc tác
+  - khoảng thời gian 6 tuần
+  - Không TMB-Cao mà không có MSI-Cao
+- **Keytruda** | smpc_label | trang 9 | mục=pk | điểm=0.8797363489163186
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10\02_pages\page_0009.md`
+  - Cmax của thuốc này trong chu kỳ 1 và Cmin trong chu kỳ 2, 4 và 8 (cả hai đều là giá trị trung bình hình học)
+  - Cmax của thuốc này trong chu kỳ 1 và 6 và Cmin trong chu kỳ 8 (cả hai đều là giá trị trung bình hình học (có thể thay đổi).
+  - Năm, tháng, ngày]>)
+  - Một chu kỳ là 3 tuần.
+- **Keytruda** | smpc_label | trang 33 | mục=pk | điểm=0.8186101303814981
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_2]\02_pages\page_0033.md`
+  - 7.1 Tài liệu đánh giá
+  - Phản ứng một phần (PR)
+  - Liều lượng và cách dùng:
+  - Phản hồi hoàn chỉnh (CR)
+- **Keytruda** | safety_notice | trang 11 | mục=pk | điểm=0.804524152928074
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0011.md`
+  - Phân phối AUCwk6 theo cách sử dụng/liều (2 mg/kg Q3W, 200 mg Q3W và 400 mg Q6W)
+  - Hình 5 Mối quan hệ phơi nhiễm-đáp ứng giữa AUCwk6,ss của ECOG PS và tỷ lệ mắc các tác dụng phụ cấp 3 trở lên (bệnh nhân u ác tính (nghiên cứu 001))
+  - Hình 4 Mối quan hệ phơi nhiễm-đáp ứng giữa tỷ lệ mắc AUCwk6 và AEOSI theo thời gian sử dụng (khối u ác tính (nghiên cứu 001 và 002) và bệnh nhân NSCLC)
+  - 43, 129 và 401 ngày
+
+#### Metadata truy xuất
+
+- STT gốc: 57
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:33
+- Kết thúc: 2026-03-29T18:56:35
+- Số giây thực thi: 1.5152
+- Số giây truy xuất: 0.3239
+- Số giây sinh câu trả lời: 0.0737
+- Prompt token ước tính: 783
+- Answer token ước tính: 452
+
+### Câu hỏi 58: Tóm tắt hấp thu, phân bố, chuyển hóa và thải trừ. cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 58
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:34
+- Kết thúc: 2026-03-29T18:56:35
+- Số giây thực thi: 1.3418
+- Số giây truy xuất: 0.3119
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 59: Đã biết gì về hấp thu đường uống và sinh khả dụng cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 59
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:34
+- Kết thúc: 2026-03-29T18:56:35
+- Số giây thực thi: 1.3497
+- Số giây truy xuất: 0.3246
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 60: Các con đường chuyển hóa và enzyme chính liên quan là gì cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 60
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:34
+- Kết thúc: 2026-03-29T18:56:36
+- Số giây thực thi: 1.2668
+- Số giây truy xuất: 0.2276
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 61: Những chất vận chuyển nào được nhắc đến trong phần dược động học cho Onglyza.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về dược động học gồm: Rối loạn chuyển hóa và dinh dưỡng tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Rối loạn chuyển hóa và dinh dưỡng
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+- viêm thận miễn dịch
+- suy thận trước thận
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=1.6960217648679365
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Rối loạn chuyển hóa và dinh dưỡng
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.182189760881128
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - rối loạn chuyển hóa
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Keytruda** | smpc_label | trang 39 | mục=pk | điểm=0.8979227369196949
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326\02_pages\page_0039.md`
+  - PPKDược động học quần thểDược động học quần thểPRPhản ứng một phầnPhản ứng một phầnPTThuật ngữ ưu tiênThuật ngữ cơ bảnQ2Wquaque 2 tuần
+  - NSCLC không có TMB-High Ung thư phổi không phải tế bào nhỏOSSống sót tổng thểSống sót chungPDbệnh tiến triểnSự tiến triểnPD-Lsự chết tế bào được lập trình-phối tửPD-1sự chết tế bào được lập trình-1PFSSống sót không tiến triểnSống sót không tiến triểnPKdược động họcPharmacokineticsPOLEDNA polymerase ε, tiểu đơn vị xúc tác
+  - khoảng thời gian 6 tuần
+  - Không TMB-Cao mà không có MSI-Cao
+- **Keytruda** | smpc_label | trang 9 | mục=pk | điểm=0.8797363489163186
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10\02_pages\page_0009.md`
+  - Cmax của thuốc này trong chu kỳ 1 và Cmin trong chu kỳ 2, 4 và 8 (cả hai đều là giá trị trung bình hình học)
+  - Cmax của thuốc này trong chu kỳ 1 và 6 và Cmin trong chu kỳ 8 (cả hai đều là giá trị trung bình hình học (có thể thay đổi).
+  - Năm, tháng, ngày]>)
+  - Một chu kỳ là 3 tuần.
+- **Keytruda** | smpc_label | trang 33 | mục=pk | điểm=0.8186101303814981
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_2]\02_pages\page_0033.md`
+  - 7.1 Tài liệu đánh giá
+  - Phản ứng một phần (PR)
+  - Liều lượng và cách dùng:
+  - Phản hồi hoàn chỉnh (CR)
+- **Keytruda** | safety_notice | trang 11 | mục=pk | điểm=0.804524152928074
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0011.md`
+  - Phân phối AUCwk6 theo cách sử dụng/liều (2 mg/kg Q3W, 200 mg Q3W và 400 mg Q6W)
+  - Hình 5 Mối quan hệ phơi nhiễm-đáp ứng giữa AUCwk6,ss của ECOG PS và tỷ lệ mắc các tác dụng phụ cấp 3 trở lên (bệnh nhân u ác tính (nghiên cứu 001))
+  - Hình 4 Mối quan hệ phơi nhiễm-đáp ứng giữa tỷ lệ mắc AUCwk6 và AEOSI theo thời gian sử dụng (khối u ác tính (nghiên cứu 001 và 002) và bệnh nhân NSCLC)
+  - 43, 129 và 401 ngày
+
+#### Metadata truy xuất
+
+- STT gốc: 61
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:35
+- Kết thúc: 2026-03-29T18:56:36
+- Số giây thực thi: 1.194
+- Số giây truy xuất: 0.2963
+- Số giây sinh câu trả lời: 0.0298
+- Prompt token ước tính: 784
+- Answer token ước tính: 454
+
+### Câu hỏi 62: Có dữ liệu dược động học ở bệnh nhân suy thận hoặc suy gan không cho Onglyza.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về dược động học gồm: Rối loạn chuyển hóa và dinh dưỡng tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Rối loạn chuyển hóa và dinh dưỡng
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+- viêm thận miễn dịch
+- suy thận trước thận
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=1.6960217648679365
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Rối loạn chuyển hóa và dinh dưỡng
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.182189760881128
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - rối loạn chuyển hóa
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Keytruda** | smpc_label | trang 39 | mục=pk | điểm=0.8979227369196949
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326\02_pages\page_0039.md`
+  - PPKDược động học quần thểDược động học quần thểPRPhản ứng một phầnPhản ứng một phầnPTThuật ngữ ưu tiênThuật ngữ cơ bảnQ2Wquaque 2 tuần
+  - NSCLC không có TMB-High Ung thư phổi không phải tế bào nhỏOSSống sót tổng thểSống sót chungPDbệnh tiến triểnSự tiến triểnPD-Lsự chết tế bào được lập trình-phối tửPD-1sự chết tế bào được lập trình-1PFSSống sót không tiến triểnSống sót không tiến triểnPKdược động họcPharmacokineticsPOLEDNA polymerase ε, tiểu đơn vị xúc tác
+  - khoảng thời gian 6 tuần
+  - Không TMB-Cao mà không có MSI-Cao
+- **Keytruda** | smpc_label | trang 9 | mục=pk | điểm=0.8797363489163186
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10\02_pages\page_0009.md`
+  - Cmax của thuốc này trong chu kỳ 1 và Cmin trong chu kỳ 2, 4 và 8 (cả hai đều là giá trị trung bình hình học)
+  - Cmax của thuốc này trong chu kỳ 1 và 6 và Cmin trong chu kỳ 8 (cả hai đều là giá trị trung bình hình học (có thể thay đổi).
+  - Năm, tháng, ngày]>)
+  - Một chu kỳ là 3 tuần.
+- **Keytruda** | smpc_label | trang 33 | mục=pk | điểm=0.8186101303814981
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_2]\02_pages\page_0033.md`
+  - 7.1 Tài liệu đánh giá
+  - Phản ứng một phần (PR)
+  - Liều lượng và cách dùng:
+  - Phản hồi hoàn chỉnh (CR)
+- **Keytruda** | safety_notice | trang 11 | mục=pk | điểm=0.804524152928074
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0011.md`
+  - Phân phối AUCwk6 theo cách sử dụng/liều (2 mg/kg Q3W, 200 mg Q3W và 400 mg Q6W)
+  - Hình 5 Mối quan hệ phơi nhiễm-đáp ứng giữa AUCwk6,ss của ECOG PS và tỷ lệ mắc các tác dụng phụ cấp 3 trở lên (bệnh nhân u ác tính (nghiên cứu 001))
+  - Hình 4 Mối quan hệ phơi nhiễm-đáp ứng giữa tỷ lệ mắc AUCwk6 và AEOSI theo thời gian sử dụng (khối u ác tính (nghiên cứu 001 và 002) và bệnh nhân NSCLC)
+  - 43, 129 và 401 ngày
+
+#### Metadata truy xuất
+
+- STT gốc: 62
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:35
+- Kết thúc: 2026-03-29T18:56:36
+- Số giây thực thi: 1.1603
+- Số giây truy xuất: 0.2302
+- Số giây sinh câu trả lời: 0.0495
+- Prompt token ước tính: 784
+- Answer token ước tính: 454
+
+### Câu hỏi 63: Tóm tắt dược động học ở các quần thể đặc biệt. cho Onglyza.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về dược động học gồm: Rối loạn chuyển hóa và dinh dưỡng tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Rối loạn chuyển hóa và dinh dưỡng
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+- viêm thận miễn dịch
+- suy thận trước thận
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=1.6960217648679365
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Rối loạn chuyển hóa và dinh dưỡng
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.182189760881128
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - rối loạn chuyển hóa
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Keytruda** | smpc_label | trang 39 | mục=pk | điểm=0.8979227369196949
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326\02_pages\page_0039.md`
+  - PPKDược động học quần thểDược động học quần thểPRPhản ứng một phầnPhản ứng một phầnPTThuật ngữ ưu tiênThuật ngữ cơ bảnQ2Wquaque 2 tuần
+  - NSCLC không có TMB-High Ung thư phổi không phải tế bào nhỏOSSống sót tổng thểSống sót chungPDbệnh tiến triểnSự tiến triểnPD-Lsự chết tế bào được lập trình-phối tửPD-1sự chết tế bào được lập trình-1PFSSống sót không tiến triểnSống sót không tiến triểnPKdược động họcPharmacokineticsPOLEDNA polymerase ε, tiểu đơn vị xúc tác
+  - khoảng thời gian 6 tuần
+  - Không TMB-Cao mà không có MSI-Cao
+- **Keytruda** | smpc_label | trang 9 | mục=pk | điểm=0.8797363489163186
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10\02_pages\page_0009.md`
+  - Cmax của thuốc này trong chu kỳ 1 và Cmin trong chu kỳ 2, 4 và 8 (cả hai đều là giá trị trung bình hình học)
+  - Cmax của thuốc này trong chu kỳ 1 và 6 và Cmin trong chu kỳ 8 (cả hai đều là giá trị trung bình hình học (có thể thay đổi).
+  - Năm, tháng, ngày]>)
+  - Một chu kỳ là 3 tuần.
+- **Keytruda** | smpc_label | trang 33 | mục=pk | điểm=0.8186101303814981
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_2]\02_pages\page_0033.md`
+  - 7.1 Tài liệu đánh giá
+  - Phản ứng một phần (PR)
+  - Liều lượng và cách dùng:
+  - Phản hồi hoàn chỉnh (CR)
+- **Keytruda** | safety_notice | trang 11 | mục=pk | điểm=0.804524152928074
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0011.md`
+  - Phân phối AUCwk6 theo cách sử dụng/liều (2 mg/kg Q3W, 200 mg Q3W và 400 mg Q6W)
+  - Hình 5 Mối quan hệ phơi nhiễm-đáp ứng giữa AUCwk6,ss của ECOG PS và tỷ lệ mắc các tác dụng phụ cấp 3 trở lên (bệnh nhân u ác tính (nghiên cứu 001))
+  - Hình 4 Mối quan hệ phơi nhiễm-đáp ứng giữa tỷ lệ mắc AUCwk6 và AEOSI theo thời gian sử dụng (khối u ác tính (nghiên cứu 001 và 002) và bệnh nhân NSCLC)
+  - 43, 129 và 401 ngày
+
+#### Metadata truy xuất
+
+- STT gốc: 63
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:35
+- Kết thúc: 2026-03-29T18:56:37
+- Số giây thực thi: 1.5083
+- Số giây truy xuất: 0.536
+- Số giây sinh câu trả lời: 0.1339
+- Prompt token ước tính: 780
+- Answer token ước tính: 450
+
+### Câu hỏi 64: Các dữ liệu dược động học chính của Onglyza là gì?
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thông tin lâm sàng chính gồm: Các mục liên quan đến an toàn (phòng ngừa, v.v.) tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- viêm thận miễn dịch
+- suy thận trước thận
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Số đối tượng để đánh giá an toàn
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=2.5797798808316497
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.9329176706511486
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - rối loạn chuyển hóa
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Keytruda** | interview_form | trang 361 | mục=pk | điểm=1.4435323060121883
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0361.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Số đối tượng để đánh giá an toàn
+  - chứng vận động chậm
+  - cảm giác bất thường
+- **Keytruda** | interview_form | trang 320 | mục=pk | điểm=1.4426071306621275
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0320.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - Viêm ống Eustachian
+  - nhiễm trùng móng tay
+  - Giảm bicarbonate máu
+- **Keytruda** | interview_form | trang 328 | mục=pk | điểm=1.4356684632181138
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0328.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - tràn dịch màng phổi
+  - khó thở khi gắng sức
+  - rối loạn hệ thần kinh
+- **Keytruda** | interview_form | trang 307 | mục=pk | điểm=1.4348543000189031
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0307.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Số đối tượng để đánh giá an toàn
+  - rối loạn thành bụng
+  - bệnh hạch bạch huyết
+
+#### Metadata truy xuất
+
+- STT gốc: 64
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:36
+- Kết thúc: 2026-03-29T18:56:37
+- Số giây thực thi: 1.6314
+- Số giây truy xuất: 0.2419
+- Số giây sinh câu trả lời: 0.1091
+- Prompt token ước tính: 1103
+- Answer token ước tính: 374
+
+### Câu hỏi 65: Interview form nói gì về bảo quản và độ ổn định cho Onglyza.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần Quản lý 2 tuần một lần Quản lý 3 tuần một lần Quản lý 6 tuần một lần
+
+#### Điểm chính từ bằng chứng
+
+- Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+- Quản lý 2 tuần một lần
+- Quản lý 3 tuần một lần
+- Quản lý 6 tuần một lần
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=1.6618053619675868
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=1.5047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=1.4640051969225572
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+  - (7) Các chỉ số chính khác
+  - Các mục liên quan đến hoạt chất
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=1.460762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=1.4160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - Nhiệt độ kiểm tra mức độ nghiêm trọng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản dài hạn
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=1.4113031919617955
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+
+#### Metadata truy xuất
+
+- STT gốc: 65
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:36
+- Kết thúc: 2026-03-29T18:56:38
+- Số giây thực thi: 1.7511
+- Số giây truy xuất: 0.412
+- Số giây sinh câu trả lời: 0.0362
+- Prompt token ước tính: 1219
+- Answer token ước tính: 374
+
+### Câu hỏi 66: Phần nào của interview form mô tả thành phần và công thức cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: Quản lý 2 tuần một lần Quản lý 3 tuần một lần Quản lý 6 tuần một lần Quản lý cách nhau 1 tuần
+
+#### Điểm chính từ bằng chứng
+
+- Quản lý 2 tuần một lần
+- Quản lý 3 tuần một lần
+- Quản lý 6 tuần một lần
+- Quản lý cách nhau 1 tuần
+- “Kết quả lâm sàng”.
+- Có sẵn từ trang web:
+- Lựa chọn bệnh nhân phù hợp.
+- Thực hiện lựa chọn bệnh nhân.
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.31552922228587393
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+  - Quản lý cách nhau 1 tuần
+- **Keytruda** | interview_form | trang 36 | mục=general | điểm=0.3028390101339078
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0036.md`
+  - “Kết quả lâm sàng”.
+  - Có sẵn từ trang web:
+  - Lựa chọn bệnh nhân phù hợp.
+  - Thực hiện lựa chọn bệnh nhân.
+- **Keytruda** | interview_form | trang 37 | mục=general | điểm=0.28341208717067046
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0037.md`
+  - Lựa chọn bệnh nhân phù hợp.
+  - và lựa chọn bệnh nhân phù hợp.
+  - 5.24 Làm quen với nội dung “17.
+  - 5.28 Làm quen với nội dung “17.
+- **Keytruda** | interview_form | trang 35 | mục=indication | điểm=0.27793992709643356
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0035.md`
+  - Có sẵn từ trang web:
+  - Hiệu quả hoặc tác dụng
+  - [Tham khảo 17.1.8-17.1.10]
+  - 5.4 Tìm hiểu nội dung “17.
+- **Keytruda** | interview_form | trang 437 | mục=rmp | điểm=0.2774353260630993
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0437.md`
+  - Các tài liệu liên quan khác
+  - (1) Không áp dụng cho việc nghiền
+  - <Trang thông tin hướng dẫn khuyến mãi sử dụng tối ưu>
+  - (2) Đặc tính phân hủy/huyền phù và khả năng đi qua ống truyền Không áp dụng
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=0.27659030890489666
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+
+#### Metadata truy xuất
+
+- STT gốc: 66
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:36
+- Kết thúc: 2026-03-29T18:56:38
+- Số giây thực thi: 1.8961
+- Số giây truy xuất: 0.2909
+- Số giây sinh câu trả lời: 0.1322
+- Prompt token ước tính: 1376
+- Answer token ước tính: 590
+
+### Câu hỏi 67: Hiển thị bằng chứng từ phần dược động học. cho Onglyza.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về dược động học gồm: Rối loạn chuyển hóa và dinh dưỡng tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Rối loạn chuyển hóa và dinh dưỡng
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+- viêm thận miễn dịch
+- suy thận trước thận
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=1.6960217648679365
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Rối loạn chuyển hóa và dinh dưỡng
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.182189760881128
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - rối loạn chuyển hóa
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Keytruda** | smpc_label | trang 39 | mục=pk | điểm=0.8979227369196949
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326\02_pages\page_0039.md`
+  - PPKDược động học quần thểDược động học quần thểPRPhản ứng một phầnPhản ứng một phầnPTThuật ngữ ưu tiênThuật ngữ cơ bảnQ2Wquaque 2 tuần
+  - NSCLC không có TMB-High Ung thư phổi không phải tế bào nhỏOSSống sót tổng thểSống sót chungPDbệnh tiến triểnSự tiến triểnPD-Lsự chết tế bào được lập trình-phối tửPD-1sự chết tế bào được lập trình-1PFSSống sót không tiến triểnSống sót không tiến triểnPKdược động họcPharmacokineticsPOLEDNA polymerase ε, tiểu đơn vị xúc tác
+  - khoảng thời gian 6 tuần
+  - Không TMB-Cao mà không có MSI-Cao
+- **Keytruda** | smpc_label | trang 9 | mục=pk | điểm=0.8797363489163186
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10\02_pages\page_0009.md`
+  - Cmax của thuốc này trong chu kỳ 1 và Cmin trong chu kỳ 2, 4 và 8 (cả hai đều là giá trị trung bình hình học)
+  - Cmax của thuốc này trong chu kỳ 1 và 6 và Cmin trong chu kỳ 8 (cả hai đều là giá trị trung bình hình học (có thể thay đổi).
+  - Năm, tháng, ngày]>)
+  - Một chu kỳ là 3 tuần.
+- **Keytruda** | smpc_label | trang 33 | mục=pk | điểm=0.8186101303814981
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_2]\02_pages\page_0033.md`
+  - 7.1 Tài liệu đánh giá
+  - Phản ứng một phần (PR)
+  - Liều lượng và cách dùng:
+  - Phản hồi hoàn chỉnh (CR)
+- **Keytruda** | safety_notice | trang 11 | mục=pk | điểm=0.804524152928074
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0011.md`
+  - Phân phối AUCwk6 theo cách sử dụng/liều (2 mg/kg Q3W, 200 mg Q3W và 400 mg Q6W)
+  - Hình 5 Mối quan hệ phơi nhiễm-đáp ứng giữa AUCwk6,ss của ECOG PS và tỷ lệ mắc các tác dụng phụ cấp 3 trở lên (bệnh nhân u ác tính (nghiên cứu 001))
+  - Hình 4 Mối quan hệ phơi nhiễm-đáp ứng giữa tỷ lệ mắc AUCwk6 và AEOSI theo thời gian sử dụng (khối u ác tính (nghiên cứu 001 và 002) và bệnh nhân NSCLC)
+  - 43, 129 và 401 ngày
+
+#### Metadata truy xuất
+
+- STT gốc: 67
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:37
+- Kết thúc: 2026-03-29T18:56:39
+- Số giây thực thi: 1.9062
+- Số giây truy xuất: 0.5052
+- Số giây sinh câu trả lời: 0.1745
+- Prompt token ước tính: 778
+- Answer token ước tính: 448
+
+### Câu hỏi 68: Tóm tắt dữ liệu độ ổn định của hoạt chất. cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: Thành phần và thể tích dung dịch kèm theo...... Thay đổi thành phần với thuốc khác (thay đổi lý hóa). Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Thành phần của công thức.................................
+
+#### Điểm chính từ bằng chứng
+
+- Thành phần và thể tích dung dịch kèm theo......
+- Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Thành phần của công thức.................................
+- Các mục liên quan đến hoạt chất
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+- (7) Các chỉ số chính khác
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Thành phần và thể tích dung dịch kèm theo......
+  - Thay đổi thành phần với thuốc khác (thay đổi lý hóa).
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Thành phần của công thức.................................
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - (7) Các chỉ số chính khác
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Các mục liên quan đến hoạt chất
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Phương pháp kiểm nghiệm khẳng định và phương pháp định lượng hoạt chất
+  - Thử nghiệm xác nhận đặc tính của thùng chứa polyetylen mật độ cao Thử nghiệm độ tinh khiết Mất đi khi sấy khô Hàm lượng hoạt tính cụ thể (phương pháp định lượng) Không thay đổi
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - (3) Công suất dự trữ
+  - Lugie 200W・h/m2 trở lên
+  - Không có tài liệu áp dụng
+  - (4) Vật liệu đóng gói Lọ:
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Quy cách và phương pháp thử dược chất bao gồm hàm lượng (-HPLC, ), tính chất, xét nghiệm định danh (, -HPLC), xét nghiệm độ tinh khiết (-HPLC, -HPLC), HCP(), giới hạn vi sinh vật, nội độc tố, hao hụt khi sấy khô, hoạt tính riêng (), và phương pháp định lượng (-HPLC).
+  - 2.1.6 Kiểm soát API
+  - Nó là một chất đẩy.
+  - 2.2.2 Phương pháp sản xuất
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+  - Quản lý cách nhau 1 tuần
+
+#### Metadata truy xuất
+
+- STT gốc: 68
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:37
+- Kết thúc: 2026-03-29T18:56:39
+- Số giây thực thi: 1.8475
+- Số giây truy xuất: 0.2425
+- Số giây sinh câu trả lời: 0.0471
+- Prompt token ước tính: 1255
+- Answer token ước tính: 344
+
+### Câu hỏi 69: Tóm tắt dữ liệu độ ổn định của thành phẩm. cho Onglyza.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Độ ổn định của công thức dưới các điều kiện khác nhau...... Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+
+#### Điểm chính từ bằng chứng
+
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+- (7) Các chỉ số chính khác
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+  - (7) Các chỉ số chính khác
+  - Các mục liên quan đến hoạt chất
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - Nhiệt độ kiểm tra mức độ nghiêm trọng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản dài hạn
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Hộp thủy tinh có nắp a) Tiếp tục thử nghiệm độ ổn định trong tối đa 60 tháng, b) Bảo quản thẳng đứng để dược chất và nắp vặn không tiếp xúc
+  - 2.1.7 Độ ổn định của dược chất
+  - Bảng 2 Tóm tắt các thử nghiệm độ ổn định chính của dược chất
+  - Phương pháp sản xuất ứng dụng nhiệt độ thử nghiệm nghiêm ngặt
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+
+#### Metadata truy xuất
+
+- STT gốc: 69
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:38
+- Kết thúc: 2026-03-29T18:56:40
+- Số giây thực thi: 1.8985
+- Số giây truy xuất: 0.3113
+- Số giây sinh câu trả lời: 0.1901
+- Prompt token ước tính: 1256
+- Answer token ước tính: 344
+
+### Câu hỏi 70: Có những kết quả độ ổn định nào được báo cáo trong điều kiện bảo quản dài hạn cho Onglyza.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Độ ổn định của công thức dưới các điều kiện khác nhau...... Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+
+#### Điểm chính từ bằng chứng
+
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+- (7) Các chỉ số chính khác
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+  - (7) Các chỉ số chính khác
+  - Các mục liên quan đến hoạt chất
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - Nhiệt độ kiểm tra mức độ nghiêm trọng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản dài hạn
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Hộp thủy tinh có nắp a) Tiếp tục thử nghiệm độ ổn định trong tối đa 60 tháng, b) Bảo quản thẳng đứng để dược chất và nắp vặn không tiếp xúc
+  - 2.1.7 Độ ổn định của dược chất
+  - Bảng 2 Tóm tắt các thử nghiệm độ ổn định chính của dược chất
+  - Phương pháp sản xuất ứng dụng nhiệt độ thử nghiệm nghiêm ngặt
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+
+#### Metadata truy xuất
+
+- STT gốc: 70
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:38
+- Kết thúc: 2026-03-29T18:56:40
+- Số giây thực thi: 1.7755
+- Số giây truy xuất: 0.2617
+- Số giây sinh câu trả lời: 0.0365
+- Prompt token ước tính: 1264
+- Answer token ước tính: 352
+
+### Câu hỏi 71: Có những nghiên cứu độ ổn định tăng tốc nào được báo cáo cho Onglyza.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Độ ổn định của công thức dưới các điều kiện khác nhau...... Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+
+#### Điểm chính từ bằng chứng
+
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+- (7) Các chỉ số chính khác
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+  - (7) Các chỉ số chính khác
+  - Các mục liên quan đến hoạt chất
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - Nhiệt độ kiểm tra mức độ nghiêm trọng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản dài hạn
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Hộp thủy tinh có nắp a) Tiếp tục thử nghiệm độ ổn định trong tối đa 60 tháng, b) Bảo quản thẳng đứng để dược chất và nắp vặn không tiếp xúc
+  - 2.1.7 Độ ổn định của dược chất
+  - Bảng 2 Tóm tắt các thử nghiệm độ ổn định chính của dược chất
+  - Phương pháp sản xuất ứng dụng nhiệt độ thử nghiệm nghiêm ngặt
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+
+#### Metadata truy xuất
+
+- STT gốc: 71
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:39
+- Kết thúc: 2026-03-29T18:56:40
+- Số giây thực thi: 1.5347
+- Số giây truy xuất: 0.2412
+- Số giây sinh câu trả lời: 0.197
+- Prompt token ước tính: 1259
+- Answer token ước tính: 347
+
+### Câu hỏi 72: Những điều kiện stress nào đã được thử nghiệm, như nhiệt, độ ẩm và ánh sáng cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 72
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:39
+- Kết thúc: 2026-03-29T18:56:41
+- Số giây thực thi: 1.475
+- Số giây truy xuất: 0.2382
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 73: Có những thay đổi nào xảy ra khi phơi sáng hoặc trong thử nghiệm độ bền ánh sáng cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 73
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:40
+- Kết thúc: 2026-03-29T18:56:41
+- Số giây thực thi: 1.2421
+- Số giây truy xuất: 0.2606
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 74: Có nguy cơ phân hủy đáng chú ý hoặc thay đổi cảm quan nào không cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 74
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:40
+- Kết thúc: 2026-03-29T18:56:41
+- Số giây thực thi: 1.2751
+- Số giây truy xuất: 0.3345
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 75: Điều kiện bảo quản và hạn dùng được khuyến cáo là gì cho Onglyza.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Độ ổn định của công thức dưới các điều kiện khác nhau...... Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+
+#### Điểm chính từ bằng chứng
+
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+- (7) Các chỉ số chính khác
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+  - (7) Các chỉ số chính khác
+  - Các mục liên quan đến hoạt chất
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - Nhiệt độ kiểm tra mức độ nghiêm trọng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản dài hạn
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Hộp thủy tinh có nắp a) Tiếp tục thử nghiệm độ ổn định trong tối đa 60 tháng, b) Bảo quản thẳng đứng để dược chất và nắp vặn không tiếp xúc
+  - 2.1.7 Độ ổn định của dược chất
+  - Bảng 2 Tóm tắt các thử nghiệm độ ổn định chính của dược chất
+  - Phương pháp sản xuất ứng dụng nhiệt độ thử nghiệm nghiêm ngặt
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+
+#### Metadata truy xuất
+
+- STT gốc: 75
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:40
+- Kết thúc: 2026-03-29T18:56:41
+- Số giây thực thi: 1.1645
+- Số giây truy xuất: 0.2864
+- Số giây sinh câu trả lời: 0.0382
+- Prompt token ước tính: 1258
+- Answer token ước tính: 346
+
+### Câu hỏi 76: Có dữ liệu về độ ổn định sau hoàn nguyên hoặc sau pha chế không cho Onglyza.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Cách bảo quản trong điều kiện đóng gói .......... Độ ổn định của hoạt chất trong các điều kiện khác nhau.. Độ ổn định của công thức dưới các điều kiện khác nhau...... Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+
+#### Điểm chính từ bằng chứng
+
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- Tính ổn định của hoạt chất trong các điều kiện khác nhau
+- Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+- (7) Các chỉ số chính khác
+- Các mục liên quan đến hoạt chất
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=0.9047626509609482
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=0.8640051969225571
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+  - (7) Các chỉ số chính khác
+  - Các mục liên quan đến hoạt chất
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=0.860762566650311
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=0.8160317467415504
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - Nhiệt độ kiểm tra mức độ nghiêm trọng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản dài hạn
+- **Ozempic** | smpc_label | trang 7 | mục=stability | điểm=0.8129098753579005
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0007.md`
+  - Hộp thủy tinh có nắp a) Tiếp tục thử nghiệm độ ổn định trong tối đa 60 tháng, b) Bảo quản thẳng đứng để dược chất và nắp vặn không tiếp xúc
+  - 2.1.7 Độ ổn định của dược chất
+  - Bảng 2 Tóm tắt các thử nghiệm độ ổn định chính của dược chất
+  - Phương pháp sản xuất ứng dụng nhiệt độ thử nghiệm nghiêm ngặt
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=0.8118053619675867
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+
+#### Metadata truy xuất
+
+- STT gốc: 76
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:41
+- Kết thúc: 2026-03-29T18:56:42
+- Số giây thực thi: 1.3836
+- Số giây truy xuất: 0.2501
+- Số giây sinh câu trả lời: 0.2036
+- Prompt token ước tính: 1261
+- Answer token ước tính: 349
+
+### Câu hỏi 77: Tóm tắt độ ổn định, bảo quản và các thận trọng liên quan đến bao bì. cho Onglyza.
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm. **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm.
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2292066143731275
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Ngoài ra, không thể phủ nhận rằng những bệnh nhân mắc bệnh võng mạc đặc biệt không ổn định (giai đoạn tiền tăng sinh, giai đoạn tăng sinh) có thể bị ảnh hưởng do giảm cân nhanh và cải thiện lượng đường trong máu, và điều này cần được nghiên cứu trong một nghiên cứu kết quả sử dụng cụ thể (tiêm dưới da Ugovy) về việc sử dụng lâu dài với thời gian quan sát là 2 năm.
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0707596536827244
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0146127176464776
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0091506999779793
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9340849216809531
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+  - 11.1 Tác dụng phụ nghiêm trọng
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=0.9326704997836259
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+  - ・Hoạt động giảm thiểu rủi ro thông thường
+  - ・Hoạt động giám sát an toàn thuốc thông thường
+  - Nội dung của hoạt động cảnh giác dược và lý do lựa chọn:
+
+#### Metadata truy xuất
+
+- STT gốc: 77
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:41
+- Kết thúc: 2026-03-29T18:56:42
+- Số giây thực thi: 1.4004
+- Số giây truy xuất: 0.23
+- Số giây sinh câu trả lời: 0.034
+- Prompt token ước tính: 786
+- Answer token ước tính: 965
+
+### Câu hỏi 78: Tóm tắt Kế hoạch Quản lý Nguy cơ (RMP) của thuốc này. cho Onglyza.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về quản lý nguy cơ gồm: Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### Điểm chính từ bằng chứng
+
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=1.7222163733080025
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=1.6868688966805707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Keytruda** | interview_form | trang 30 | mục=rmp | điểm=1.674322219484306
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0030.md`
+  - Tổng quan về Kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - ・Tăng nguy cơ biến chứng nghiêm trọng liên quan đến ghép tế bào gốc tạo máu đồng loại sau khi sử dụng pembrolizumab [bệnh ác tính tạo máu] ・Độc tính của phôi thai-thai nhi
+  - Các hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thường xuyên - Khảo sát kết quả sử dụng cụ thể trong quá trình sử dụng đồng thời lenvatinib ở bệnh nhân ung thư nội mạc tử cung - Khảo sát kết quả sử dụng chung ở bệnh nhân có khối u rắn tiến triển/tái phát với TMB-High trở nên xấu đi sau hóa trị ung thư - Khảo sát kết quả sử dụng cụ thể ở bệnh nhân ung thư hạch tế bào B lớn trung thất nguyên phát tái phát hoặc khó chữa
+  - [Rủi ro tiềm ẩn quan trọng]
+- **Keytruda** | interview_form | trang 4 | mục=rmp | điểm=1.6638493111706372
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0004.md`
+  - Phân tích dân số .............
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+  - IV.Các mục liên quan đến công thức....
+  - II.Các mục liên quan đến tên...........
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=1.6471548283415736
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+- **Keytruda** | interview_form | trang 415 | mục=rmp | điểm=1.5723683308922474
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0415.md`
+  - Thành phần hoạt chất:
+  - Phương pháp bảo quản:
+  - 20.1 Tránh đóng băng.
+  - Tài liệu cho bệnh nhân
+
+#### Metadata truy xuất
+
+- STT gốc: 78
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:41
+- Kết thúc: 2026-03-29T18:56:43
+- Số giây thực thi: 1.3781
+- Số giây truy xuất: 0.2854
+- Số giây sinh câu trả lời: 0.0254
+- Prompt token ước tính: 1255
+- Answer token ước tính: 670
+
+### Câu hỏi 79: Những nguy cơ quan trọng đã được xác định trong RMP là gì cho Onglyza.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về quản lý nguy cơ gồm: Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### Điểm chính từ bằng chứng
+
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=1.7222163733080025
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=1.6868688966805707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Keytruda** | interview_form | trang 30 | mục=rmp | điểm=1.674322219484306
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0030.md`
+  - Tổng quan về Kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - ・Tăng nguy cơ biến chứng nghiêm trọng liên quan đến ghép tế bào gốc tạo máu đồng loại sau khi sử dụng pembrolizumab [bệnh ác tính tạo máu] ・Độc tính của phôi thai-thai nhi
+  - Các hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thường xuyên - Khảo sát kết quả sử dụng cụ thể trong quá trình sử dụng đồng thời lenvatinib ở bệnh nhân ung thư nội mạc tử cung - Khảo sát kết quả sử dụng chung ở bệnh nhân có khối u rắn tiến triển/tái phát với TMB-High trở nên xấu đi sau hóa trị ung thư - Khảo sát kết quả sử dụng cụ thể ở bệnh nhân ung thư hạch tế bào B lớn trung thất nguyên phát tái phát hoặc khó chữa
+  - [Rủi ro tiềm ẩn quan trọng]
+- **Keytruda** | interview_form | trang 4 | mục=rmp | điểm=1.6638493111706372
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0004.md`
+  - Phân tích dân số .............
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+  - IV.Các mục liên quan đến công thức....
+  - II.Các mục liên quan đến tên...........
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=1.6471548283415736
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+- **Keytruda** | interview_form | trang 230 | mục=rmp | điểm=1.5901460894606012
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0230.md`
+  - 2) Kiểm tra an toàn
+  - trường hợp (69,1%).
+  - (6) Công dụng chữa bệnh
+  - Không có tài liệu áp dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 79
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:41
+- Kết thúc: 2026-03-29T18:56:43
+- Số giây thực thi: 1.5076
+- Số giây truy xuất: 0.4075
+- Số giây sinh câu trả lời: 0.0494
+- Prompt token ước tính: 1318
+- Answer token ước tính: 684
+
+### Câu hỏi 80: Những nguy cơ tiềm ẩn quan trọng trong RMP là gì cho Onglyza.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về quản lý nguy cơ gồm: Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### Điểm chính từ bằng chứng
+
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=1.7222163733080025
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=1.6868688966805707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Keytruda** | interview_form | trang 30 | mục=rmp | điểm=1.674322219484306
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0030.md`
+  - Tổng quan về Kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - ・Tăng nguy cơ biến chứng nghiêm trọng liên quan đến ghép tế bào gốc tạo máu đồng loại sau khi sử dụng pembrolizumab [bệnh ác tính tạo máu] ・Độc tính của phôi thai-thai nhi
+  - Các hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thường xuyên - Khảo sát kết quả sử dụng cụ thể trong quá trình sử dụng đồng thời lenvatinib ở bệnh nhân ung thư nội mạc tử cung - Khảo sát kết quả sử dụng chung ở bệnh nhân có khối u rắn tiến triển/tái phát với TMB-High trở nên xấu đi sau hóa trị ung thư - Khảo sát kết quả sử dụng cụ thể ở bệnh nhân ung thư hạch tế bào B lớn trung thất nguyên phát tái phát hoặc khó chữa
+  - [Rủi ro tiềm ẩn quan trọng]
+- **Keytruda** | interview_form | trang 4 | mục=rmp | điểm=1.6638493111706372
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0004.md`
+  - Phân tích dân số .............
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+  - IV.Các mục liên quan đến công thức....
+  - II.Các mục liên quan đến tên...........
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=1.6471548283415736
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+- **Keytruda** | interview_form | trang 230 | mục=rmp | điểm=1.5901460894606012
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0230.md`
+  - 2) Kiểm tra an toàn
+  - trường hợp (69,1%).
+  - (6) Công dụng chữa bệnh
+  - Không có tài liệu áp dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 80
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:42
+- Kết thúc: 2026-03-29T18:56:43
+- Số giây thực thi: 1.4068
+- Số giây truy xuất: 0.3085
+- Số giây sinh câu trả lời: 0.0401
+- Prompt token ước tính: 1315
+- Answer token ước tính: 682
+
+### Câu hỏi 81: Những thông tin còn thiếu quan trọng nào được liệt kê trong RMP cho Onglyza.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về quản lý nguy cơ gồm: Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### Điểm chính từ bằng chứng
+
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=1.7222163733080025
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=1.6868688966805707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Keytruda** | interview_form | trang 30 | mục=rmp | điểm=1.674322219484306
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0030.md`
+  - Tổng quan về Kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - ・Tăng nguy cơ biến chứng nghiêm trọng liên quan đến ghép tế bào gốc tạo máu đồng loại sau khi sử dụng pembrolizumab [bệnh ác tính tạo máu] ・Độc tính của phôi thai-thai nhi
+  - Các hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thường xuyên - Khảo sát kết quả sử dụng cụ thể trong quá trình sử dụng đồng thời lenvatinib ở bệnh nhân ung thư nội mạc tử cung - Khảo sát kết quả sử dụng chung ở bệnh nhân có khối u rắn tiến triển/tái phát với TMB-High trở nên xấu đi sau hóa trị ung thư - Khảo sát kết quả sử dụng cụ thể ở bệnh nhân ung thư hạch tế bào B lớn trung thất nguyên phát tái phát hoặc khó chữa
+  - [Rủi ro tiềm ẩn quan trọng]
+- **Keytruda** | interview_form | trang 4 | mục=rmp | điểm=1.6638493111706372
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0004.md`
+  - Phân tích dân số .............
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+  - IV.Các mục liên quan đến công thức....
+  - II.Các mục liên quan đến tên...........
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=1.6471548283415736
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+- **Keytruda** | interview_form | trang 230 | mục=rmp | điểm=1.5901460894606012
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0230.md`
+  - 2) Kiểm tra an toàn
+  - trường hợp (69,1%).
+  - (6) Công dụng chữa bệnh
+  - Không có tài liệu áp dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 81
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:42
+- Kết thúc: 2026-03-29T18:56:44
+- Số giây thực thi: 1.6019
+- Số giây truy xuất: 0.3145
+- Số giây sinh câu trả lời: 0.1658
+- Prompt token ước tính: 1319
+- Answer token ước tính: 685
+
+### Câu hỏi 82: Những hoạt động cảnh giác dược thường quy nào được mô tả trong RMP cho Onglyza.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về quản lý nguy cơ gồm: Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### Điểm chính từ bằng chứng
+
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=1.7222163733080025
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=1.6868688966805707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Keytruda** | interview_form | trang 30 | mục=rmp | điểm=1.674322219484306
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0030.md`
+  - Tổng quan về Kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - ・Tăng nguy cơ biến chứng nghiêm trọng liên quan đến ghép tế bào gốc tạo máu đồng loại sau khi sử dụng pembrolizumab [bệnh ác tính tạo máu] ・Độc tính của phôi thai-thai nhi
+  - Các hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thường xuyên - Khảo sát kết quả sử dụng cụ thể trong quá trình sử dụng đồng thời lenvatinib ở bệnh nhân ung thư nội mạc tử cung - Khảo sát kết quả sử dụng chung ở bệnh nhân có khối u rắn tiến triển/tái phát với TMB-High trở nên xấu đi sau hóa trị ung thư - Khảo sát kết quả sử dụng cụ thể ở bệnh nhân ung thư hạch tế bào B lớn trung thất nguyên phát tái phát hoặc khó chữa
+  - [Rủi ro tiềm ẩn quan trọng]
+- **Keytruda** | interview_form | trang 4 | mục=rmp | điểm=1.6638493111706372
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0004.md`
+  - Phân tích dân số .............
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+  - IV.Các mục liên quan đến công thức....
+  - II.Các mục liên quan đến tên...........
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=1.6471548283415736
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+- **Keytruda** | interview_form | trang 415 | mục=rmp | điểm=1.5723683308922474
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0415.md`
+  - Thành phần hoạt chất:
+  - Phương pháp bảo quản:
+  - 20.1 Tránh đóng băng.
+  - Tài liệu cho bệnh nhân
+
+#### Metadata truy xuất
+
+- STT gốc: 82
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:43
+- Kết thúc: 2026-03-29T18:56:44
+- Số giây thực thi: 1.5981
+- Số giây truy xuất: 0.2626
+- Số giây sinh câu trả lời: 0.0448
+- Prompt token ước tính: 1258
+- Answer token ước tính: 673
+
+### Câu hỏi 83: Những hoạt động cảnh giác dược bổ sung nào được mô tả cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 83
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:43
+- Kết thúc: 2026-03-29T18:56:44
+- Số giây thực thi: 1.4187
+- Số giây truy xuất: 0.2749
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 84: Những hoạt động giảm thiểu nguy cơ thường quy nào được mô tả cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 84
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:43
+- Kết thúc: 2026-03-29T18:56:45
+- Số giây thực thi: 1.4786
+- Số giây truy xuất: 0.4123
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 85: Những tài liệu giảm thiểu nguy cơ bổ sung nào được lên kế hoạch cho bệnh nhân hoặc nhân viên y tế cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 85
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:44
+- Kết thúc: 2026-03-29T18:56:45
+- Số giây thực thi: 1.3168
+- Số giây truy xuất: 0.2962
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 86: Những vấn đề liên quan đến hiệu quả điều trị nào được đưa vào RMP cho Onglyza.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về quản lý nguy cơ gồm: Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### Điểm chính từ bằng chứng
+
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=1.7222163733080025
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=1.6868688966805707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Keytruda** | interview_form | trang 30 | mục=rmp | điểm=1.674322219484306
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0030.md`
+  - Tổng quan về Kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - ・Tăng nguy cơ biến chứng nghiêm trọng liên quan đến ghép tế bào gốc tạo máu đồng loại sau khi sử dụng pembrolizumab [bệnh ác tính tạo máu] ・Độc tính của phôi thai-thai nhi
+  - Các hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thường xuyên - Khảo sát kết quả sử dụng cụ thể trong quá trình sử dụng đồng thời lenvatinib ở bệnh nhân ung thư nội mạc tử cung - Khảo sát kết quả sử dụng chung ở bệnh nhân có khối u rắn tiến triển/tái phát với TMB-High trở nên xấu đi sau hóa trị ung thư - Khảo sát kết quả sử dụng cụ thể ở bệnh nhân ung thư hạch tế bào B lớn trung thất nguyên phát tái phát hoặc khó chữa
+  - [Rủi ro tiềm ẩn quan trọng]
+- **Keytruda** | interview_form | trang 4 | mục=rmp | điểm=1.6638493111706372
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0004.md`
+  - Phân tích dân số .............
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+  - IV.Các mục liên quan đến công thức....
+  - II.Các mục liên quan đến tên...........
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=1.6471548283415736
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+- **Keytruda** | interview_form | trang 415 | mục=rmp | điểm=1.5723683308922474
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0415.md`
+  - Thành phần hoạt chất:
+  - Phương pháp bảo quản:
+  - 20.1 Tránh đóng băng.
+  - Tài liệu cho bệnh nhân
+
+#### Metadata truy xuất
+
+- STT gốc: 86
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:44
+- Kết thúc: 2026-03-29T18:56:45
+- Số giây thực thi: 1.3435
+- Số giây truy xuất: 0.3066
+- Số giây sinh câu trả lời: 0.0267
+- Prompt token ước tính: 1258
+- Answer token ước tính: 673
+
+### Câu hỏi 87: Interview form hoặc RMP nói gì về các nguy cơ liên quan đến RMP cho Onglyza.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về quản lý nguy cơ gồm: Dược tính của sản phẩm RMP Có Xem phần ``I.6. thông tin/p-thuốc/0028.html Các mục liên quan đến tổng quan
+
+#### Điểm chính từ bằng chứng
+
+- Dược tính của sản phẩm
+- RMP Có Xem phần ``I.6.
+- thông tin/p-thuốc/0028.html
+- Các mục liên quan đến tổng quan
+- Các tài liệu liên quan khác
+- (1) Không áp dụng cho việc nghiền
+- <Trang thông tin hướng dẫn khuyến mãi sử dụng tối ưu>
+- (2) Đặc tính phân hủy/huyền phù và khả năng đi qua ống truyền Không áp dụng
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=2.020479131233926
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+- **Keytruda** | interview_form | trang 437 | mục=rmp | điểm=1.8689505433087863
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0437.md`
+  - Các tài liệu liên quan khác
+  - (1) Không áp dụng cho việc nghiền
+  - <Trang thông tin hướng dẫn khuyến mãi sử dụng tối ưu>
+  - (2) Đặc tính phân hủy/huyền phù và khả năng đi qua ống truyền Không áp dụng
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=1.8454795269498019
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Keytruda** | interview_form | trang 30 | mục=rmp | điểm=1.807784701583258
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0030.md`
+  - Tổng quan về Kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - ・Tăng nguy cơ biến chứng nghiêm trọng liên quan đến ghép tế bào gốc tạo máu đồng loại sau khi sử dụng pembrolizumab [bệnh ác tính tạo máu] ・Độc tính của phôi thai-thai nhi
+  - Các hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thường xuyên - Khảo sát kết quả sử dụng cụ thể trong quá trình sử dụng đồng thời lenvatinib ở bệnh nhân ung thư nội mạc tử cung - Khảo sát kết quả sử dụng chung ở bệnh nhân có khối u rắn tiến triển/tái phát với TMB-High trở nên xấu đi sau hóa trị ung thư - Khảo sát kết quả sử dụng cụ thể ở bệnh nhân ung thư hạch tế bào B lớn trung thất nguyên phát tái phát hoặc khó chữa
+  - [Rủi ro tiềm ẩn quan trọng]
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=1.7784338861386955
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Keytruda** | interview_form | trang 4 | mục=rmp | điểm=1.7640459144494995
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0004.md`
+  - Phân tích dân số .............
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+  - IV.Các mục liên quan đến công thức....
+  - II.Các mục liên quan đến tên...........
+
+#### Metadata truy xuất
+
+- STT gốc: 87
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:44
+- Kết thúc: 2026-03-29T18:56:46
+- Số giây thực thi: 1.5702
+- Số giây truy xuất: 0.4268
+- Số giây sinh câu trả lời: 0.0745
+- Prompt token ước tính: 1288
+- Answer token ước tính: 685
+
+### Câu hỏi 88: Những nguy cơ quan trọng đã xác định và nguy cơ tiềm ẩn trong các tài liệu RMP là gì cho Onglyza.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về quản lý nguy cơ gồm: Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### Điểm chính từ bằng chứng
+
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=1.7222163733080025
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=1.6868688966805707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Keytruda** | interview_form | trang 30 | mục=rmp | điểm=1.674322219484306
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0030.md`
+  - Tổng quan về Kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - ・Tăng nguy cơ biến chứng nghiêm trọng liên quan đến ghép tế bào gốc tạo máu đồng loại sau khi sử dụng pembrolizumab [bệnh ác tính tạo máu] ・Độc tính của phôi thai-thai nhi
+  - Các hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thường xuyên - Khảo sát kết quả sử dụng cụ thể trong quá trình sử dụng đồng thời lenvatinib ở bệnh nhân ung thư nội mạc tử cung - Khảo sát kết quả sử dụng chung ở bệnh nhân có khối u rắn tiến triển/tái phát với TMB-High trở nên xấu đi sau hóa trị ung thư - Khảo sát kết quả sử dụng cụ thể ở bệnh nhân ung thư hạch tế bào B lớn trung thất nguyên phát tái phát hoặc khó chữa
+  - [Rủi ro tiềm ẩn quan trọng]
+- **Keytruda** | interview_form | trang 4 | mục=rmp | điểm=1.6638493111706372
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0004.md`
+  - Phân tích dân số .............
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+  - IV.Các mục liên quan đến công thức....
+  - II.Các mục liên quan đến tên...........
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=1.6471548283415736
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+- **Keytruda** | interview_form | trang 230 | mục=rmp | điểm=1.5901460894606012
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0230.md`
+  - 2) Kiểm tra an toàn
+  - trường hợp (69,1%).
+  - (6) Công dụng chữa bệnh
+  - Không có tài liệu áp dụng
+
+#### Metadata truy xuất
+
+- STT gốc: 88
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:45
+- Kết thúc: 2026-03-29T18:56:46
+- Số giây thực thi: 1.6193
+- Số giây truy xuất: 0.3876
+- Số giây sinh câu trả lời: 0.0676
+- Prompt token ước tính: 1324
+- Answer token ước tính: 690
+
+### Câu hỏi 89: Tóm tắt toàn bộ RMP bao gồm nguy cơ, theo dõi và các biện pháp giảm thiểu nguy cơ. cho Onglyza.
+
+**Nhóm câu hỏi:** rmp
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về quản lý nguy cơ gồm: Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+
+#### Điểm chính từ bằng chứng
+
+- Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+- Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+- ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+- Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- Dược tính của sản phẩm
+- Lưu ý về quyền lợi bảo hiểm”
+- (Tính đến tháng 10 năm 2025)
+- (tính đến tháng 10 năm 2025).
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | interview_form | trang 7 | mục=rmp | điểm=1.7222163733080025
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0007.md`
+  - Hoạt động giảm thiểu rủi ro thường xuyên Hoạt động cảnh giác dược thường xuyên
+  - Hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thông thường
+  - ↓Các hoạt động giảm thiểu rủi ro dựa trên các nội dung trên Tổng quan về kế hoạch cảnh giác dược Tổng quan về kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - Ung thư tuyến giáp thể tủy hạ đường huyết (khối u tế bào C tuyến giáp) Tác động đến nguy cơ tim mạch ở bệnh nhân Nhật Bản Rối loạn tiêu hóa Viêm tụy cấp An toàn khi dùng cho bệnh nhân rối loạn chức năng thận Tắc ruột (bao gồm cả tắc ruột) Ung thư tuyến tụy
+- **Ozempic** | interview_form | trang 6 | mục=rmp | điểm=1.6868688966805707
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0006.md`
+  - Dược tính của sản phẩm
+  - Lưu ý về quyền lợi bảo hiểm”
+  - (Tính đến tháng 10 năm 2025)
+  - (tính đến tháng 10 năm 2025).
+- **Keytruda** | interview_form | trang 30 | mục=rmp | điểm=1.674322219484306
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0030.md`
+  - Tổng quan về Kế hoạch giảm thiểu rủi ro Hoạt động cảnh giác dược thường xuyên
+  - ・Tăng nguy cơ biến chứng nghiêm trọng liên quan đến ghép tế bào gốc tạo máu đồng loại sau khi sử dụng pembrolizumab [bệnh ác tính tạo máu] ・Độc tính của phôi thai-thai nhi
+  - Các hoạt động cảnh giác dược bên cạnh các hoạt động giảm thiểu rủi ro thường xuyên - Khảo sát kết quả sử dụng cụ thể trong quá trình sử dụng đồng thời lenvatinib ở bệnh nhân ung thư nội mạc tử cung - Khảo sát kết quả sử dụng chung ở bệnh nhân có khối u rắn tiến triển/tái phát với TMB-High trở nên xấu đi sau hóa trị ung thư - Khảo sát kết quả sử dụng cụ thể ở bệnh nhân ung thư hạch tế bào B lớn trung thất nguyên phát tái phát hoặc khó chữa
+  - [Rủi ro tiềm ẩn quan trọng]
+- **Keytruda** | interview_form | trang 4 | mục=rmp | điểm=1.6638493111706372
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0004.md`
+  - Phân tích dân số .............
+  - Tỷ lệ loại bỏ bằng lọc máu, v.v.
+  - IV.Các mục liên quan đến công thức....
+  - II.Các mục liên quan đến tên...........
+- **Keytruda** | interview_form | trang 26 | mục=rmp | điểm=1.6471548283415736
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0026.md`
+  - Dược tính của sản phẩm
+  - RMP Có Xem phần ``I.6.
+  - thông tin/p-thuốc/0028.html
+  - Các mục liên quan đến tổng quan
+- **Keytruda** | interview_form | trang 415 | mục=rmp | điểm=1.5723683308922474
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0415.md`
+  - Thành phần hoạt chất:
+  - Phương pháp bảo quản:
+  - 20.1 Tránh đóng băng.
+  - Tài liệu cho bệnh nhân
+
+#### Metadata truy xuất
+
+- STT gốc: 89
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:45
+- Kết thúc: 2026-03-29T18:56:47
+- Số giây thực thi: 1.6821
+- Số giây truy xuất: 0.3617
+- Số giây sinh câu trả lời: 0.0258
+- Prompt token ước tính: 1262
+- Answer token ước tính: 677
+
+### D. Câu hỏi về thông báo an toàn / theo dõi tín hiệu
+
+### Câu hỏi 90: Những thay đổi nhãn an toàn gần đây nào có nhắc đến thuốc này cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 90
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:45
+- Kết thúc: 2026-03-29T18:56:47
+- Số giây thực thi: 1.7711
+- Số giây truy xuất: 0.4213
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 91: Những cập nhật an toàn mới nào đã được ban hành cho thuốc này cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 91
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:46
+- Kết thúc: 2026-03-29T18:56:48
+- Số giây thực thi: 1.5787
+- Số giây truy xuất: 0.3057
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 92: Có cảnh báo an toàn nào về viêm gan tối cấp, phản ứng da nặng hoặc viêm phổi kẽ không cho Onglyza.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+- Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+- Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+- Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+  - Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+  - Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+  - Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+  - Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - Rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - Viêm gan tối cấp, suy gan, rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - *17 Điều trị bằng thuốc trước và sau phẫu thuật đối với bệnh ung thư vú âm tính với thụ thể hormone và HER2 âm tính và có nguy cơ tái phát cao *18 Ung thư cổ tử cung tiến triển hoặc tái phát *19 Ung thư dạ dày tiến triển hoặc tái phát không thể cắt bỏ *20 Ung thư đường mật không thể cắt bỏ *21 Ung thư trung biểu mô màng phổi ác tính tiến triển hoặc tái phát không thể cắt bỏ Các sản phẩm nằm trong Hướng dẫn Khuyến mãi Sử dụng Tối ưu Các sản phẩm không đủ điều kiện cho RMP Mục tiêu cho RMP
+  - Cảnh báo
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+
+#### Metadata truy xuất
+
+- STT gốc: 92
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:46
+- Kết thúc: 2026-03-29T18:56:48
+- Số giây thực thi: 1.416
+- Số giây truy xuất: 0.2484
+- Số giây sinh câu trả lời: 0.0417
+- Prompt token ước tính: 856
+- Answer token ước tính: 946
+
+### Câu hỏi 93: Có cảnh báo về phản ứng da nặng trong các thông báo an toàn gần đây không cho Onglyza.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+- Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+- Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+- Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+  - Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+  - Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+  - Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+  - Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - Rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - Viêm gan tối cấp, suy gan, rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - *17 Điều trị bằng thuốc trước và sau phẫu thuật đối với bệnh ung thư vú âm tính với thụ thể hormone và HER2 âm tính và có nguy cơ tái phát cao *18 Ung thư cổ tử cung tiến triển hoặc tái phát *19 Ung thư dạ dày tiến triển hoặc tái phát không thể cắt bỏ *20 Ung thư đường mật không thể cắt bỏ *21 Ung thư trung biểu mô màng phổi ác tính tiến triển hoặc tái phát không thể cắt bỏ Các sản phẩm nằm trong Hướng dẫn Khuyến mãi Sử dụng Tối ưu Các sản phẩm không đủ điều kiện cho RMP Mục tiêu cho RMP
+  - Cảnh báo
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+
+#### Metadata truy xuất
+
+- STT gốc: 93
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:47
+- Kết thúc: 2026-03-29T18:56:48
+- Số giây thực thi: 1.4905
+- Số giây truy xuất: 0.3313
+- Số giây sinh câu trả lời: 0.1322
+- Prompt token ước tính: 854
+- Answer token ước tính: 943
+
+### Câu hỏi 94: Những thông báo an toàn nào nhắc đến rối loạn chức năng gan hoặc viêm gan cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 94
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:47
+- Kết thúc: 2026-03-29T18:56:49
+- Số giây thực thi: 1.3252
+- Số giây truy xuất: 0.2627
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 95: Có cảnh báo nào liên quan đến mang thai, nguy cơ với thai nhi hoặc thiểu ối không cho Onglyza.
+
+**Nhóm câu hỏi:** pregnancy
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thai kỳ và cho con bú gồm: Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng. Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này. Nó đã không được công nhận. Người nộp đơn đã trả lời như sau.
+
+#### Điểm chính từ bằng chứng
+
+- Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng.
+- Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+- Nó đã không được công nhận.
+- Người nộp đơn đã trả lời như sau.
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=1.303796790179955
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Người ta cũng tiết lộ rằng loại thuốc này đã đến được nhau thai của túi noãn hoàng đảo ngược của chuột mang thai được điều trị bằng thuốc này và thuốc này gây ra sự thiếu hụt sự hình thành mụn nước trong tế bào túi noãn hoàng.
+  - Dựa trên những điều trên, người ta cho rằng có ít khả năng thuốc này tác động trực tiếp lên phôi người, nhưng vì chúng tôi tin rằng không thể loại trừ hoàn toàn mối quan hệ giữa các phát hiện bất thường quan sát được và con người, nên chúng tôi dự định cung cấp thông tin về kết quả và cảnh báo phụ nữ mang thai hoặc những phụ nữ có thể đang mang thai rằng không nên sử dụng loại thuốc này.
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2292066143731275
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | interview_form | trang 69 | mục=pregnancy | điểm=1.1448110318041722
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0069.md`
+  - 4.6 Khả năng sinh sản, mang thai và cho con bú
+  - Ở cynomolgus đang mang thai
+  - Sử dụng trong thời kỳ mang thai Phân loại mang thai:
+  - Không nên sử dụng DSemaglutide trong thời kỳ mang thai.
+- **Keytruda** | interview_form | trang 435 | mục=pregnancy | điểm=1.1428334113027914
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0435.md`
+  - Hệ thống phân loại kê đơn thuốc trong thai kỳ của Úc
+  - Tư vấn cho phụ nữ mang thai về nguy cơ tiềm ẩn đối với thai nhi.
+  - mang thai được ghi nhận trên lâm sàng lần lượt là 2-4% và 15-20%.
+  - Tóm tắt Rủi roDựa trên cơ chế hoạt động, KEYTRUDA có thể gây hại cho thai nhi khi dùng cho phụ nữ mang thai.
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0707596536827244
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0146127176464776
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+
+#### Metadata truy xuất
+
+- STT gốc: 95
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:48
+- Kết thúc: 2026-03-29T18:56:49
+- Số giây thực thi: 1.2858
+- Số giây truy xuất: 0.2458
+- Số giây sinh câu trả lời: 0.0219
+- Prompt token ước tính: 868
+- Answer token ước tính: 797
+
+### Câu hỏi 96: Có cảnh báo nào về tái hoạt HBV hoặc nguy cơ miễn dịch không cho Onglyza.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+- Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+- Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+- Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+  - Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+  - Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+  - Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+  - Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - Rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - Viêm gan tối cấp, suy gan, rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - *17 Điều trị bằng thuốc trước và sau phẫu thuật đối với bệnh ung thư vú âm tính với thụ thể hormone và HER2 âm tính và có nguy cơ tái phát cao *18 Ung thư cổ tử cung tiến triển hoặc tái phát *19 Ung thư dạ dày tiến triển hoặc tái phát không thể cắt bỏ *20 Ung thư đường mật không thể cắt bỏ *21 Ung thư trung biểu mô màng phổi ác tính tiến triển hoặc tái phát không thể cắt bỏ Các sản phẩm nằm trong Hướng dẫn Khuyến mãi Sử dụng Tối ưu Các sản phẩm không đủ điều kiện cho RMP Mục tiêu cho RMP
+  - Cảnh báo
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+
+#### Metadata truy xuất
+
+- STT gốc: 96
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:48
+- Kết thúc: 2026-03-29T18:56:49
+- Số giây thực thi: 1.4171
+- Số giây truy xuất: 0.3885
+- Số giây sinh câu trả lời: 0.0314
+- Prompt token ước tính: 850
+- Answer token ước tính: 940
+
+### Câu hỏi 97: Có cảnh báo nào liên quan đến chuyển hóa như nguy cơ ở người chuyển hóa cực nhanh CYP2D6 không cho Onglyza.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+- Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+- Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+- Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+  - Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+  - Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+  - Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+  - Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - Rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - Viêm gan tối cấp, suy gan, rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - *17 Điều trị bằng thuốc trước và sau phẫu thuật đối với bệnh ung thư vú âm tính với thụ thể hormone và HER2 âm tính và có nguy cơ tái phát cao *18 Ung thư cổ tử cung tiến triển hoặc tái phát *19 Ung thư dạ dày tiến triển hoặc tái phát không thể cắt bỏ *20 Ung thư đường mật không thể cắt bỏ *21 Ung thư trung biểu mô màng phổi ác tính tiến triển hoặc tái phát không thể cắt bỏ Các sản phẩm nằm trong Hướng dẫn Khuyến mãi Sử dụng Tối ưu Các sản phẩm không đủ điều kiện cho RMP Mục tiêu cho RMP
+  - Cảnh báo
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+
+#### Metadata truy xuất
+
+- STT gốc: 97
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:48
+- Kết thúc: 2026-03-29T18:56:50
+- Số giây thực thi: 1.2509
+- Số giây truy xuất: 0.2577
+- Số giây sinh câu trả lời: 0.0397
+- Prompt token ước tính: 859
+- Answer token ước tính: 948
+
+### E. Bộ ví dụ Povidone-iodine
+
+### Câu hỏi 98: Có cảnh báo nào về rối loạn chức năng tuyến giáp hoặc hấp thu iod toàn thân không cho Onglyza.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** safety_notice
+**Phong cách trả lời:** trình bày theo thông báo an toàn
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về cảnh báo và thận trọng gồm: và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận." Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này. Tôi sẽ đổi nó thành. 429 Thuốc điều trị ung thư khác
+
+#### Điểm chính từ bằng chứng
+
+- và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+- Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+- Tôi sẽ đổi nó thành.
+- 429 Thuốc điều trị ung thư khác
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### PDF nguồn
+
+- [Keytruda]_[03].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[02]_20260326.pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.2100379440394244
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+  - Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0845636013414892
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - Rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - Viêm gan tối cấp, suy gan, rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+  - Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+  - Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+  - Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - *17 Điều trị bằng thuốc trước và sau phẫu thuật đối với bệnh ung thư vú âm tính với thụ thể hormone và HER2 âm tính và có nguy cơ tái phát cao *18 Ung thư cổ tử cung tiến triển hoặc tái phát *19 Ung thư dạ dày tiến triển hoặc tái phát không thể cắt bỏ *20 Ung thư đường mật không thể cắt bỏ *21 Ung thư trung biểu mô màng phổi ác tính tiến triển hoặc tái phát không thể cắt bỏ Các sản phẩm nằm trong Hướng dẫn Khuyến mãi Sử dụng Tối ưu Các sản phẩm không đủ điều kiện cho RMP Mục tiêu cho RMP
+  - Cảnh báo
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+
+#### Metadata truy xuất
+
+- STT gốc: 98
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:49
+- Kết thúc: 2026-03-29T18:56:50
+- Số giây thực thi: 1.2596
+- Số giây truy xuất: 0.252
+- Số giây sinh câu trả lời: 0.0173
+- Prompt token ước tính: 856
+- Answer token ước tính: 945
+
+### F. Các bộ smoke test giá trị cao
+
+### Câu hỏi 99: Có thận trọng nào liên quan đến công thức cho phụ nữ mang thai hoặc cho con bú không cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thành phần và công thức gồm: Nó đã không được công nhận. Người nộp đơn đã trả lời như sau. (Khuyết tật bẩm sinh Res Part B 2005; Một số bất thường được quan sát (cột sống
+
+#### Điểm chính từ bằng chứng
+
+- Nó đã không được công nhận.
+- Người nộp đơn đã trả lời như sau.
+- (Khuyết tật bẩm sinh Res Part B 2005;
+- Một số bất thường được quan sát (cột sống
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+
+#### PDF nguồn
+
+- [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 29 | mục=pregnancy | điểm=1.303796790179955
+  - PDF: [Ozempic]_[620023000_23000AMX00443_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023000_23000AMX00443_A100_2]\02_pages\page_0029.md`
+  - Nó đã không được công nhận.
+  - Người nộp đơn đã trả lời như sau.
+  - (Khuyết tật bẩm sinh Res Part B 2005;
+  - Một số bất thường được quan sát (cột sống
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2292066143731275
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Ozempic** | interview_form | trang 69 | mục=pregnancy | điểm=1.1448110318041722
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0069.md`
+  - Tờ hướng dẫn sử dụng của Úc
+  - 5.1 Đặc tính dược lực học).
+  - Ở cynomolgus đang mang thai
+  - Semaglutide không ảnh hưởng đến nam giới
+- **Keytruda** | interview_form | trang 435 | mục=pregnancy | điểm=1.1428334113027914
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0435.md`
+  - XII.Tài liệu tham khảo
+  - D (sửa đổi tháng 11 năm 2025)
+  - IgG của mẹ được biết là có trong sữa mẹ.
+  - 8.3 Phụ nữ và nam giới có tiềm năng sinh sản
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0707596536827244
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0146127176464776
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+
+#### Metadata truy xuất
+
+- STT gốc: 99
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:49
+- Kết thúc: 2026-03-29T18:56:50
+- Số giây thực thi: 1.4861
+- Số giây truy xuất: 0.4397
+- Số giây sinh câu trả lời: 0.0525
+- Prompt token ước tính: 869
+- Answer token ước tính: 798
+
+### Câu hỏi 100: Có cảnh báo nào liên quan đến rối loạn tuyến giáp hoặc hấp thu toàn thân không cho Onglyza.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** safety_notice
+**Phong cách trả lời:** trình bày theo thông báo an toàn
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về cảnh báo và thận trọng gồm: và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận." Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này. Tôi sẽ đổi nó thành. 429 Thuốc điều trị ung thư khác
+
+#### Điểm chính từ bằng chứng
+
+- và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+- Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+- Tôi sẽ đổi nó thành.
+- 429 Thuốc điều trị ung thư khác
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### PDF nguồn
+
+- [Keytruda]_[03].pdf
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[02]_20260326.pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.2100379440394244
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+  - Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0845636013414892
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - Rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - Viêm gan tối cấp, suy gan, rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+  - Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+  - Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+  - Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - *17 Điều trị bằng thuốc trước và sau phẫu thuật đối với bệnh ung thư vú âm tính với thụ thể hormone và HER2 âm tính và có nguy cơ tái phát cao *18 Ung thư cổ tử cung tiến triển hoặc tái phát *19 Ung thư dạ dày tiến triển hoặc tái phát không thể cắt bỏ *20 Ung thư đường mật không thể cắt bỏ *21 Ung thư trung biểu mô màng phổi ác tính tiến triển hoặc tái phát không thể cắt bỏ Các sản phẩm nằm trong Hướng dẫn Khuyến mãi Sử dụng Tối ưu Các sản phẩm không đủ điều kiện cho RMP Mục tiêu cho RMP
+  - Cảnh báo
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+
+#### Metadata truy xuất
+
+- STT gốc: 100
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:49
+- Kết thúc: 2026-03-29T18:56:51
+- Số giây thực thi: 1.3491
+- Số giây truy xuất: 0.2428
+- Số giây sinh câu trả lời: 0.0402
+- Prompt token ước tính: 855
+- Answer token ước tính: 944
+
+### G. Kiểm thử truy hồi / điều hướng / tiêu đề mục / xác thực provenance
+
+### Câu hỏi 101: Các chống chỉ định hoặc đối tượng không nên dùng Onglyza là gì?
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về chống chỉ định gồm: [Chống chỉ định] (Gạch bỏ) (1) Bệnh nhân có tiền sử mẫn cảm với các thành phần của thuốc này (2) Phụ nữ mang thai hoặc phụ nữ có thể mang thai Để thử nghiệm, hãy sử dụng thuốc thử chẩn đoán in vitro đã được phê duyệt. [Các lưu ý khi sử dụng liên quan đến hiệu quả/tác dụng] (bổ sung phần gạch chân) [Các biện pháp phòng ngừa liên quan đến việc sử dụng và quản lý] (Không thay đổi)
+
+#### Điểm chính từ bằng chứng
+
+- Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- [Chống chỉ định] (Gạch bỏ) (1) Bệnh nhân có tiền sử mẫn cảm với các thành phần của thuốc này (2) Phụ nữ mang thai hoặc phụ nữ có thể mang thai
+- Để thử nghiệm, hãy sử dụng thuốc thử chẩn đoán in vitro đã được phê duyệt.
+- [Các lưu ý khi sử dụng liên quan đến hiệu quả/tác dụng] (bổ sung phần gạch chân)
+- [Các biện pháp phòng ngừa liên quan đến việc sử dụng và quản lý] (Không thay đổi)
+- [Chống chỉ định] (Không thay đổi) (1) Bệnh nhân có tiền sử mẫn cảm với các thành phần của thuốc này (2) Phụ nữ mang thai hoặc phụ nữ có thể mang thai
+- [Các lưu ý liên quan đến cách sử dụng và quản lý] (bổ sung phần gạch chân)
+- Chống chỉ định (Không dùng cho những bệnh nhân sau)
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_27].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_8.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_9.pdf
+- [Ozempic]_[620023_2499418G4027_1_06].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | smpc_label | trang 1 | mục=contraindication | điểm=0.9931937040918427
+  - PDF: [Keytruda]_[170050_4291435A2025_1_27].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_27]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Keytruda** | safety_notice | trang 31 | mục=contraindication | điểm=0.9490152108777721
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_8.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_8\02_pages\page_0031.md`
+  - [Chống chỉ định] (Gạch bỏ) (1) Bệnh nhân có tiền sử mẫn cảm với các thành phần của thuốc này (2) Phụ nữ mang thai hoặc phụ nữ có thể mang thai
+  - Để thử nghiệm, hãy sử dụng thuốc thử chẩn đoán in vitro đã được phê duyệt.
+  - [Các lưu ý khi sử dụng liên quan đến hiệu quả/tác dụng] (bổ sung phần gạch chân)
+  - [Các biện pháp phòng ngừa liên quan đến việc sử dụng và quản lý] (Không thay đổi)
+- **Keytruda** | safety_notice | trang 24 | mục=contraindication | điểm=0.9314171487457104
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_9.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_9\02_pages\page_0024.md`
+  - [Chống chỉ định] (Không thay đổi) (1) Bệnh nhân có tiền sử mẫn cảm với các thành phần của thuốc này (2) Phụ nữ mang thai hoặc phụ nữ có thể mang thai
+  - Để thử nghiệm, hãy sử dụng thuốc thử chẩn đoán in vitro đã được phê duyệt.
+  - [Các lưu ý liên quan đến cách sử dụng và quản lý] (bổ sung phần gạch chân)
+  - [Các lưu ý khi sử dụng liên quan đến hiệu quả/tác dụng] (bổ sung phần gạch chân)
+- **Ozempic** | smpc_label | trang 1 | mục=contraindication | điểm=0.8943749429268646
+  - PDF: [Ozempic]_[620023_2499418G4027_1_06].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_06]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+- **Ozempic** | interview_form | trang 36 | mục=contraindication | điểm=0.7931133029055134
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0036.md`
+  - Chống chỉ định (Không dùng cho những bệnh nhân sau)
+  - 2.Chống chỉ định và lý do
+  - (Bình luận) Nếu thuốc này được dùng cho bệnh nhân có tiền sử quá mẫn cảm với các thành phần của thuốc này, có khả năng các triệu chứng quá mẫn nghiêm trọng có thể phát triển, vì vậy nên tránh dùng thuốc.
+  - Chi tiết và lý do cảnh báo
+
+#### Metadata truy xuất
+
+- STT gốc: 101
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:50
+- Kết thúc: 2026-03-29T18:56:51
+- Số giây thực thi: 1.3802
+- Số giây truy xuất: 0.2619
+- Số giây sinh câu trả lời: 0.0717
+- Prompt token ước tính: 1310
+- Answer token ước tính: 437
+
+### Câu hỏi 102: Các cảnh báo và thận trọng khi dùng Onglyza là gì?
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+- Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+- Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+- Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2292066143731275
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0707596536827244
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+  - Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+  - Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+  - Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0146127176464776
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0091506999779793
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+  - Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9340849216809531
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - Rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - Viêm gan tối cấp, suy gan, rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+- **Ozempic** | smpc_label | trang 12 | mục=warning | điểm=0.9326704997836259
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0012.md`
+  - Biện pháp phòng ngừa quan trọng'' kêu gọi thận trọng khi sử dụng sản phẩm ở những bệnh nhân phụ thuộc insulin.
+  - Nguy cơ này được cho là phát sinh do việc điều trị không phù hợp cho những bệnh nhân cần sử dụng chế phẩm insulin bằng cách ngừng sử dụng insulin và chuyển sang dùng thuốc chủ vận thụ thể GLP-1 dùng một lần mỗi ngày.
+  - Rủi ro này đã được cảnh báo trong tờ hướng dẫn sử dụng điện tử và kế hoạch quản lý rủi ro thuốc đối với các chất chủ vận thụ thể GLP-1 khác và vì điều quan trọng là phải tiếp tục các hoạt động cảnh báo đối với loại thuốc này nên nó đã được chỉ định là một rủi ro tiềm ẩn quan trọng.
+  - Hướng dẫn dùng thuốc cho bệnh nhân
+
+#### Metadata truy xuất
+
+- STT gốc: 102
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:50
+- Kết thúc: 2026-03-29T18:56:51
+- Số giây thực thi: 1.5957
+- Số giây truy xuất: 0.4568
+- Số giây sinh câu trả lời: 0.0305
+- Prompt token ước tính: 781
+- Answer token ước tính: 954
+
+### Câu hỏi 103: Trả lời kèm trích dẫn và hiển thị chính xác số trang tham chiếu. cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 103
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:50
+- Kết thúc: 2026-03-29T18:56:52
+- Số giây thực thi: 1.3548
+- Số giây truy xuất: 0.244
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 104: Các dữ liệu dược động học chính của Onglyza là gì?
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về thông tin lâm sàng chính gồm: Các mục liên quan đến an toàn (phòng ngừa, v.v.) tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- viêm thận miễn dịch
+- suy thận trước thận
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Số đối tượng để đánh giá an toàn
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=2.5797798808316497
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.9329176706511486
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - rối loạn chuyển hóa
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Keytruda** | interview_form | trang 361 | mục=pk | điểm=1.4435323060121883
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0361.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Số đối tượng để đánh giá an toàn
+  - chứng vận động chậm
+  - cảm giác bất thường
+- **Keytruda** | interview_form | trang 320 | mục=pk | điểm=1.4426071306621275
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0320.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - Viêm ống Eustachian
+  - nhiễm trùng móng tay
+  - Giảm bicarbonate máu
+- **Keytruda** | interview_form | trang 328 | mục=pk | điểm=1.4356684632181138
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0328.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - tràn dịch màng phổi
+  - khó thở khi gắng sức
+  - rối loạn hệ thần kinh
+- **Keytruda** | interview_form | trang 307 | mục=pk | điểm=1.4348543000189031
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0307.md`
+  - Các mục liên quan đến an toàn (phòng ngừa, v.v.)
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Số đối tượng để đánh giá an toàn
+  - rối loạn thành bụng
+  - bệnh hạch bạch huyết
+
+#### Metadata truy xuất
+
+- STT gốc: 104
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:51
+- Kết thúc: 2026-03-29T18:56:52
+- Số giây thực thi: 1.3622
+- Số giây truy xuất: 0.2665
+- Số giây sinh câu trả lời: 0.0283
+- Prompt token ước tính: 1113
+- Answer token ước tính: 374
+
+### Câu hỏi 105: Thông tin độ ổn định và điều kiện bảo quản của Onglyza là gì?
+
+**Nhóm câu hỏi:** stability
+**Loại tài liệu trội:** interview_form
+**Phong cách trả lời:** trình bày theo interview form kỹ thuật
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về độ ổn định và bảo quản gồm: Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần Quản lý 2 tuần một lần Quản lý 3 tuần một lần Quản lý 6 tuần một lần
+
+#### Điểm chính từ bằng chứng
+
+- Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+- Quản lý 2 tuần một lần
+- Quản lý 3 tuần một lần
+- Quản lý 6 tuần một lần
+- Cách bảo quản trong điều kiện đóng gói ..........
+- Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+- Độ ổn định của công thức dưới các điều kiện khác nhau......
+- Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 7 | mục=stability | điểm=1.7079758714805122
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0007.md`
+  - Viết tắt Định nghĩa HER2Thụ thể yếu tố tăng trưởng biểu bì ở người-2Thụ thể yếu tố tăng trưởng biểu bì ở người loại 2HRTỷ lệ nguy hiểmTỷ lệ nguy hiểmIAPhân tích tạm thờiPhân tích tạm thờiICHHội đồng quốc tế về hài hòa các yêu cầu kỹ thuật đối với dược phẩm sử dụng cho con ngườiIgGImmunoglobulin GImmunoglobulinGIHCImmunohistochemistry Nhuộm hóa mô miễn dịchIRCỦy ban đánh giá độc lậpIROX quang và X quang tích hợp đánh giá ung thưĐánh giá toàn diện về X quang và ung thưITTent-to-điều trịTất cả bệnh nhân được chọn ngẫu nhiênIWGNhóm công tác quốc tếMedDRAMTừ điển y tế cho các hoạt động điều tiếtICHMedDRA/JTừ điển y tế cho các hoạt động điều tiết/Nhật BảnICHMMRSửa chữa không khớpSửa chữa không khớpmPRPhản ứng bệnh lý chínhPhản ứng bệnh lýMRIMHình ảnh cộng hưởng từ hạt nhânHình ảnh cộng hưởng từ hạt nhânMSI-Cao Độ ổn định vệ tinh vi mô-cao Tần số cao Vệ tinh vi mô Sự bất ổnMSKCCTrung tâm Ung thư Sloan-Kettering-NCIViện Ung thư Quốc giaNEDKhông có bằng chứng về trạng thái không bệnh NSCLCNUng thư phổi không phải tế bào nhỏORRTỷ lệ đáp ứng khách quanOSSống sót tổng thểpCRPhản ứng hoàn toàn bệnh lýPDBệnh tiến triểnPD-1Chết tế bào theo chương trình 1Phối tử chết tế bào theo chương trình 1PD-L1Phối tử chết tế bào theo chương trình 1PD-L2Phối tử chết tế bào theo chương trình 2PETChụp cắt lớp phát xạ PositronChụp cắt lớp phát xạ PositronPFSSống sót không tiến triểnPKPdược động họcDược động họcspMMRMSửa chữa không khớp thành thạoSửa chữa không khớp PRPhản ứng một phầnPhản ứng một phầnPSTrạng thái hiệu suấtChỉ báo tình trạng chungQ2WMỗi 2 tuần
+  - Quản lý 2 tuần một lần
+  - Quản lý 3 tuần một lần
+  - Quản lý 6 tuần một lần
+- **Ozempic** | interview_form | trang 4 | mục=stability | điểm=1.5688977697737698
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0004.md`
+  - Cách bảo quản trong điều kiện đóng gói ..........
+  - Độ ổn định của hoạt chất trong các điều kiện khác nhau..
+  - Độ ổn định của công thức dưới các điều kiện khác nhau......
+  - Phương pháp bào chế và độ ổn định sau khi hòa tan ..........
+- **Keytruda** | interview_form | trang 32 | mục=stability | điểm=1.5393380184542467
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0032.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản lâu dài -40°C±5°C Túi nhựa
+  - (7) Các chỉ số chính khác
+  - Các mục liên quan đến hoạt chất
+- **Ozempic** | interview_form | trang 9 | mục=stability | điểm=1.526609737282948
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0009.md`
+  - Tính ổn định của hoạt chất trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Thời gian bảo quản Hình thức bảo quản Đối tượng kiểm tra Kết quả Kiểm tra bảo quản lâu dài -20±5°C, tránh ánh sáng
+  - (7) Các chỉ số chính khác
+  - Bản đồ peptide, sắc ký lỏng
+- **Keytruda** | interview_form | trang 34 | mục=stability | điểm=1.4776755371372154
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0034.md`
+  - Nhiệt độ kiểm tra mức độ nghiêm trọng
+  - Cách bào chế và độ ổn định sau khi hòa tan
+  - Tính ổn định của công thức trong các điều kiện khác nhau
+  - Kiểm tra điều kiện bảo quản Hình thức bảo quản Thời gian bảo quản Kết quả Kiểm tra bảo quản dài hạn
+- **Ozempic** | interview_form | trang 59 | mục=stability | điểm=1.4715977082618048
+  - PDF: [Ozempic]_[620023_2499418G4027_1_004_3F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G4027_1_004_3F]\02_pages\page_0059.md`
+  - Tránh đông lạnh và bảo quản ở nhiệt độ 2-8°C
+  - Sau khi sử dụng, bảo quản ở nhiệt độ phòng (kể cả tủ lạnh (2 ~ 8°C)), tránh ánh sáng và sử dụng trong vòng 8 tuần.
+  - Phương pháp bảo quản ở trạng thái đóng gói
+  - (Giải thích) Thuốc này nên được bảo quản tránh ánh sáng.
+
+#### Metadata truy xuất
+
+- STT gốc: 105
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:51
+- Kết thúc: 2026-03-29T18:56:52
+- Số giây thực thi: 1.5123
+- Số giây truy xuất: 0.394
+- Số giây sinh câu trả lời: 0.088
+- Prompt token ước tính: 1222
+- Answer token ước tính: 374
+
+### H. Kiểm thử độ bền / hồi quy / stress test
+
+### Câu hỏi 106: Các cảnh báo chính và chống chỉ định của Onglyza là gì cho Onglyza.
+
+**Nhóm câu hỏi:** contraindication
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về chống chỉ định gồm: **** Tiêu chí tổng hợp: 1,76 (khoảng tin cậy 95%: Ugobi Tiêm dưới da (Chỉ định: Ozempic tiêm dưới da (Chỉ định:
+
+#### Điểm chính từ bằng chứng
+
+- **** Tiêu chí tổng hợp:
+- 1,76 (khoảng tin cậy 95%:
+- Ugobi Tiêm dưới da (Chỉ định:
+- Ozempic tiêm dưới da (Chỉ định:
+- * Khi dùng một mình
+- bệnh tiểu đường loại 1
+- Ngày sau khi dùng thuốc
+- (%)Tất cả LớpLớp 3 trở lên
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[170050_4291435A2025_1_27].pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.2591488861596072
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - **** Tiêu chí tổng hợp:
+  - 1,76 (khoảng tin cậy 95%:
+  - Ugobi Tiêm dưới da (Chỉ định:
+  - Ozempic tiêm dưới da (Chỉ định:
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.091734235070797
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - * Khi dùng một mình
+  - bệnh tiểu đường loại 1
+  - Ngày sau khi dùng thuốc
+  - (%)Tất cả LớpLớp 3 trở lên
+- **Keytruda** | safety_notice | trang 7 | mục=indication | điểm=1.0447223848527807
+  - PDF: [Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696_A100_1]_20260326_1\02_pages\page_0007.md`
+  - 1.2 Lịch sử phát triển
+  - Ngày phê duyệt/chỉ định
+  - Tuy nhiên, sau phẫu thuật
+  - Khối u ác tính không thể cắt bỏ
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0291084279156328
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=1.0233864873318366
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+  - [Tên thuốc] Pembrolizumab (tái tổ hợp di truyền)
+  - “Rối loạn chức năng gan, viêm gan, viêm đường mật xơ cứng:
+- **Keytruda** | smpc_label | trang 1 | mục=contraindication | điểm=1.0042612775967257
+  - PDF: [Keytruda]_[170050_4291435A2025_1_27].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_27]\02_pages\page_0001.md`
+  - Không tìm thấy đoạn tiếng Việt tương ứng trong dữ liệu trang nguồn.
+
+#### Metadata truy xuất
+
+- STT gốc: 106
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:51
+- Kết thúc: 2026-03-29T18:56:53
+- Số giây thực thi: 1.3046
+- Số giây truy xuất: 0.2309
+- Số giây sinh câu trả lời: 0.0418
+- Prompt token ước tính: 758
+- Answer token ước tính: 323
+
+### Câu hỏi 107: Hãy tóm tắt hồ sơ dược động học chi tiết bao gồm hấp thu, chuyển hóa và thải trừ. cho Onglyza.
+
+**Nhóm câu hỏi:** pk
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về dược động học gồm: Rối loạn chuyển hóa và dinh dưỡng tăng trưởng còi cọc rối loạn thăng bằng Rối loạn ngoại tháp
+
+#### Điểm chính từ bằng chứng
+
+- Rối loạn chuyển hóa và dinh dưỡng
+- tăng trưởng còi cọc
+- rối loạn thăng bằng
+- Rối loạn ngoại tháp
+- rối loạn chuyển hóa
+- MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+- viêm thận miễn dịch
+- suy thận trước thận
+
+#### PDF nguồn
+
+- [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+- [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+
+#### Dấu vết bằng chứng
+
+- **Keytruda** | interview_form | trang 354 | mục=pk | điểm=1.6960217648679365
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0354.md`
+  - Rối loạn chuyển hóa và dinh dưỡng
+  - tăng trưởng còi cọc
+  - rối loạn thăng bằng
+  - Rối loạn ngoại tháp
+- **Keytruda** | interview_form | trang 332 | mục=pk | điểm=1.182189760881128
+  - PDF: [Keytruda]_[170050_4291435A2025_1_039_1F].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A2025_1_039_1F]\02_pages\page_0332.md`
+  - rối loạn chuyển hóa
+  - MedDRA/J Ver.27.0Tất cả các lớpLớp3-4Lớp5n(%)n(%)n(%)Rối loạn chuyển hóa và dinh dưỡng
+  - viêm thận miễn dịch
+  - suy thận trước thận
+- **Keytruda** | smpc_label | trang 39 | mục=pk | điểm=0.8979227369196949
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326\02_pages\page_0039.md`
+  - PPKDược động học quần thểDược động học quần thểPRPhản ứng một phầnPhản ứng một phầnPTThuật ngữ ưu tiênThuật ngữ cơ bảnQ2Wquaque 2 tuần
+  - NSCLC không có TMB-High Ung thư phổi không phải tế bào nhỏOSSống sót tổng thểSống sót chungPDbệnh tiến triểnSự tiến triểnPD-Lsự chết tế bào được lập trình-phối tửPD-1sự chết tế bào được lập trình-1PFSSống sót không tiến triểnSống sót không tiến triểnPKdược động họcPharmacokineticsPOLEDNA polymerase ε, tiểu đơn vị xúc tác
+  - khoảng thời gian 6 tuần
+  - Không TMB-Cao mà không có MSI-Cao
+- **Keytruda** | smpc_label | trang 9 | mục=pk | điểm=0.8797363489163186
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_10\02_pages\page_0009.md`
+  - Cmax của thuốc này trong chu kỳ 1 và Cmin trong chu kỳ 2, 4 và 8 (cả hai đều là giá trị trung bình hình học)
+  - Cmax của thuốc này trong chu kỳ 1 và 6 và Cmin trong chu kỳ 8 (cả hai đều là giá trị trung bình hình học (có thể thay đổi).
+  - Năm, tháng, ngày]>)
+  - Một chu kỳ là 3 tuần.
+- **Keytruda** | smpc_label | trang 33 | mục=pk | điểm=0.8186101303814981
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_2].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_2]\02_pages\page_0033.md`
+  - 7.1 Tài liệu đánh giá
+  - Phản ứng một phần (PR)
+  - Liều lượng và cách dùng:
+  - Phản hồi hoàn chỉnh (CR)
+- **Keytruda** | safety_notice | trang 11 | mục=pk | điểm=0.804524152928074
+  - PDF: [Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050000_22800AMX00696000_A100_1]_20260326_5\02_pages\page_0011.md`
+  - Phân phối AUCwk6 theo cách sử dụng/liều (2 mg/kg Q3W, 200 mg Q3W và 400 mg Q6W)
+  - Hình 5 Mối quan hệ phơi nhiễm-đáp ứng giữa AUCwk6,ss của ECOG PS và tỷ lệ mắc các tác dụng phụ cấp 3 trở lên (bệnh nhân u ác tính (nghiên cứu 001))
+  - Hình 4 Mối quan hệ phơi nhiễm-đáp ứng giữa tỷ lệ mắc AUCwk6 và AEOSI theo thời gian sử dụng (khối u ác tính (nghiên cứu 001 và 002) và bệnh nhân NSCLC)
+  - 43, 129 và 401 ngày
+
+#### Metadata truy xuất
+
+- STT gốc: 107
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:52
+- Kết thúc: 2026-03-29T18:56:53
+- Số giây thực thi: 1.3327
+- Số giây truy xuất: 0.2496
+- Số giây sinh câu trả lời: 0.0288
+- Prompt token ước tính: 788
+- Answer token ước tính: 458
+
+### Câu hỏi 108: Hoạt chất và tá dược là gì cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 108
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:52
+- Kết thúc: 2026-03-29T18:56:53
+- Số giây thực thi: 1.4345
+- Số giây truy xuất: 0.3937
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 109: Hoạt chất và tá dược là gì cho Onglyza.
+
+**Nhóm câu hỏi:** formulation
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thành phần và công thức. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 109
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:52
+- Kết thúc: 2026-03-29T18:56:54
+- Số giây thực thi: 1.2154
+- Số giây truy xuất: 0.265
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 110: Tóm tắt tất cả các nguy cơ chính. cho Onglyza.
+
+**Nhóm câu hỏi:** general
+**Loại tài liệu trội:** general
+**Phong cách trả lời:** trình bày tổng quát
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, hiện chưa lấy được đoạn tiếng Việt tương ứng để tóm tắt thông tin lâm sàng chính. Bạn nên kiểm tra lại dữ liệu `vietnamese_text` hoặc các file `*_vi.txt` của nguồn trang.
+
+#### Điểm chính từ bằng chứng
+
+
+#### PDF nguồn
+
+
+#### Dấu vết bằng chứng
+
+
+
+#### Metadata truy xuất
+
+- STT gốc: 110
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:53
+- Kết thúc: 2026-03-29T18:56:54
+- Số giây thực thi: 1.1819
+- Số giây truy xuất: 0.2415
+- Số giây sinh câu trả lời: 0.0
+- Prompt token ước tính: 0
+- Answer token ước tính: 0
+
+### Câu hỏi 111: So sánh các cảnh báo của alprazolam và abaloparatide. cho Onglyza.
+
+**Nhóm câu hỏi:** warning
+**Loại tài liệu trội:** smpc_label
+**Phong cách trả lời:** trình bày theo nhãn/SmPC
+
+#### Trả lời
+
+Dựa trên các tài liệu PMDA đã truy xuất cho Onglyza, các điểm chính về cảnh báo và thận trọng gồm: Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng. Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng. Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài. Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+
+#### Điểm chính từ bằng chứng
+
+- Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+- Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+- Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+- Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+- Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+- Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+- Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+
+#### PDF nguồn
+
+- [Ozempic]_[620023_2499418G1028_012RMP].pdf
+- [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+- [Ozempic]_[01]_20260113.pdf
+- [Keytruda]_[03].pdf
+- [Keytruda]_[02]_20260326.pdf
+
+#### Dấu vết bằng chứng
+
+- **Ozempic** | smpc_label | trang 13 | mục=warning | điểm=1.1992643425866478
+  - PDF: [Ozempic]_[620023_2499418G1028_012RMP].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[620023_2499418G1028_012RMP]\02_pages\page_0013.md`
+  - Các biện pháp phòng ngừa cơ bản quan trọng" và "Bệnh võng mạc tiểu đường (các biến cố liên quan)" trong phần "11.2 Các tác dụng phụ khác" để kêu gọi thận trọng.
+  - Bệnh nhân mắc các biến chứng liên quan đến bệnh võng mạc tiểu đường có thể phát triển các triệu chứng nghiêm trọng có thể dẫn đến mù lòa, tùy thuộc vào hoàn cảnh của bệnh, vì vậy nguy cơ này được đánh giá là quan trọng.
+  - Để hiểu được sự xuất hiện của các biến cố liên quan đến bệnh võng mạc tiểu đường trong thực hành lâm sàng hàng ngày, điều quan trọng là phải có được thông tin về kiểm soát lượng đường trong máu và tiến hành theo dõi lâu dài.
+  - Mặt khác, người ta biết rằng việc cải thiện nhanh chóng việc kiểm soát lượng đường trong máu có thể làm bệnh võng mạc tiểu đường trở nên trầm trọng hơn và vì cần đặc biệt chú ý đến những bệnh nhân mắc bệnh võng mạc tiểu đường tiến triển không kiểm soát được lượng đường trong máu đầy đủ nên sự kiện này được xác định là một nguy cơ tiềm ẩn.
+- **Keytruda** | smpc_label | trang 9 | mục=warning | điểm=1.0497850722946518
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0009.md`
+  - [Xem phần "Cảnh báo", "Thận trọng liên quan đến liều lượng và cách dùng", "Thận trọng đối với bệnh nhân có hoàn cảnh cụ thể" và "Phản ứng bất lợi"] Số trường hợp (tỷ lệ mắc)
+  - Ngoài ra, các tác dụng phụ nghiêm trọng có thể xảy ra sau khi dùng thuốc này, vì vậy bệnh nhân cần được theo dõi cẩn thận ngay cả sau khi dùng thuốc này.
+  - Bệnh nhân cần được theo dõi cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào thì nên thực hiện chẩn đoán phân biệt thích hợp, có tính đến khả năng xảy ra tác dụng phụ do phản ứng miễn dịch quá mức gây ra.
+  - Các nghiên cứu lâm sàng được liệt kê Thận trọng khi sử dụng Thông tin thử nghiệm lâm sàng Phụ lục Hỏi & Đáp Các tác dụng phụ cần chú ý và biện pháp đối phó Các tác dụng phụ cần chú ý và biện pháp đối phó Xuất hiện các tác dụng phụ cần chú ý Do tác dụng kích hoạt tế bào T của thuốc này, các bệnh và tình trạng bệnh lý khác nhau được cho là do phản ứng miễn dịch quá mức có thể xuất hiện.
+- **Ozempic** | safety_notice | trang 1 | mục=warning | điểm=1.0001170073773222
+  - PDF: [Ozempic]_[01]_20260113.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Ozempic]_[01]_20260113\02_pages\page_0001.md`
+  - Có nguy cơ phát triển bệnh sỏi mật, viêm túi mật, viêm đường mật hoặc vàng da ứ mật, vì vậy nếu quan sát thấy các triệu chứng ở bụng như đau bụng, cần thực hiện các biện pháp thích hợp, chẳng hạn như xem xét nguyên nhân thông qua xét nghiệm hình ảnh, v.v., nếu cần.
+  - [Tên thuốc] Exenatide
+  - (Hướng dẫn nhập cảnh mới)]
+  - 396 Thuốc trị đái tháo đường
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.994914912624122
+  - PDF: [Keytruda]_[03].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[03]\02_pages\page_0001.md`
+  - và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan thường xuyên và tình trạng của bệnh nhân cần được theo dõi cẩn thận."
+  - Rối loạn chức năng gan kèm theo tăng AST (GOT), ALT (GPT), γ-GTP, Al-P, bilirubin, v.v., có thể xảy ra viêm gan và viêm đường mật xơ cứng, vì vậy hãy theo dõi bệnh nhân cẩn thận và nếu quan sát thấy bất kỳ dấu hiệu bất thường nào, hãy thực hiện các biện pháp thích hợp như ngừng sử dụng thuốc này.
+  - Tôi sẽ đổi nó thành.
+  - 429 Thuốc điều trị ung thư khác
+- **Keytruda** | safety_notice | trang 1 | mục=warning | điểm=0.9234213153631654
+  - PDF: [Keytruda]_[02]_20260326.pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[02]_20260326\02_pages\page_0001.md`
+  - Rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - Viêm gan tối cấp, suy gan, rối loạn chức năng gan và viêm đường mật xơ cứng có thể xảy ra, vì vậy cần thực hiện xét nghiệm chức năng gan định kỳ (đặc biệt thường xuyên khi dùng chung với axitinib) và cần theo dõi cẩn thận tình trạng của bệnh nhân.
+  - (Hướng dẫn nhập cảnh mới)]
+  - Những lưu ý cơ bản quan trọng
+- **Keytruda** | smpc_label | trang 1 | mục=warning | điểm=0.9195611526751052
+  - PDF: [Keytruda]_[170050_4291435A1029_01_025RMPm].pdf
+  - Page MD: `E:\PharmAppDev\database\PMDA_v1_vi\PMDA-SmPC-VI\[Keytruda]_[170050_4291435A1029_01_025RMPm]\02_pages\page_0001.md`
+  - *17 Điều trị bằng thuốc trước và sau phẫu thuật đối với bệnh ung thư vú âm tính với thụ thể hormone và HER2 âm tính và có nguy cơ tái phát cao *18 Ung thư cổ tử cung tiến triển hoặc tái phát *19 Ung thư dạ dày tiến triển hoặc tái phát không thể cắt bỏ *20 Ung thư đường mật không thể cắt bỏ *21 Ung thư trung biểu mô màng phổi ác tính tiến triển hoặc tái phát không thể cắt bỏ Các sản phẩm nằm trong Hướng dẫn Khuyến mãi Sử dụng Tối ưu Các sản phẩm không đủ điều kiện cho RMP Mục tiêu cho RMP
+  - Cảnh báo
+  - Hướng dẫn sử dụng đúng cách
+  - và tiến hành quan sát đầy đủ.
+
+#### Metadata truy xuất
+
+- STT gốc: 111
+- Pha: non_ollama
+- Bộ sinh: none
+- Thành công: Có
+- Bắt đầu: 2026-03-29T18:56:53
+- Kết thúc: 2026-03-29T18:56:55
+- Số giây thực thi: 1.5168
+- Số giây truy xuất: 0.3797
+- Số giây sinh câu trả lời: 0.2348
+- Prompt token ước tính: 848
+- Answer token ước tính: 938
+
+---
